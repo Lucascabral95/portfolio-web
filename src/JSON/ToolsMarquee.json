@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "imagen": "/img/vsc.png",
+    "tool": "Visual Studio Code"
+  },
+  {
+    "id": 2,
+    "imagen": "/img/docker.png",
+    "tool": "Docker"
+  },
+  {
+    "id": 3,
+    "imagen": "/img/kubernetes.png",
+    "tool": "Kubernetes"
+  },
+  {
+    "id": 4,
+    "imagen": "/img/trello.png",
+    "tool": "Trello"
+  },
+  {
+    "id": 5,
+    "imagen": "/img/lucidchart.png",
+    "tool": "Lucidchart"
+  },
+  {
+    "id": 6,
+    "imagen": "/img/discord.png",
+    "tool": "Discord"
+  },
+  {
+    "id": 7,
+    "imagen": "/img/balsamiq.png",
+    "tool": "Balsamiq"
+  },
+  {
+    "id": 8,
+    "imagen": "/img/vercel.png",
+    "tool": "Verlce"
+  },
+  {
+    "id": 9,
+    "imagen": "/img/netlify.png",
+    "tool": "Netlify"
+  },
+  {
+    "id": 10,
+    "imagen": "https://railway.app/brand/logotype-dark.svg",
+    "tool": "Railway App"
+  }
+]

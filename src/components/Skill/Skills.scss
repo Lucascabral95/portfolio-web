@@ -1,0 +1,543 @@
+.skills {
+    width: 100%;
+
+    .borde-superior-skills{
+           height: 100px;
+           width: 100%;
+           clip-path: polygon(100% 0, 100% 99%, 0 6%);
+           background-image: var(--gradiente-de-header);
+    }
+
+    .contenedor {
+        max-width: 1160px !important;
+        margin: auto;
+        padding: 0 32px;
+
+        .borde-superior {
+            background-color: red;
+            clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        }
+
+        .contenedor-numero-azul {
+
+            .numero {
+                background-color: #0F1B33;
+                border: 3px solid var(--color-de-texto-azul);
+
+                p {
+                    color: var(--color-de-texto-azul);
+                }
+            }
+        }
+
+        .seccion-titulo-subtitulo-azul {
+            .titulo {
+                h2 {
+                    color: var(--color-de-texto-azul);
+                }
+            }
+
+            .subtitulo {
+                h3 {}
+            }
+
+            .linea-delimitante {
+                background-color: var(--color-de-texto-azul);
+            }
+
+            .descripcion {
+                p {}
+            }
+        }
+
+        .especialidades {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .especialidad {
+                width: 45%;
+
+                .nombre-skill {
+                    margin: 0 0 8% 0;
+
+                    p {
+                        color: var(--color-de-texto-azul);
+                        text-align: center;
+                        margin: 0;
+                        font-size: var(--font-size-titulos-categorias);
+                        font-weight: 600;
+                    }
+                }
+
+                .imagenes {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+                    .contenedor-de-imagen {
+                        cursor: pointer;
+                        width: 46%;
+                        padding: 10px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: auto;
+                        margin-bottom: 6%;
+                        border: 2px solid var(--color-de-texto-azul) !important;
+
+                        img {
+                            width: 40%;
+                            height: auto;
+                        }
+
+                        &:hover {
+                            border: none !important;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .separador {
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .img {
+                width: 30%;
+                height: 88%;
+                opacity: 0.4;
+                display: flex;
+                justify-content: center;
+                box-shadow: 0 0 10px 0 var(--color-de-texto-azul);
+                border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+        }
+
+        .seccion-titulo-subtitulo-herramientas {
+            margin: 5% 0 0 0;
+
+            .subtitulo {
+                h3 {}
+            }
+
+            .linea-delimitante {}
+
+            .descripcion {
+                p {}
+            }
+        }
+
+        .presentacion-herramientas {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin: 3% 0 0 0;
+
+            .img {
+                width: 25%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 2%;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .encuadrante {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .imagen {
+            width: 21%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2%;
+            cursor: pointer;
+
+            .icon {
+                color: white;
+                width: 50px;
+                height: 50px;
+            }
+
+            p {
+                margin: 0;
+                margin-left: 10px;
+                color: white;
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+            &:hover {
+                .icon-vscode {
+                    transition: 0.2s linear;
+                    color: #087BBD;
+                }
+
+                .nombre-vscode {
+                    transition: 0.2s linear;
+                    color: #087BBD;
+                }
+
+                .icon-git {
+                    color: #F05639;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-git {
+                    color: #F05639;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-github {
+                    color: #23262B;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-github {
+                    color: #23262B;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-npm {
+                    color: #C12127;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-yarn {
+                    color: #3392BD;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-yarn {
+                    color: #3392BD;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-bun {
+                    color: #FEBBD0;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-bun {
+                    color: #FEBBD0;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-npm {
+                    color: #C12127;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-mysql {
+                    color: #087993;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-mysql {
+                    color: #087993;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-stripe {
+                    color: #6860FF;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-stripe {
+                    color: #6860FF;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-trello {
+                    color: #2A82FC;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-trello {
+                    color: #2A82FC;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-vercel {
+                    color: #B7219F;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-vercel {
+                    color: #B7219F;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-railway {
+                    color: #36E7B7;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-railway {
+                    color: #36E7B7;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-sequelize {
+                    color: #0BB2F0;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-sequelize {
+                    color: #0BB2F0;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-kubernetes {
+                    color: #3973E6;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-kubernetes {
+                    color: #3973E6;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-docker {
+                    color: #0895B9;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-docker {
+                    color: #0895B9;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-prisma {
+                    color: #194156;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-prisma {
+                    color: #194156;
+                    transition: 0.2s ease-in-out;
+                }
+                
+                .icon-supabase {
+                    color: #41CF8F;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-supabase {
+                    color: #41CF8F;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .icon-figma {
+                    color: #FF7667;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .nombre-figma {
+                    color: #FF7667;
+                    transition: 0.2s ease-in-out;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .skills {
+        width: 100%;
+    
+        .borde-superior-skills{
+               height: 100px;
+               width: 100%;
+               clip-path: polygon(100% 0, 100% 99%, 0 6%);
+               background-image: var(--gradiente-de-header);
+        }
+    
+        .contenedor {
+            padding: 0 20px;
+    
+            .borde-superior {
+                background-color: red;
+                clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+            }
+    
+            .contenedor-numero-azul {
+    
+                .numero {
+                    background-color: #0F1B33;
+                    border: 3px solid var(--color-de-texto-azul);
+    
+                    p {
+                        color: var(--color-de-texto-azul);
+                    }
+                }
+            }
+    
+            .seccion-titulo-subtitulo-azul {
+                margin: 0 0 42px 0;
+
+                .titulo {
+                    h2 {
+                        color: var(--color-de-texto-azul);
+                    }
+                }
+    
+                .subtitulo {
+                    h3 {}
+                }
+    
+                .linea-delimitante {
+                    background-color: var(--color-de-texto-azul);
+                }
+    
+                .descripcion {
+                    p {}
+                }
+            }
+    
+            .especialidades {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .especialidad-frontend{
+                    margin: 0 0 6px 0;
+                }
+
+                .especialidad-backend{
+                }
+    
+                .especialidad {
+                    width: 100%;
+    
+                    .nombre-skill {
+                        margin: 0 0 3% 0;
+    
+                        p {
+                            font-size: clamp(22px, 2.5vw, 24px);
+                        }
+                    }
+    
+                    .imagenes {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: wrap;
+    
+                        .contenedor-de-imagen {
+                            width: 30%;
+                            padding: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: auto;
+                            margin-bottom: 6%;
+                            border: none !important;                            
+    
+                            img {
+                                width: 72%;
+                                height: auto;
+                            }
+                        }
+    
+                    }
+                }
+            }
+    
+            .separador {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+    
+                .img {
+                    width: 30%;
+                    height: 88%;
+                    opacity: 0.4;
+                    display: flex;
+                    justify-content: center;
+                    box-shadow: 0 0 10px 0 var(--color-de-texto-azul);
+                    border-top-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+    
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+    
+                }
+            }
+    
+            .seccion-titulo-subtitulo-herramientas {
+                margin: 36px 0 0 0;
+    
+                .subtitulo {
+                    h3 {
+
+                    }
+                }
+    
+                .linea-delimitante {}
+    
+                .descripcion {
+                    margin: -20px 0 26px 0;
+                    p {}
+                }
+            }
+        }
+    
+        .encuadrante {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin: 40px 0 22px 0;
+    
+            .imagen {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 40px 0;
+    
+                .icon {
+                    width: 24px;
+                    height: 24px;
+                }
+    
+                p {
+                    font-size: clamp(10px, 6vw, 20px);
+                }
+    
+            }
+        }
+    }
+}

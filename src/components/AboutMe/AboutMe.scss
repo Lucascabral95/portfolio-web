@@ -1,0 +1,169 @@
+.aboutMe {
+    height: calc(100vh - 72px);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .contenedor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1160px !important;
+        margin: auto;
+        padding: 0 32px;
+
+        .presentacion {
+            width: 58%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 400px;
+
+            .titulo-subtitulo {
+                width: 100%;
+
+                h1 {
+                    color: var(--color-de-titulos);
+                    margin: 0;
+                    font-size: 64px;
+                }
+
+                .subtitulo {
+                    width: 100%;
+                    height: fit-content;
+                    min-height: 160.78px;
+
+                    h2 {
+                        color: #990FEA;
+                        margin: 0;
+                        font-size: 64px;
+                        display: inline;
+                    }
+                }
+            }
+
+            .descripcion {
+
+                p {
+                    color: var(--color-de-texto-gris-uno);
+                    margin: 0;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .img {
+            width: 40%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 100%;
+                border-radius: 50%;
+                height: auto;
+                box-shadow: 0 0 18px #FF4FEB;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .borde-superior-skills {
+        height: 100px;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 100%, 0 100%);
+        background-color: var(--color-de-fondo-body);
+    }
+}
+
+@media (max-width: 1023px) {
+    .aboutMe {
+        background-image: var(--gradiente-de-header);
+        height: calc(100vh - 72px);
+        display: flex;
+        flex-direction: column;
+
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 0 32px;
+
+            .presentacion {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+
+                .titulo-subtitulo {
+                    width: 100%;
+                    margin-bottom: 6%;
+
+                    .titulo {
+
+                        h1 {
+                            font-size: clamp(32px, 6vw, 64px);
+                            line-height: 1.25;
+                        }
+                    }
+
+                    .subtitulo {
+                        width: 100%;
+                        height: fit-content;
+                        min-height: auto;
+
+                        h2 {
+                            line-height: 1.25;
+                            font-size: clamp(32px, 6vw, 64px);
+                        }
+                    }
+                }
+
+                .descripcion {
+                    width: 100%;
+                    margin-bottom: 14%;
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .img {
+                display: none;
+            }
+        }
+
+        .borde-superior-skills {
+            height: 100px;
+            width: 100%;
+            clip-path: polygon(0 0, 100% 100%, 0 100%);
+            background-color: var(--color-de-fondo-body);
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .aboutMe {
+        background-image: var(--gradiente-de-header);
+
+        .contenedor {
+            padding: 0 20px;
+
+            .presentacion {
+
+                .titulo-subtitulo {
+
+                    .subtitulo {
+                        height: fit-content;
+                        min-height: 80px;
+                    }
+                }
+            }
+        }
+    }
+}

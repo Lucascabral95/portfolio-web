@@ -1,0 +1,74 @@
+[
+  {
+    "id": 6,
+    "nombre": "SQL",
+    "nombreIngles": "SQL",
+    "urlIngles": "https://www.coderhouse.com/ar/certificados/65cdd05c9debb4f2b6bb2f74?lang=es",
+    "url": "https://www.coderhouse.com/ar/certificados/65cdd05c9debb4f2b6bb2f74?lang=es",
+    "imagen": "/public/img/certificado-sql-lucas-cabral.png",
+    "imagenIngles": "",
+    "creacion": "",
+    "fecha": "TOP 10",
+    "fechaDeObtencion": "18 de enero de 2024",
+    "picture": "/public/img/certificado-sql-lucas-cabral.png",
+    "descripcion": "Durante el curso, trabajé con MySQL Workbench para la gestión de bases de datos relacionales, abordando tanto consultas SQL como la estructura de las tablas. Además, utilicé herramientas como Excel y Power BI para graficar y visualizar los datos, aplicando análisis visuales sobre grandes conjuntos de información. En el contexto de arquitectura de negocio, diseñé soluciones eficientes para la organización y procesamiento de datos, utilizando estrategias avanzadas de modelado y backups. También aprendí a gestionar la seguridad de bases de datos mediante comandos de DCL. Los temas que abordé incluyen:",
+    "temas": [
+      {
+          "nombre": "Lenguajes SQL y Sublenguajes",
+          "descripcion": "Estudio de los lenguajes SQL y sus sublenguajes (DDL, DML, DCL, TCL) utilizados para interactuar con bases de datos relacionales."
+      },
+      {
+          "nombre": "Consultas, Subconsultas y Vistas",
+          "descripcion": "Creación de consultas complejas, uso de subconsultas y vistas para simplificar la gestión de datos."
+      },
+      {
+          "nombre": "Estructura de Bases de Datos",
+          "descripcion": "Definición de objetos, tablas y su estructura, así como la gestión de datos a través de DDL y DML."
+      },
+      {
+          "nombre": "Funciones y Procedimientos Almacenados",
+          "descripcion": "Uso de funciones, creación de procedimientos almacenados y triggers para automatizar tareas en la base de datos."
+      },
+      {
+          "nombre": "Gestión de Transacciones y Backups",
+          "descripcion": "Manejo de transacciones con comandos TCL y estrategias para realizar copias de seguridad de bases de datos."
+      },
+      {
+          "nombre": "Data Warehouse y Charlas Profesionales",
+          "descripcion": "Introducción a conceptos de data warehouse en inteligencia de datos y aprendizaje a través de charlas con expertos."
+      }
+  ]
+  },
+  {
+    "id": 5,
+    "nombre": "Carrera de Desarrollo Full Stack",
+    "nombreIngles": "Full Stack Development Career",
+    "urlIngles": "https://www.coderhouse.com/ar/certificados/6543ef7fed19d8fa831ff7ba?lang=es",
+    "url": "https://www.coderhouse.com/ar/certificados/6543ef7fed19d8fa831ff7ba?lang=es",
+    "imagen": "/public/img/certificado-carrera-full-stack.png",
+    "imagenIngles": "",
+    "creacion": "",
+    "fecha": "TOP 10",
+    "fechaDeObtencion": "05 de octubre de 2023",
+    "picture": "/public/img/certificado-carrera-full-stack.png",
+    "descripcion": "Esta carrera intensiva de 13 meses me permitió abarcar de manera integral todos los aspectos esenciales y avanzados del desarrollo web. A lo largo de este tiempo, obtuve una formación robusta y actualizada en las tecnologías más demandadas del mercado. El programa está dividido en 4 cursos fundamentales — Desarrollo Web, JavaScript, React y Programación Backend — los cuales me proporcionaron un conocimiento sólido en el diseño y desarrollo de aplicaciones web completas, tanto del lado del cliente como del servidor.",
+    "temas": [
+      {
+        "nombre": "Desarrollo Web",
+        "descripcion": "He adquirido conocimientos en diseño web responsivo con media queries, accesibilidad y dominio total de Git y GitHub. También aprendí sobre optimización SEO y a utilizar herramientas como Bootstrap, Tailwind, CSS y Sass para crear interfaces atractivas y funcionales."
+      },
+      {
+        "nombre": "JavaScript",
+        "descripcion": "Adquirí habilidades en la manipulación de datos, asincronía, manejo de eventos y consumo de APIs, incluyendo Node.js para desarrollo del lado del servidor."
+      },
+      {
+        "nombre": "React.js",
+        "descripcion": "Desarrollé aplicaciones con React, aprendiendo sobre JSX y transpilación con Babel, manejo de estados, optimización del rendering, y consumo de APIs, integrando Firebase para almacenamiento y autenticación. También aprendí a utilizar Zustand y Hooks para gestionar el estado global de la aplicación. Al finalizar el curso, participé en un proyecto real en colaboración con un equipo de desarrollo multidisciplinario."
+      },
+      {
+        "nombre": "Programación Backend",
+        "descripcion": "Me especialicé en desarrollo backend con Node.js, Express y Nest.js, aprendiendo a trabajar con bases de datos NoSQL (MongoDB) y WebSockets para aplicaciones en tiempo real. Adquirí conocimientos en optimización de aplicaciones, seguridad, autenticación y autorización con JWT y Passport, así como en arquitectura en capas, mailing, TypeScript, testing, mocks y orquestación de contenedores."
+      }
+    ]
+  }
+]

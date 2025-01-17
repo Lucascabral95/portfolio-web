@@ -1,0 +1,1688 @@
+[
+  {
+    "linkRepo": "https://github.com/Lucascabral95/twitter-clone",
+    "nombre": "Twitter Clone",
+    "claves": "Características Claves:",
+    "id": 25,
+    "titulo": "Twitter Clone",
+    "subtitulo": "Plataforma para crear perfiles, publicar, interactuar y conectar usuarios, optimizada para funcionalidad, escalabilidad y experiencia.",
+    "imagen": "/img/twitter-clone-dos.png",
+    "urlOficial": "https://twitter-clone-delta-flame.vercel.app/",
+    "url": "https://twitter-clone-delta-flame.vercel.app/",
+    "descripcion": "Implementación completa de un clon de Twitter que permite a los usuarios crear perfiles, publicar y compartir contenido, interactuar mediante comentarios, 'me gusta' y reposts, y establecer conexiones a través de un sistema de seguidores y seguidos. Diseñado con un enfoque en la funcionalidad, escalabilidad y experiencia del usuario.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-zustand-dos.png",
+        "nombre": "Zustand"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-typescript.svg",
+        "nombre": "TypeScript"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      }
+    ],
+    "creacion": "16/12/2024",
+    "fechaDeObtencion": "16/12/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/twitter-clone-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/twitter-clone-uno.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/twitter-clone-tres.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "Next JS"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "white",
+        "tecnologia": "JWT"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "#63F655",
+        "tecnologia": "Neon Serverless"
+      },
+      {
+        "colorLetra": "#1B2D47",
+        "fondoColor": "#376BBA",
+        "tecnologia": "Zod"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#347CBE",
+        "tecnologia": "TypeScript"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Publicaciones y Reposts",
+        "descripcion": "Los usuarios pueden publicar posteos con texto y luego compartir contenido de otros usuarios mediante reposts. Cada post incluye una sección para interactuar con comentarios y 'me gusta'."
+      },
+      {
+        "nombre": "Base de Datos Serverless",
+        "descripcion": "Almacenamiento persistente y escalable con Neon Serverless PostgreSQL, ideal para manejar grandes cantidades de datos de usuarios y publicaciones. Los datos de cada usuario, como su perfil, las fotos subidas y las interacciones (me gusta, reposts), se almacenan de manera estructurada en Neon Serverless PostgreSQL, asegurando que toda la información esté organizada, accesible y que cumpla con las demandas de escalabilidad."
+      },
+      {
+        "nombre": "Sistema de Seguidores",
+        "descripcion": "Los usuarios pueden seguir y dejar de seguir a otros, lo que les permite ver publicaciones exclusivas de las personas que siguen. Cada perfil muestra un apartado de seguidores y seguidos."
+      },
+      {
+        "nombre": "Perfiles de Usuario",
+        "descripcion": "Cada usuario tiene un perfil personal que muestra sus publicaciones, reposts y detalles de su información personal, brindando una experiencia personalizada."
+      },
+      {
+        "nombre": "Interacción en Comentarios",
+        "descripcion": "Además de los posteos, los usuarios pueden comentar en cada publicación y dar 'me gusta' a los comentarios de otros, fomentando una interacción activa en la plataforma."
+      },
+      {
+        "nombre": "Autenticación Segura",
+        "descripcion": "Implementada mediante cookies con JSON Web Tokens (JWT) utilizando jose. Esto garantiza un inicio de sesión confiable y seguro."
+      },
+      {
+        "nombre": "Estado Global con Zustand",
+        "descripcion": "Gestión eficiente de estados dentro de la aplicación, asegurando fluidez en la experiencia del usuario."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/snapoo-blog",
+    "nombre": "Snapoo Blog",
+    "claves": "Características Claves:",
+    "id": 24,
+    "titulo": "Snapoo Blog",
+    "subtitulo": "Un blog donde los usuarios pueden crear su perfil, compartir sus fotos y conectarse con otros a través de su pasión por la fotografía.",
+    "imagen": "/img/snapoo-uno.png",
+    "urlOficial": "https://snapoo-blog.vercel.app/",
+    "url": "https://snapoo-blog.vercel.app/",
+    "descripcion": "Blog interactivo que permite a los usuarios subir imágenes con comentarios, gestionadas eficientemente en Cloudinary y almacenadas en MongoDB. Ofrece autenticación segura con NextAuth.js y fomenta la interacción mediante 'me gusta' y reposts, garantizando un alto rendimiento y escalabilidad.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/tailwind.svg",
+        "nombre": "Tailwind"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-typescript.svg",
+        "nombre": "TypeScript"
+      },
+      {
+        "imagen": "/img/logo-mongo-db.svg",
+        "nombre": "Mongo DB"
+      }
+    ],
+    "creacion": "25/11/2024",
+    "fechaDeObtencion": "25/08/2023",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/snapoo-uno.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/snapoo-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/snapoo-tres.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "Next JS"
+      },
+      {
+        "colorLetra": "#26B2EF",
+        "fondoColor": "#8C20D9",
+        "tecnologia": "Next Auth"
+      },
+      {
+        "colorLetra": "#08EE69",
+        "fondoColor": "#082532",
+        "tecnologia": "Mongo DB"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#3A4EC7",
+        "tecnologia": "Cloudinary"
+      },
+      {
+        "colorLetra": "#1B2D47",
+        "fondoColor": "#376BBA",
+        "tecnologia": "Zod"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Subida de Fotos en Cloudinary",
+        "descripcion": "Los usuarios pueden subir imágenes con comentarios, que se gestionan de manera segura y eficiente en Cloudinary. Esta plataforma permite almacenar, manipular y servir las imágenes de forma rápida y escalable, optimizando el rendimiento aun con alto volumen de fotos."
+      },
+      {
+        "nombre": "Almacenamiento de Datos en MongoDB",
+        "descripcion": "Los datos de cada usuario, como su perfil, las fotos subidas y las interacciones (me gusta, reposts), se almacenan de manera persistente en MongoDB, asegurando que toda la información esté organizada y fácilmente accesible."
+      },
+      {
+        "nombre": "Secciones Dinámicas",
+        "descripcion": "Cada usuario tiene un perfil con sus fotos y publicaciones republicadas. Los posts incluyen opciones para interactuar mediante 'me gusta' o reposts, fomentando la participación social."
+      },
+      {
+        "nombre": "Autenticación Segura",
+        "descripcion": "La plataforma ofrece autenticación segura a través de Google o correo electrónico propio, gestionada por NextAuth.js para un inicio de sesión confiable, robusto y sin complicaciones."
+      },
+      {
+        "nombre": "Interactividad en Publicaciones",
+        "descripcion": "Los usuarios pueden interactuar con las publicaciones de otros, dándoles 'me gusta' o repostearlas, creando una experiencia social más dinámica y personalizada."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/nebula-blog",
+    "nombre": "Nebula Blog",
+    "claves": "Características Claves:",
+    "id": 23,
+    "titulo": "Nebula Blog",
+    "subtitulo": "Blog Interactivo: Creá, Compartí y Comentá en una Plataforma Dinámica",
+    "imagen": "/img/nebula-blog-uno.png",
+    "urlOficial": "https://nebula-blog-git-main-lucascabral95s-projects.vercel.app/",
+    "url": "https://nebula-blog-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Blog interactivo con gestión de usuarios y persistencia de estado, donde cada perfil permite la creación de publicaciones, interacción mediante likes y comentarios, y la opción de guardar posteos en favoritos. Diseñado para ofrecer una experiencia personalizada y de alto rendimiento.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/tailwind.svg",
+        "nombre": "Tailwind"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-mongo-db.svg",
+        "nombre": "Mongo DB"
+      }
+    ],
+    "creacion": "15/09/2024",
+    "fechaDeObtencion": "15/09/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/nebula-blog-uno.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/nebula-blog-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/nebula-blog-tres.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#EF3180",
+        "tecnologia": "Zustand"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "Next JS"
+      },
+      {
+        "colorLetra": "#26B2EF",
+        "fondoColor": "#8C20D9",
+        "tecnologia": "Next Auth"
+      },
+      {
+        "colorLetra": "#08EE69",
+        "fondoColor": "#082532",
+        "tecnologia": "Mongo DB"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Creación de Publicaciones",
+        "descripcion": "Los usuarios pueden crear posteos con título, categoría, slug automático y contenido."
+      },
+      {
+        "nombre": "Filtrado de Publicaciones",
+        "descripcion": "Permite filtrar posteos por título, autor o categoría mediante un buscador, así como explorar un conjunto de categorías recomendadas."
+      },
+      {
+        "nombre": "Secciones Dinámicas",
+        "descripcion": "Cada publicación incluye información del autor, y los usuarios pueden dar likes y realizar comentarios, que también pueden ser valorados."
+      },
+      {
+        "nombre": "Perfil Personalizado",
+        "descripcion": "Los usuarios pueden agregar datos personales para exhibir en su perfil."
+      },
+      {
+        "nombre": "Favoritos",
+        "descripcion": "Posibilidad de guardar publicaciones en favoritos para un acceso rápido."
+      },
+      {
+        "nombre": "Autenticación Segura",
+        "descripcion": "Implementa login y registro, permitiendo acceso con credenciales propias o mediante autenticación con Google, gracias a NextAuth."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/ChatSphere",
+    "nombre": "ChatSphere",
+    "claves": "Características Claves:",
+    "id": 22,
+    "titulo": "ChatSphere",
+    "subtitulo": "Chat en Tiempo Real con Autenticación de Usuarios",
+    "imagen": "/img/chatsphere-cuatro.png",
+    "urlOficial": "https://elverdongrow.com.ar",
+    "url": "https://chat-sphere-git-main-lucascabral95s-projects.vercel.app/auth/login?callbackUrl=https%3A%2F%2Fchat-sphere-git-main-lucascabral95s-projects.vercel.app%2F%2Fapplication%2Fmy-friends",
+    "descripcion": "Aplicación de chat en tiempo real que permite a los usuarios comunicarse de manera instantánea, con persistencia de estado en MongoDB y actualizaciones en tiempo real mediante Pusher.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-bootstrap.svg",
+        "nombre": "Bootstrap"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-mongo-db.svg",
+        "nombre": "Mongo DB"
+      },
+      {
+        "imagen": "/img/icon-pusher.svg",
+        "nombre": "Pusher"
+      }
+    ],
+    "creacion": "16/10/2024",
+    "fechaDeObtencion": "16/10/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/chatsphere-cuatro.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/chatsphere-uno.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/chatsphere-dos.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#EF3180",
+        "tecnologia": "Zustand"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "Next JS"
+      },
+      {
+        "colorLetra": "#26B2EF",
+        "fondoColor": "#8C20D9",
+        "tecnologia": "Next Auth"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2EAFEB",
+        "tecnologia": "Nodemailer"
+      },
+      {
+        "colorLetra": "#08EE69",
+        "fondoColor": "#082532",
+        "tecnologia": "Mongo DB"
+      },
+      {
+        "colorLetra": "#06C36F",
+        "fondoColor": "#2F0B4E",
+        "tecnologia": "Pusher"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2F0B4E",
+        "tecnologia": "Upstash/Redis"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Chat en Tiempo Real",
+        "descripcion": "Permite a los usuarios enviar y recibir mensajes instantáneamente, mejorando la experiencia de comunicación."
+      },
+      {
+        "nombre": "Persistencia de Estado",
+        "descripcion": "Utiliza MongoDB para almacenar mensajes y datos de usuario, garantizando que la información se conserve entre sesiones."
+      },
+      {
+        "nombre": "Actualizaciones Instantáneas",
+        "descripcion": "Implementa Pusher para que los mensajes y notificaciones se actualicen en tiempo real sin necesidad de recargar la página."
+      },
+      {
+        "nombre": "Sección para Agregar Amigos",
+        "descripcion": "Los usuarios pueden buscar y agregar amigos que estén registrados en la aplicación, facilitando la creación de redes de comunicación."
+      },
+      {
+        "nombre": "Invitación para No Registrados",
+        "descripcion": "Permite invitar a amigos que no están registrados mediante mensajes a través de la app, utilizando Nodemailer para enviar invitaciones por correo."
+      },
+      {
+        "nombre": "Autenticación Segura",
+        "descripcion": "Integra NextAuth para el inicio de sesión, soportando tanto autenticación con credenciales como inicio de sesión a través de Google, asegurando la privacidad y seguridad de los usuarios."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/pokedex-by-lucas-cabral",
+    "nombre": "Pokedex",
+    "claves": "Características Claves:",
+    "id": 7,
+    "titulo": "Pokedex",
+    "subtitulo": "",
+    "imagen": "/img/pokedex.png",
+    "url": "https://pokedex-by-lucas-cabral-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Este proyecto ha sido copiado desde cero por mí y presenta diversas secciones inspiradas en la página oficial de Pokémon.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-vite.svg",
+        "nombre": "Vite JS"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-bootstrap.svg",
+        "nombre": "Bootstrap"
+      }
+    ],
+    "creacion": "01/08/2024",
+    "fechaDeObtencion": "01/08/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/pokedex.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/pokedex-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/pokedex-tres.png"
+      },
+      {
+        "nombreImagen": "Foto extra 4",
+        "imagenExtra": "/img/pokedex-cuatro.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "#FFCC32",
+        "fondoColor": "#EF3180",
+        "tecnologia": "Responsive"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "#FECB29",
+        "fondoColor": "#9E62FE",
+        "tecnologia": "Vite JS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2D53e5",
+        "tecnologia": "CSS3"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "#FFB44F",
+        "fondoColor": "#4B443E",
+        "tecnologia": "Zustand"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Búsqueda de Pokémon y Cartas",
+        "descripcion": "Permite a los usuarios explorar todos los Pokémon disponibles, así como sus cartas, abarcando todas sus rarezas, incluidas las vintage."
+      },
+      {
+        "nombre": "Landing Pages",
+        "descripcion": "Incluye varias landing pages dedicadas a diferentes aspectos del universo Pokémon."
+      },
+      {
+        "nombre": "Sección de Noticias",
+        "descripcion": "Ofrece actualizaciones y noticias relevantes sobre el mundo Pokémon."
+      },
+      {
+        "nombre": "Juegos y Videojuegos",
+        "descripcion": "Presenta una lista completa de todos los juegos y videojuegos relacionados con la franquicia."
+      },
+      {
+        "nombre": "Películas, Videojuegos y Temporadas",
+        "descripcion": "Incluye información sobre las películas, videojuegos y temporadas de la serie."
+      },
+      {
+        "nombre": "Novedades Recientes",
+        "descripcion": "Mantiene a los usuarios informados sobre las últimas novedades en el mundo Pokémon."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/el-verdon-growshop",
+    "nombre": "El Verdon Growshop",
+    "claves": "Características Claves:",
+    "id": 1,
+    "titulo": "El Verdon Growshop",
+    "subtitulo": "Proyecto Real de Coderhouse",
+    "imagen": "/img/verdon-growshop.jpg",
+    "urlOficial": "https://elverdongrow.com.ar",
+    "url": "https://el-verdon-growshop-v5no.vercel.app/",
+    "descripcion": "Esta landing page fue creada en colaboración con mi equipo como parte de un proyecto asignado por Coderhouse. Representa la marca El Verdon, un emprendimiento con sede en Córdoba. Nuestro objetivo principal fue diseñar una experiencia atractiva que captara la esencia y los productos/servicios de El Verdon, destacando su singularidad y valor para los clientes potenciales.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/react.svg",
+        "nombre": "React JS"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-bootstrap.svg",
+        "nombre": "Bootstrap"
+      }
+    ],
+    "creacion": "25/08/2023",
+    "fechaDeObtencion": "25/08/2023",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/verdon-growshop.jpg"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/verdon-growshop-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/verdon-growshop-tres.png"
+      },
+      {
+        "nombreImagen": "Foto extra 4",
+        "imagenExtra": "/img/verdon-growshop-cuatro.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "React JS"
+      },
+      {
+        "colorLetra": "#08BFFF",
+        "fondoColor": "#26262E",
+        "tecnologia": "Figma"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Desarrollo Colaborativo",
+        "descripcion": "Implementación de la landing page en un entorno de trabajo en equipo."
+      },
+      {
+        "nombre": "Exhibición de Productos",
+        "descripcion": "Presentación de los productos destacados ofrecidos por el emprendimiento."
+      },
+      {
+        "nombre": "Marcas Asociadas",
+        "descripcion": "Inclusión de las marcas con las que colabora el emprendimiento."
+      },
+      {
+        "nombre": "Botón de Contacto Directo",
+        "descripcion": "Implementación de un botón que redirige a WhatsApp para contacto inmediato."
+      },
+      {
+        "nombre": "Diseño de Wireframes en Figma",
+        "descripcion": "Uso de Figma para el diseño de wireframes y prototipos visuales."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/barberia-calendly",
+    "nombre": "Barberia",
+    "claves": "Características Claves:",
+    "id": 9,
+    "titulo": "Barberia",
+    "subtitulo": "Landing Page para Barbería - Enfocada en Reserva",
+    "imagen": "/img/barberia-calendario.png",
+    "url": "https://barberia-calendly-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Este proyecto consiste en el desarrollo de una landing page responsiva para una barbería. La plataforma permite a los usuarios realizar reservas de citas de manera sencilla y eficiente, seleccionando la fecha y la hora deseadas a través de Calendly.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/react.svg",
+        "nombre": "React JS"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-bootstrap.svg",
+        "nombre": "Bootstrap"
+      },
+      {
+        "imagen": "/img/logo-vite.svg",
+        "nombre": "Bootstrap"
+      }
+    ],
+    "creacion": "02/10/2024",
+    "fechaDeObtencion": "02/10/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/barberia-calendario.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/barbaria-calendario-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/barbaria-calendario-tres.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "#FFCC32",
+        "fondoColor": "#EF3180",
+        "tecnologia": "Responsive"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "#FECB29",
+        "fondoColor": "#9E62FE",
+        "tecnologia": "Vite JS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2D53e5",
+        "tecnologia": "CSS3"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Reservas de Citas",
+        "descripcion": "Los usuarios pueden elegir la fecha y hora que mejor se adapte a sus necesidades."
+      },
+      {
+        "nombre": "Notificaciones por Correo Electrónico",
+        "descripcion": "Al finalizar el proceso de reserva, se envía un correo electrónico de confirmación al usuario, asegurando que tenga toda la información necesaria."
+      },
+      {
+        "nombre": "Opción de Cancelación",
+        "descripcion": "Se ofrece la posibilidad de cancelar las citas reservadas, brindando flexibilidad y comodidad a los clientes."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/doraemon.ecommerce",
+    "nombre": "E-commerce de Doraemon",
+    "claves": "Características Claves:",
+    "id": 3,
+    "titulo": "E-commerce de Doraemon",
+    "subtitulo": "Diseño de E-commerce Oficial de Doraemon",
+    "imagen": "/img/ecommerce-doraemon.jpg",
+    "url": "https://doraemon-ecommerce-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Clone del E-commerce oficial de Doraemon, desarrollado desde cero con React y Firebase. Incluye gestión de productos, carrito de compras y pagos. Demuestra mis habilidades en desarrollo full stack y diseño responsivo.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-vite.svg",
+        "nombre": "Vite"
+      },
+      {
+        "imagen": "/img/logo-redux.svg",
+        "nombre": "Redux"
+      },
+      {
+        "imagen": "/img/logo-api-dos.svg",
+        "nombre": "RESTfull api"
+      },
+      {
+        "imagen": "/img/logo-firebase.svg",
+        "nombre": "Firebase"
+      }
+    ],
+    "creacion": "08/03/2024",
+    "fechaDeObtencion": "08/03/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/ecommerce-doraemon.jpg"
+      }, 
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/doraemon-dos.png"
+      }, 
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/dorameon-tres.png"
+      },
+      {
+        "nombreImagen": "Foto extra 4",
+        "imagenExtra": "/img/doraemon-cuatro.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "#FFCC32",
+        "fondoColor": "#EF3180",
+        "tecnologia": "Responsive"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#7D18F8",
+        "tecnologia": "Bootstrap"
+      },
+      {
+        "colorLetra": "#FECB29",
+        "fondoColor": "#9E62FE",
+        "tecnologia": "Vite JS"
+      },
+      {
+        "colorLetra": "#252525",
+        "fondoColor": "#FFCC32",
+        "tecnologia": "Firebase"
+      },
+      {
+        "colorLetra": "#FFB44F",
+        "fondoColor": "#4B443E",
+        "tecnologia": "Zustand"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Registro y Login de Usuarios",
+        "descripcion": "Implementación de autenticación de usuarios utilizando Firebase para un acceso seguro y sencillo."
+      },
+      {
+        "nombre": "Wishlist",
+        "descripcion": "Funcionalidad que permite a los usuarios guardar productos favoritos para futuras compras."
+      },
+      {
+        "nombre": "Carrito de Compras",
+        "descripcion": "Carrito con persistencia de estado mediante localStorage, garantizando que los productos se mantengan incluso al recargar la página."
+      },
+      {
+        "nombre": "Checkout y Historial de Pedidos",
+        "descripcion": "Proceso de pago integrado con un historial de pedidos que incluye todos los detalles relevantes."
+      },
+      {
+        "nombre": "Datos Personales",
+        "descripcion": "Sección dedicada para que los usuarios ingresen y actualicen su información personal."
+      },
+      {
+        "nombre": "Filtrado Avanzado de Búsqueda",
+        "descripcion": "Búsqueda avanzada que permite filtrar productos y buscar por palabras clave para mejorar la experiencia del usuario."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/generador-de-colores",
+    "nombre": "Generador de Colores",
+    "claves": "Características Claves:",
+    "id": 21,
+    "titulo": "Generador de Colores Con Chroma.js",
+    "subtitulo": "Proyecto Real de Coderhouse",
+    "imagen": "/img/generador-de-colores.png",
+    "urlOficial": "https://elverdongrow.com.ar",
+    "url": "https://generador-de-colores-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Generador de paletas de colores dinámico con Chroma.js que permite seleccion un color base y ajustar la cantidad de cuadros para visualizar en la intensidad de colores similares.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-vite.svg",
+        "nombre": "Vite JS"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      }
+    ],
+    "creacion": "10/10/2024",
+    "fechaDeObtencion": "10/10/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/generador-de-colores.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "#FECB29",
+        "fondoColor": "#9E62FE",
+        "tecnologia": "Vite JS"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Selección de color base",
+        "descripcion": "Permite ingresar un color o seleccionarlo de un color picker interactivo."
+      },
+      {
+        "nombre": "Generación de paleta",
+        "descripcion": "Calcula automáticamente colores relacionados en diferentes intensidades."
+      },
+      {
+        "nombre": "Ajuste de cantidad de cuadros",
+        "descripcion": "El usuario puede elegir cuántos tonos relacionados quiere visualizar."
+      },
+      {
+        "nombre": "Vista previa en tiempo real",
+        "descripcion": "Muestra la paleta de colores al instante en la interfaz."
+      },
+      {
+        "nombre": "Copia de código HEX",
+        "descripcion": "Posibilidad de copiar el código de color con un solo clic."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/pinterest-by-lucas",
+    "nombre": "Pinterest",
+    "claves": "Características Claves:",
+    "id": 4,
+    "titulo": "Pinterest adaptado a mi estilo",
+    "subtitulo": "Diseño de E-commerce oficial de Doraemon",
+    "imagen": "/img/pinterest.jpg",
+    "url": "https://pinterest-by-lucas-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Este proyecto ha sido copiado desde cero por mí y presenta diversas secciones inspiradas en la página oficial de Pinterest.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-vite.svg",
+        "nombre": "Vite"
+      },
+      {
+        "imagen": "/img/logo-redux.svg",
+        "nombre": "Redux"
+      },
+      {
+        "imagen": "/img/logo-bootstrap.svg",
+        "nombre": "Bootstrap"
+      }
+    ],
+    "creacion": "16/02/2024",
+    "fechaDeObtencion": "16/02/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra",
+        "imagenExtra": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/11/Paimon.jpg"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "#FFCC32",
+        "fondoColor": "#EF3180",
+        "tecnologia": "Responsive"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "#FECB29",
+        "fondoColor": "#9E62FE",
+        "tecnologia": "Vite JS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "#FFB44F",
+        "fondoColor": "#4B443E",
+        "tecnologia": "Zustand"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Búsqueda de Imágenes",
+        "descripcion": "Busca imágenes de alta calidad mediante la API de Unsplash usando prompts."
+      },
+      {
+        "nombre": "Detalles de la Imagen",
+        "descripcion": "Muestra información relevante de cada foto, incluyendo título, autor y enlaces a sus perfiles en Instagram y Unsplash."
+      },
+      {
+        "nombre": "Gestión de Datos Personales",
+        "descripcion": "Permite a los usuarios ingresar y modificar sus datos personales almacenados en localStorage."
+      },
+      {
+        "nombre": "Categorías Más Buscadas",
+        "descripcion": "Permite a los usuarios filtrar imágenes según las categorías más buscadas, facilitando una búsqueda más eficiente y específica."
+      },
+      {
+        "nombre": "Almacenamiento de Imágenes Favoritas",
+        "descripcion": "Guarda imágenes favoritas en localStorage para acceso rápido y visualización."
+      },
+      {
+        "nombre": "Múltiples Landing Pages",
+        "descripcion": "Incluye varias landing pages optimizadas para ofrecer una navegación fluida y atractiva sobre diferentes aspectos del servicio."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/repo3",
+    "nombre": "Proyecto Final de React JS de Coderhouse",
+    "claves": "Características Claves:",
+    "id": 5,
+    "titulo": "Proyecto Final de React JS de Coderhouse",
+    "subtitulo": "Diseno de E-commerce oficial de Doraemon",
+    "imagen": "/img/proyecto-final-react.jpg",
+    "url": "https://entregas-react-lucascabral.vercel.app/",
+    "descripcion": "Desarrollo de una plataforma de e-commerce para la venta de artículos de Pokémon, como parte del Proyecto Final del curso de React JS de CoderHouse.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/react.svg",
+        "nombre": "React JS"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-bootstrap.svg",
+        "nombre": "Bootstrap"
+      },
+      {
+        "imagen": "/img/logo-firebase.svg",
+        "nombre": "Firebase"
+      }
+    ],
+    "creacion": "11/04/2023",
+    "fechaDeObtencion": "11/04/2023",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra",
+        "imagenExtra": "/img/proyecto-final-react.jpg"
+      },
+      {
+        "nombreImagen": "Foto extra",
+        "imagenExtra": "/img/proyecto-final-react-tres.png"
+      },
+      {
+        "nombreImagen": "Foto extra",
+        "imagenExtra": "/img/proyecto-final-react-dos.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#7D18F8",
+        "tecnologia": "Bootstrap"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#08DDFF",
+        "tecnologia": "React JS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "#252525",
+        "fondoColor": "#FFCC32",
+        "tecnologia": "Firebase"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Carga de Productos",
+        "descripcion": "Integración de Firebase para la carga de productos, con la capacidad de filtrar artículos según su categoría, mejorando la navegabilidad del catálogo."
+      },
+      {
+        "nombre": "Checkout de Compra",
+        "descripcion": "Desarrollo de un proceso de checkout eficiente que permite a los usuarios finalizar su compra de manera segura y rápida."
+      },
+      {
+        "nombre": "Emisión de Ticket de Compra",
+        "descripcion": "Generación automática de un ticket de compra tras la finalización del proceso de checkout, proporcionando un comprobante de la transacción."
+      },
+      {
+        "nombre": "Historial de Compras",
+        "descripcion": "Sección dedicada a visualizar todos los tickets de compras realizadas, permitiendo a los usuarios consultar su historial de transacciones."
+      },
+      {
+        "nombre": "Wishlist",
+        "descripcion": "Implementación de una lista de deseos (wishlist) con persistencia de estado gracias a localStorage, permitiendo a los usuarios guardar productos para futuras compras."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/memoria-brillante",
+    "nombre": "Memotest",
+    "claves": "Características Claves:",
+    "id": 6,
+    "titulo": "Memotest",
+    "subtitulo": "Juego interactivo para ejercitar la memoria",
+    "imagen": "/img/memotest.png",
+    "url": "https://memoria-brillante-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Memotest es un emocionante juego interactivo de memoria que desafía a los usuarios a encontrar parejas de cartas. Este juego no solo pone a prueba la agilidad mental, sino que también ofrece una experiencia entretenida y educativa.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-bootstrap.svg",
+        "nombre": "Bootstrap"
+      },
+      {
+        "imagen": "/img/logo-vite.svg",
+        "nombre": "Vite JS"
+      }
+    ],
+    "creacion": "14/05/2024",
+    "fechaDeObtencion": "14/05/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/memotest.png"
+      },
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/memotest-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/memotest-tres.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "#FFCC32",
+        "fondoColor": "#EF3180",
+        "tecnologia": "Responsive"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "#FECB29",
+        "fondoColor": "#9E62FE",
+        "tecnologia": "Vite JS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2D53e5",
+        "tecnologia": "CSS3"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "#FFB44F",
+        "fondoColor": "#4B443E",
+        "tecnologia": "Zustand"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Contador de Errores",
+        "descripcion": "Permite a los jugadores llevar un registro de sus aciertos y fallos."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Disponible en inglés y español para una mayor accesibilidad."
+      },
+      {
+        "nombre": "Cinco Niveles de Dificultad",
+        "descripcion": "Ajustables para adaptarse a diferentes habilidades y edades."
+      },
+      {
+        "nombre": "Modo oscuro",
+        "descripcion": "Mejora la experiencia visual, especialmente en entornos con poca luz."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/to-do-list",
+    "nombre": "To Do List",
+    "claves": "Características Claves:",
+    "id": 2,
+    "titulo": "To Do List",
+    "subtitulo": "Aplicacion de To Do List",
+    "imagen": "/img/captura-oficial.png",
+    "url": "https://to-do-list-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Este proyecto de To-Do List permite a los usuarios gestionar sus tareas de manera eficiente. Con una interfaz intuitiva y funciones avanzadas, los usuarios pueden organizar, priorizar y realizar un seguimiento de sus actividades diarias. Con un login muy seguro.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-mongo-db.svg",
+        "nombre": "Mongo DB"
+      },
+      {
+        "imagen": "/img/logo-api-dos.svg",
+        "nombre": "RESTfull API"
+      },
+      {
+        "imagen": "/img/tailwind.svg",
+        "nombre": "Tailwind"
+      }
+    ],
+    "creacion": "14/10/2024",
+    "fechaDeObtencion": "14/10/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/captura-oficial.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/to-do-list-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/to-do-list-tres.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#3EBFF8",
+        "tecnologia": "Tailwind"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "#FFB44F",
+        "fondoColor": "#4B443E",
+        "tecnologia": "Zustand"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#189555",
+        "tecnologia": "Mongo DB"
+      },
+      {
+        "colorLetra": "#2DE0C3",
+        "fondoColor": "#8627DA",
+        "tecnologia": "Next Auth"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "Next JS"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Creación de Tareas",
+        "descripcion": "Permite agregar tareas con un título, descripción y fecha de realización."
+      },
+      {
+        "nombre": "Prioridades",
+        "descripcion": "Asigna niveles de prioridad del 1 al 3 para cada tarea, facilitando la gestión del tiempo."
+      },
+      {
+        "nombre": "Filtrado de Tareas",
+        "descripcion": "Filtra las tareas por estado: completadas, pendientes y por realizar, así como por tareas programadas para el día."
+      },
+      {
+        "nombre": "Secciones Personalizadas",
+        "descripcion": "Organiza tareas en distintas secciones para una mejor categorización."
+      },
+      {
+        "nombre": "Login Seguro",
+        "descripcion": "Implementación de autenticación segura con NextAuth, permitiendo el inicio de sesión mediante email o Google."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://github.com/Lucascabral95/translator-lucas-cabral",
+    "nombre": "Traductor",
+    "claves": "Características Claves:",
+    "id": 8,
+    "titulo": "Traductor",
+    "subtitulo": "",
+    "imagen": "/img/traductor.png",
+    "url": "https://translator-lucas-cabral-git-main-lucascabral95s-projects.vercel.app/",
+    "descripcion": "Aplicación web rápida y ligera que traduce texto con una precisión excelente, usando una API para resultados precisos. Interfaz minimalista, responsiva y escalable, optimizada para móviles y escritorio.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-vite.svg",
+        "nombre": "Vite JS"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-bootstrap.svg",
+        "nombre": "Bootstrap"
+      }
+    ],
+    "creacion": "20/05/2024",
+    "fechaDeObtencion": "20/05/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra",
+        "imagenExtra": "/img/traductor.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "#FFCC32",
+        "fondoColor": "#EF3180",
+        "tecnologia": "Responsive"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "#FECB29",
+        "fondoColor": "#9E62FE",
+        "tecnologia": "Vite JS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2D53e5",
+        "tecnologia": "CSS3"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "#FFB44F",
+        "fondoColor": "#4B443E",
+        "tecnologia": "Zustand"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Traducción en decenas de idiomas",
+        "descripcion": "Utiliza la API de MyMemory para traducciones precisas en tiempo real."
+      },
+      {
+        "nombre": "Bot lector",
+        "descripcion": "Incluye un bot que lee los textos traducidos en diferentes idiomas, también gracias a la API de MyMemory."
+      },
+      {
+        "nombre": "Interfaz moderna y responsiva",
+        "descripcion": "Diseño optimizado para dispositivos móviles y escritorio."
+      },
+      {
+        "nombre": "Función de copiado",
+        "descripcion": "Permite copiar fácilmente los resultados de las traducciones."
+      },
+      {
+        "nombre": "Escalable y eficiente",
+        "descripcion": "Permite copiar fácilmente los resultados de las traducciones."
+      }
+    ]
+  },
+  {
+    "linkRepo": "https://drive.google.com/drive/u/0/folders/1hMim21fSesGHquBgXIJpQLiq_L40UZEe",
+    "nombre": "Proyecto final de SQL - Coderhouse",
+    "claves": "Características Claves:",
+    "id": 10,
+    "titulo": "Proyecto final de SQL de Coderhouse",
+    "subtitulo": "Estructura de negocio de una empresa de tecnología",
+    "imagen": "/img/reverse-engineer.jpg",
+    "url": "https://drive.google.com/file/d/15TmISkODtp1uFX-CoXnQ2YilYkpqWNJE/view?usp=drive_link",
+    "descripcion": "Este proyecto consistió en diseñar una base de datos para un negocio y generar visualizaciones para analizar datos empresariales.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-mysql.svg",
+        "nombre": "My SQL"
+      },
+      {
+        "imagen": "/img/logo-excel.svg",
+        "nombre": "Excel"
+      },
+      {
+        "imagen": "/img/logo-power-bi.svg",
+        "nombre": "Power BI"
+      }
+    ],
+    "creacion": "18/01/2024",
+    "fechaDeObtencion": "18/01/2024",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/reverse-engineer.jpg"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/reverse-engineer-tres.jpg"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/reverse-engineer-cuatro.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/reverse-engineer-cinco.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#BD6908",
+        "tecnologia": "My SQL"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F1CB18",
+        "tecnologia": "Power BI"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#17793F",
+        "tecnologia": "Excel"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#D45230",
+        "tecnologia": "PowerPoint"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F16812",
+        "tecnologia": "Lucidchart"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Diseño de la base de datos",
+        "descripcion": "Creación y estructuración en MySQL Workbench."
+      },
+      {
+        "nombre": "Ingeniería inversa",
+        "descripcion": "Optimización de la base de datos mediante análisis inverso."
+      },
+      {
+        "nombre": "Visualizaciones en Power BI",
+        "descripcion": "Gráficos interactivos para el análisis de datos."
+      },
+      {
+        "nombre": "Explicación en Excel",
+        "descripcion": "Desglose y detalle de la base de datos usando Excel."
+      },
+      {
+        "nombre": "Modelo de negocio",
+        "descripcion": "Documentación detallada del funcionamiento empresarial."
+      },
+      {
+        "nombre": "Presentación en PowerPoint",
+        "descripcion": "Exposición final integrando análisis, gráficos y resultados."
+      }
+    ]
+  }
+]

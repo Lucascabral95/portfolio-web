@@ -1,0 +1,44 @@
+body {
+    --black: #000000;
+    --ash-black: #222;
+    --white: #fafafa;
+    --sky: #00ccff;
+    --green: #22dddd;
+    --blue: #1300ff;
+    --dusk: #6600ff;
+    --purple: #9900ff;
+    --pink: #ff0066;
+    --red: #fe0222;
+    --orange: #fd7702;
+    --yellow: #ffbb00;
+    --background: var(--white);
+    --accent: var(--black);
+    --color-progress-bar: #990FEA;
+    --color-second-progress-bar: #00FF00;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--color-progress-bar);
+    transform-origin: 0%;
+}
+
+@media (min-width: 768px) and (max-width: 969px) {
+    .progress-bar {
+        height: 8px;
+        background: var(--color-progress-bar);
+    }
+}
+
+@media (max-width: 767px) {
+    .progress-bar {
+        height: 6px;
+        background: var(--color-progress-bar);
+    }
+}
+

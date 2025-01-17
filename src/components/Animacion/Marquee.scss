@@ -1,0 +1,20 @@
+.marquee {
+    display: flex;
+    padding: 0.4%;
+    margin: 2% 0;
+    width: 100%;
+    background-color: var(--body-color);
+    
+    .img {
+        width: 100%;
+        margin: 0 1.2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            width: 180px;
+            height: auto;
+        }
+    }
+}

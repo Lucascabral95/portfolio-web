@@ -1,0 +1,244 @@
+$padding: 4% 16px 0 16px;
+$padding-mobile: 4% 20px 0 20px;
+
+.mis-servicios {
+    width: 100%;
+    padding: $padding;
+    $fondo: #30172E;
+    $color: #D63B98;
+
+    .contenedor-mis-servicios {
+        max-width: 1160px !important;
+        margin: auto;
+
+        .contenedor-numero-celeste {
+            .numero {
+                background-color: $fondo;
+                border: 2px solid $color;
+
+                p {
+                    color: $color;
+                }
+            }
+        }
+
+        .seccion-titulo-subtitulo-celeste {
+            color: $color;
+
+            .titulo {
+                h2 {
+                    color: $color;
+                }
+            }
+
+            .linea-delimitante {
+                background-color: $color;
+            }
+        }
+
+        .servicios {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .servicio {
+                width: 48.6%;
+                border-radius: 1rem;
+                padding: 32px;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 0 32px 0;
+                height: 215px;
+
+                .primera-seccion {
+                    width: 48px;
+                    display: flex;
+
+                    .icono {
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .icon {
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+
+                .segunda-seccion {
+                    width: calc(100% - 72px);
+
+                    .titulo {
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            font-weight: 600;
+                            font-size: 20px;
+                            margin: 0;
+                            padding: 0;
+                            color: white;
+                        }
+                    }
+
+                    .descripcion {
+                        display: flex;
+                        align-items: center;
+                        margin: 16px 0 0 0;
+
+                        p {
+                            font-size: 18px;
+                            color: #878593;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mis-servicios {
+        padding: $padding;
+
+        .contenedor-mis-servicios {
+            max-width: 1160px !important;
+            margin: auto;
+
+            .servicios {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .servicio {
+                    width: 512px;
+                    padding: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 0 32px 0;
+                    height: fit-content;
+
+                    .primera-seccion {
+                        width: 48px;
+                        display: flex;
+
+                        .icono {
+                            width: 48px;
+                            height: 48px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            .icon {
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                    }
+
+                    .segunda-seccion {
+                        width: calc(100% - 72px);
+
+                        .titulo {
+                            display: flex;
+                            align-items: center;
+
+                            p {
+                                font-size: 20px;
+                            }
+                        }
+
+                        .descripcion {
+                            display: flex;
+                            align-items: center;
+                            margin: 16px 0 0 0;
+
+                            p {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .mis-servicios {
+        padding: $padding-mobile;
+
+        .contenedor-mis-servicios {
+            max-width: 1160px !important;
+            margin: auto;
+
+            .servicios {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin: 10% 0 0 0;
+
+                .servicio {
+                    width: 100%;
+                    margin: 0 0 32px 0;
+                    height: fit-content;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 24px;
+
+                    .primera-seccion {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 0 20px 0;
+
+                        .icono {
+                            width: 48px;
+                            height: 48px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            .icon {
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                    }
+
+                    .segunda-seccion {
+                        width: 100%;
+
+                        .titulo {
+                            display: flex;
+                            align-items: center;
+
+                            p {
+                                font-size: 20px;
+                            }
+                        }
+
+                        .descripcion {
+                            display: flex;
+                            align-items: center;
+                            margin: 8px 0 0 0;
+
+                            p {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

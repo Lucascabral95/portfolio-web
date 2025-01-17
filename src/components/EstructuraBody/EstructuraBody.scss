@@ -1,0 +1,275 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    // Color Mode
+    --hue: 0;
+    --sat: 0%;
+    --body-color: hsl(var(--hue), var(--sat), 98%);
+    // FONT FAMILY
+    --body-font: 'Poppins', sans-serif;
+    // margenes de botones
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+    // z-index
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+    //  Ancho de fuente
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    // Tamaño de fuente
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+    // Colores
+    --color-titulo: hsl(var(--hue), var(--sat), 20%);
+    --color-texto: hsl(var(--hue), var(--sat), 46%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #13111C;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #33323E;
+    border-radius: 10px;
+}
+
+body {
+    // COLOR DE FONDOS
+    --color-de-fondo-body: #13111C;
+    --gradiente-de-header: linear-gradient(45deg,
+            hsl(251deg 24% 9%) 0%,
+            hsl(251deg 24% 9%) 6%,
+            hsl(251deg 24% 9%) 12%,
+            hsl(251deg 24% 9%) 18%,
+            hsl(251deg 24% 9%) 24%,
+            hsl(251deg 24% 9%) 29%,
+            hsl(251deg 24% 9%) 35%,
+            hsl(251deg 24% 9%) 41%,
+            hsl(251deg 24% 9%) 47%,
+            hsl(257deg 26% 9%) 53%,
+            hsl(269deg 30% 11%) 59%,
+            hsl(284deg 34% 11%) 65%,
+            hsl(301deg 39% 12%) 71%,
+            hsl(312deg 48% 13%) 76%,
+            hsl(312deg 48% 13%) 82%,
+            hsl(312deg 48% 13%) 88%,
+            hsl(312deg 48% 13%) 94%,
+            hsl(312deg 48% 13%) 100%);
+    --gradiente-de-footer: linear-gradient(-45deg,
+            hsl(251deg 24% 9%) 0%,
+            hsl(251deg 24% 9%) 6%,
+            hsl(251deg 24% 9%) 12%,
+            hsl(251deg 24% 9%) 18%,
+            hsl(251deg 24% 9%) 24%,
+            hsl(251deg 24% 9%) 29%,
+            hsl(251deg 24% 9%) 35%,
+            hsl(251deg 24% 9%) 41%,
+            hsl(251deg 24% 9%) 47%,
+            hsl(257deg 26% 9%) 53%,
+            hsl(269deg 30% 11%) 59%,
+            hsl(284deg 34% 11%) 65%,
+            hsl(301deg 39% 12%) 71%,
+            hsl(312deg 48% 13%) 76%,
+            hsl(312deg 48% 13%) 82%,
+            hsl(312deg 48% 13%) 88%,
+            hsl(312deg 48% 13%) 94%,
+            hsl(312deg 48% 13%) 100%);
+    //colores de fonts
+    --color-de-texto-gris-uno: #878593;
+    --color-de-texto-gris-dos: #A1a0ab;
+    --color-de-titulos: #ffffff;
+    --color-de-texto-azul: #306ee8;
+    --color-de-texto-celeste: #8caef2;
+    --color-de-texto-verde-uno: #42946e;
+    --color-de-texto-verde-dos: #95D0b4;
+    --color-de-texto-violeta-uno: #853bce;
+    --color-de-texto-violeta-dos: #BF93EC;
+    --color-de-texto-naranja-uno: #FFA500;
+    --color-de-texto-naranja-dos: #CC7A00;
+    // font size
+    --font-size-subtitulos-categorias: 40px;
+    --font-size-titulos-categorias: 24px;
+    --font-size-textos: 18px;
+    --font-size-titulo-mayor: 64px;
+    //--
+    --font-size-contenedor-texto: 14px;
+    --font-size-contenedor-titulo: 17px;
+    --font-size-inputs: 18px;
+    --font-size-labels: 18px;
+    --font-size-textarea: 18px;
+    --font-size-boton-form: 18px;
+    --font-size-footer-sections: 18px;
+    --font-size-footer-terminos: 18px;
+}
+
+section {
+    width: 100%;
+
+    .contenedor {
+        width: 100%;
+    }
+}
+
+.contenedor-numero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+
+    .numero {
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+
+        p {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 700;
+        }
+    }
+}
+
+.seccion-titulo-subtitulo {
+    margin: 0 0 6% 0;
+
+    .titulo {
+        margin: 0 0 8px 0;
+
+        h2 {
+            text-align: center;
+            font-size: var(--font-size-titulos-categorias);
+        }
+    }
+
+    .subtitulo {
+        h3 {
+            text-align: center;
+            font-size: var(--font-size-subtitulos-categorias);
+            color: var(--color-de-titulos);
+        }
+    }
+
+    .linea-delimitante {
+        margin: auto;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        width: 20%;
+        height: 1.4px;
+    }
+
+    .descripcion {
+        margin: 0 0 3.4% 0;
+
+        p {
+            color: var(--color-de-titulos);
+            margin: 0;
+            text-align: center;
+            font-size: var(--font-size-textos);
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+}
+
+.borde-superior-education {
+    height: 60px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background-color: #191325;
+}
+
+.estructura-body {
+    width: 100%;
+    background-color: var(--color-de-fondo-body);
+
+    .contenedor {
+        width: 100%;
+    }
+}
+
+.contenedor-de-estructura-body {
+    min-height: 100vh;
+}
+
+@media (max-width: 959px) {
+    .seccion-titulo-subtitulo {
+        margin: 0 0 6% 0;
+
+        .titulo {
+            margin: 0 0 8px 0;
+
+            h2 {
+                font-size: clamp(22px, 2.5vw, 24px);
+            }
+        }
+
+        .subtitulo {
+            h3 {
+                font-size: clamp(32px, 4vw, 40px);
+            }
+        }
+
+        .linea-delimitante {
+            margin-top: 22px;
+            margin-bottom: 22px;
+            height: 1.8px;
+            width: 10rem;
+        }
+
+        .descripcion {
+            margin: 0 0 3.4% 0;
+
+            p {
+                font-size: var(--font-size-textos);
+            }
+        }
+    }
+
+    body {
+        --font-size-footer-sections: 18px;
+        --font-size-footer-terminos: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        --font-size-inputs: 16px;
+        --font-size-labels: 16px;
+        --font-size-textarea: 16px;
+        --font-size-boton-form: 16px;
+        --font-size-footer-sections: 18px;
+        --font-size-footer-terminos: 14px;
+    }
+
+    .borde-superior-education {
+        margin-left: -32px;
+        width: calc(100% + 2 * 32px);
+    }
+}

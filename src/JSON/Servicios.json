@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Desarrollo Web con React y Next.js",
+    "descripcion": "Desarrollo de aplicaciones web interactivas y de alto rendimiento utilizando React, Next.js y TypeScript, asegurando una experiencia de usuario óptima en todos los dispositivos.",
+    "icono": "FaLaptopCode",
+    "colorIcono": "#51A958",
+    "colorFondoIcono": "#1C2725",
+    "colorFondoDiv": "#16191F",
+    "boxShadow": "0 4px 6px rgba(81, 169, 88, 0.2), 0 -4px 6px rgba(81, 169, 88, 0.1), 4px 0 6px rgba(81, 169, 88, 0.15), -4px 0 6px rgba(81, 169, 88, 0.15)"
+  },
+  {
+    "id": 2,
+    "titulo": "Gestión de Bases de Datos",
+    "descripcion": "Integración y optimización de bases de datos como MySQL, PostgreSQL, MongoDB, Firebase y Redis, asegurando eficiencia, escalabilidad y seguridad para aplicaciones dinámicas.",
+    "icono": "GiDatabase",
+    "colorIcono": "#48429C",
+    "colorFondoIcono": "#1B182F",
+    "colorFondoDiv": "#161323",
+    "boxShadow": "0 4px 6px rgba(72, 66, 156, 0.2), 0 -4px 6px rgba(72, 66, 156, 0.1), 4px 0 6px rgba(72, 66, 156, 0.15), -4px 0 6px rgba(72, 66, 156, 0.15)"
+  },
+  {
+    "id": 3,
+    "titulo": "APIs y Microservicios con Node.js",
+    "descripcion": "Diseño y desarrollo de APIs RESTful y microservicios con Node.js, Express y Nest.js, ofreciendo soluciones escalables, un tipado estricto y fácilmente mantenibles.",
+    "icono": "FaMicrochip",
+    "colorIcono": "#4980BC",
+    "colorFondoIcono": "#1B2234",
+    "colorFondoDiv": "#161725",
+    "boxShadow": "0 4px 6px rgba(73, 128, 188, 0.2), 0 -4px 6px rgba(73, 128, 188, 0.1), 4px 0 6px rgba(73, 128, 188, 0.15), -4px 0 6px rgba(73, 128, 188, 0.15)"
+  },
+  {
+    "id": 4,
+    "titulo": "Diseño Responsivo",
+    "descripcion": "Creación de interfaces de usuario adaptables y visualmente atractivas, asegurando una experiencia coherente en todos los dispositivos y tamaños de pantalla.",
+    "icono": "DiResponsive",
+    "colorIcono": "#EBBD33",
+    "colorFondoIcono": "#363127",
+    "colorFondoDiv": "#231F21",
+    "boxShadow": "0 4px 6px rgba(235, 189, 51, 0.2), 0 -4px 6px rgba(235, 189, 51, 0.1), 4px 0 6px rgba(235, 189, 51, 0.15), -4px 0 6px rgba(235, 189, 51, 0.15)"
+  },
+  {
+    "id": 5,
+    "titulo": "Optimización SEO",
+    "descripcion": "Optimización de sitios web para mejorar el rendimiento en motores de búsqueda (SEO), asegurando una mayor visibilidad y mejor posicionamiento.",
+    "icono": "GiNetworkBars",
+    "colorIcono": "#D63B98",
+    "colorFondoIcono": "#30172E",
+    "colorFondoDiv": "#1D1323",
+    "boxShadow": "0 4px 6px rgba(214, 59, 152, 0.2), 0 -4px 6px rgba(214, 59, 152, 0.1), 4px 0 6px rgba(214, 59, 152, 0.15), -4px 0 6px rgba(214, 59, 152, 0.15)"
+  },
+  {
+    "id": 6,
+    "titulo": "Ciberseguridad y Protección de Redes",
+    "descripcion": "Implementación de medidas de ciberseguridad para proteger aplicaciones y redes, utilizando protocolos seguros y prácticas de protección avanzadas como cifrado y autenticación multifactor.",
+    "icono": "SiCyberdefenders",
+    "colorIcono": "#58C0ED",
+    "colorFondoIcono": "#1D2B3B",
+    "colorFondoDiv": "#171A27",
+    "boxShadow": "0 4px 6px rgba(88, 192, 237, 0.2), 0 -4px 6px rgba(88, 192, 237, 0.1), 4px 0 6px rgba(88, 192, 237, 0.15), -4px 0 6px rgba(88, 192, 237, 0.15)"
+  }
+]

@@ -1,0 +1,231 @@
+[
+    {
+        "id": 1,
+        "tecnologia": "React JS Carrera de Desarrollo Full Stack",
+        "curso": "React JS",
+        "fondoColor": "#1082A7",
+        "colorLetra": "white",
+        "imagen": "/img/react.svg"
+    }, 
+    {
+        "id": 2,
+        "tecnologia": "CSS3",
+        "curso": "Desarrollo Web Carrera de Desarrollo Full Stack",
+        "fondoColor": "#2D53E5",
+        "colorLetra": "white",
+        "imagen": "/img/logo-css.svg"
+    }, 
+    {
+        "id": 3,
+        "tecnologia": "Node JS",
+        "curso": "Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#393939",
+        "colorLetra": "#7CB565",
+        "imagen": "/img/logo-node-js.svg"
+    }, 
+    {
+        "id": 4,
+        "tecnologia": "Vite JS",
+        "curso": "React JS",
+        "fondoColor": "#9E62FE",
+        "colorLetra": "#FECB29",
+        "imagen": "/img/logo-vite.svg"
+    }, 
+    {
+        "id": 5,
+        "tecnologia": "Mongo DB",
+        "curso": "Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#199555",
+        "colorLetra": "#082532",
+        "imagen": "/img/logo-mongo-db.svg"
+    },
+    {
+        "id": 6,
+        "tecnologia": "Express JS",
+        "curso": "Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "white",
+        "colorLetra": "#46483D",
+        "imagen": "/img/logo-express.svg"
+    }, 
+    {
+        "id": 7,
+        "tecnologia": "Power BI",
+        "curso": "SQL",
+        "fondoColor": "#F1CB18",
+        "colorLetra": "white",
+        "imagen": "/img/logo-power-bi.svg"
+    }, 
+    {
+        "id": 8,
+        "tecnologia": "Excel",
+        "curso": "SQL",
+        "fondoColor": "#17793F",
+        "colorLetra": "white",
+        "imagen": "/img/logo-excel.svg"
+    }, 
+    {
+        "id": 9,
+        "tecnologia": "SQL",
+        "curso": "SQL",
+        "fondoColor": "#BD6908",
+        "colorLetra": "white",
+        "imagen": "/img/logo-sql.svg"
+    }, 
+    {
+        "id": 10,
+        "tecnologia": "Zustand",
+        "curso": "React JS",
+        "fondoColor": "#4B443E",
+        "colorLetra": "#FFB44F",
+        "imagen": "/img/logo-zustand.png"
+    }, 
+    {
+        "id": 11,
+        "tecnologia": "Sass",
+        "curso": "Desarrollo Web ",
+        "fondoColor": "#CF6C9C",
+        "colorLetra": "white",
+        "imagen": "/img/logo-sass.svg"
+    }, 
+    {
+        "id": 12,
+        "tecnologia": "HTML5",
+        "curso": "Desarrollo Web Carrera de Desarrollo Full Stack",
+        "fondoColor": "#E5532D",
+        "colorLetra": "white",
+        "imagen": "/img/logo-html.png"
+    }, 
+    {
+        "id": 13,
+        "tecnologia": "JavaScript",
+        "curso": "JavaScript React JS Carrera de Desarrollo Full Stack",
+        "fondoColor": "#F7E025",
+        "colorLetra": "#4B443E",
+        "imagen": "/img/logo-javascript.svg"
+    }, 
+    {
+        "id": 14,
+        "tecnologia": "Bootstrap",
+        "curso": "Desarrollo Web",
+        "fondoColor": "#7D18F8",
+        "colorLetra": "white",
+        "imagen": "/img/logo-bootstrap.svg"
+    }, 
+    {
+        "id": 15,
+        "tecnologia": "RESTfull API",
+        "curso": "Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#F96BFF",
+        "colorLetra": "white",
+        "imagen": "/img/logo-api.svg"
+    }, 
+    {
+        "id": 16,
+        "tecnologia": "Next JS",
+        "curso": "React JS Carrera de Desarrollo Full Stack",
+        "fondoColor": "white",
+        "colorLetra": "black",
+        "imagen": "/img/logo-next.svg"
+    }, 
+    {
+        "id": 17,
+        "tecnologia": "Docker",
+        "curso": "Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#0886AB",
+        "colorLetra": "#31494D",
+        "imagen": "/img/logo-docker.svg"
+    }, 
+    {
+        "id": 18,
+        "tecnologia": "Kubernetes",
+        "curso": "Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#3973E6",
+        "colorLetra": "white",
+        "imagen": "/img/logo-kubernetes.svg"
+    }, 
+    {
+        "id": 19,
+        "tecnologia": "Postman",
+        "curso": "Programación Backend",
+        "fondoColor": "#FF713D",
+        "colorLetra": "white",
+        "imagen": "/img/logo-postman.svg"
+    }, 
+    {
+        "id": 20,
+        "tecnologia": "Swagger",
+        "curso": "Programación Backend React JS",
+        "fondoColor": "#729D08",
+        "colorLetra": "white",
+        "imagen": "/img/logo-swagger.svg"
+    }, 
+    {
+        "id": 21,
+        "tecnologia": "Git",
+        "curso": "Desarrollo Web React JS Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#F05539",
+        "colorLetra": "white",
+        "imagen": "/img/logo-git.svg"
+    }, 
+    {
+        "id": 22,
+        "tecnologia": "Github",
+        "curso": "Desarrollo Web React JS Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#F05539",
+        "colorLetra": "white",
+        "imagen": "/img/logo-github.svg"
+    }, 
+    {
+        "id": 23,
+        "tecnologia": "Firebase",
+        "curso": "Programación Backend React JS Carrera de Desarrollo Full Stack",
+        "fondoColor": "#FFCC32",
+        "colorLetra": "#252525",
+        "imagen": "/img/logo-firebase.svg"
+    }, 
+    {
+        "id": 24,
+        "tecnologia": "Redux JS",
+        "curso": "React JS",
+        "fondoColor": "#7A50BE",
+        "colorLetra": "#363636",
+        "imagen": "/img/logo-redux.svg"
+    }, 
+    {
+        "id": 25,
+        "tecnologia": "Responsive",
+        "curso": "Desarrollo Web",
+        "fondoColor": "#EF3180",
+        "colorLetra": "#FFCC32",
+        "imagen": "/img/logo-responsive.svg"
+    }, 
+    {
+        "id": 26,
+        "tecnologia": "Typescript",
+        "curso": "JavaScript React JS Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#377CC8",
+        "colorLetra": "white",
+        "imagen": "/img/logo-typescript.svg"
+    }, 
+    {
+        "id": 27,
+        "tecnologia": "NPM",
+        "curso": "JavaScript React JS Programación Backend Desarrollo Web Carrera de Desarrollo Full Stack",
+        "fondoColor": "black",
+        "colorLetra": "red",
+        "imagen": "/img/logo-npm.svg"
+    }, 
+    {
+        "id": 28,
+        "tecnologia": "PostgreSQL",
+        "curso": "",
+        "fondoColor": "#376695"
+    },
+    {
+        "id": 28,
+        "tecnologia": "Nest JS",
+        "curso": "Programación Backend Carrera de Desarrollo Full Stack",
+        "fondoColor": "#E3265C",
+        "colorLetra": "white"
+    }
+]
