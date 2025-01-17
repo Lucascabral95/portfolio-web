@@ -41,7 +41,7 @@ export default function AboutMe() {
                 </div>
 
                 <animated.div style={stylePhotoProfile} className="img">
-                    <img src="/public/img/dev-lucas-cat-dos.png" alt="Imagen de presentación" />
+                    <img src="/img/dev-lucas-cat-dos.png" alt="Imagen de presentación" />
                 </animated.div>
 
             </div>
