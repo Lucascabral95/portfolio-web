@@ -22,7 +22,7 @@
   {
     "id": 3,
     "titulo": "APIs y Microservicios con Node.js",
-    "descripcion": "Diseño y desarrollo de APIs RESTful y microservicios con Node.js, Express y Nest.js, ofreciendo soluciones escalables, un tipado estricto y fácilmente mantenibles.",
+    "descripcion": "Diseño y desarrollo de APIs RESTful y microservicios con Node.js, Express y NestJS, ofreciendo soluciones escalables, un tipado estricto y fácilmente mantenibles.",
     "icono": "FaMicrochip",
     "colorIcono": "#4980BC",
     "colorFondoIcono": "#1B2234",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "titulo": "Ciberseguridad y Protección de Redes",
-    "descripcion": "Implementación de medidas de ciberseguridad para proteger aplicaciones y redes, utilizando protocolos seguros y prácticas de protección avanzadas como cifrado y autenticación multifactor.",
+    "descripcion": "Implementación de medidas de ciberseguridad para proteger aplicaciones web, utilizando HTTPS, SSL, TLS y prácticas avanzadas como cifrado, autenticación multifactor y control de acceso.",
     "icono": "SiCyberdefenders",
     "colorIcono": "#58C0ED",
     "colorFondoIcono": "#1D2B3B",

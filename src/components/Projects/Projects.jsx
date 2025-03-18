@@ -2,6 +2,7 @@ import "./Projects.scss"
 import Proyectos from "../../JSON/Projects.json"
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import { motion, AnimatePresence } from "framer-motion"
 
 export default function Projects() {
     const proyectosAMostrar = 8
@@ -42,39 +43,51 @@ export default function Projects() {
                 </div>
 
                 <div className="contenedor-de-proyectos">
-                    {Proyectos.slice(inicioFin.inicio, inicioFin.fin).map((projects, index) => (
-                        <div className="card" key={index}>
-                            <Link to={`/proyecto/${projects.id}`} className="imagen-caracteristicas">
-                                <div className="img">
-                                    <img src={projects.imagen} alt={projects.titulo} />
-                                </div>
-                                <div className="caracteristicas">
-                                    <div className="titulo">
-                                        <p> {projects.titulo} </p>
-                                    </div>
-                                    <div className="subtitulo">
-                                        <p> {projects.subtitulo} </p>
-                                    </div>
-                                    <div className="descripcion">
-                                        <p> {projects.descripcion} </p>
-                                    </div>
-                                </div>
-                            </Link>
-                            <div className="detalles">
-                                <div className="tecnologias">
+                    <AnimatePresence>
+                        {Proyectos.slice(inicioFin.inicio, inicioFin.fin).map((projects, index) => (
+                            <motion.div
+                                key={index}
+                                className="card"
+                                initial={{ opacity: 0, y: 50, scale: 0.95 }}
+                                animate={{ opacity: 1, y: 0, scale: 1 }}
+                                exit={{ opacity: 0, y: -30, scale: 0.95 }}
+                                transition={{
+                                    duration: 0.5,
+                                    ease: [0.25, 0.1, 0.25, 1],
+                                }}
+                            >
+                                <Link to={`/proyecto/${projects.id}`} className="imagen-caracteristicas">
                                     <div className="img">
-                                        {projects.tecnologias.map((tecnologia, index) => (
-                                            <img style={{ backgroundColor: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "white" : null, borderRadius: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "50%" : null }}
-                                                src={tecnologia.imagen} alt={tecnologia.nombre} key={index} />
-                                        ))}
+                                        <img src={projects.imagen} alt={projects.titulo} />
                                     </div>
-                                    <div className="fecha">
-                                        <p> {projects.creacion} </p>
+                                    <div className="caracteristicas">
+                                        <div className="titulo">
+                                            <p> {projects.titulo} </p>
+                                        </div>
+                                        <div className="subtitulo">
+                                            <p> {projects.subtitulo} </p>
+                                        </div>
+                                        <div className="descripcion">
+                                            <p> {projects.descripcion} </p>
+                                        </div>
+                                    </div>
+                                </Link>
+                                <div className="detalles">
+                                    <div className="tecnologias">
+                                        <div className="img">
+                                            {projects.tecnologias.map((tecnologia, index) => (
+                                                <img style={{ backgroundColor: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "white" : null, borderRadius: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "50%" : null }}
+                                                    src={tecnologia.imagen} alt={tecnologia.nombre} key={index} />
+                                            ))}
+                                        </div>
+                                        <div className="fecha">
+                                            <p> {projects.creacion} </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    ))}
+                            </motion.div>
+                        ))}
+                    </AnimatePresence>
                 </div>
 
                 {cantidadProyectos > inicioFin.fin &&

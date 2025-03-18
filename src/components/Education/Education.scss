@@ -157,6 +157,32 @@
                 }
             }
         }
+
+        .boton-de-ver-mas {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0 0 0;
+
+            button {
+                background-color: #291839;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                padding: 6px 20px;
+                font-weight: 600;
+                font-size: 16px;
+                border: 1px solid #853BCE;
+                color: #853BCE;
+
+                &:hover {
+                    transition: 0.2s ease-in-out;
+                    background-color: #853BCE;
+                    color: #291839;
+                }
+            }
+        }
     }
 }
 

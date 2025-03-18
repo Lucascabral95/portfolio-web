@@ -1,9 +1,9 @@
 import "./Skills.scss"
 import Stacks from "../../JSON/Skills.json"
 import { useState } from "react"
-import { FaTrello, FaGithub, FaGitAlt, FaNpm, FaStripe } from "react-icons/fa";
+import { FaTrello, FaGithub, FaGitAlt, FaNpm, FaStripe, FaLinux } from "react-icons/fa";
 import { RiSupabaseFill } from "react-icons/ri";
-import { SiVercel, SiVisualstudiocode, SiKubernetes, SiMysql, SiBun, SiYarn, SiPrisma, SiSequelize } from "react-icons/si";
+import { SiVercel, SiVisualstudiocode, SiKubernetes, SiMysql, SiBun, SiGnubash, SiPrisma, SiSequelize } from "react-icons/si";
 import { TbBrandDocker } from "react-icons/tb";
 import { FiFigma } from "react-icons/fi";
 
@@ -121,12 +121,16 @@ export default function Skills() {
                         <p className="nombre-npm"> NPM </p>
                     </div>
                     <div className="imagen">
-                        <SiYarn className="icon icon-yarn" />
-                        <p className="nombre-yarn"> Yarn </p>
-                    </div>
-                    <div className="imagen">
                         <SiBun className="icon icon-bun" />
                         <p className="nombre-bun"> Bun </p>
+                    </div>
+                    <div className="imagen">
+                        <FaLinux className="icon icon-linux" />
+                        <p className="nombre-linux"> Linux </p>
+                    </div>
+                    <div className="imagen">
+                        <SiGnubash className="icon icon-bash" />
+                        <p className="nombre-bash"> Bash Scripting </p>
                     </div>
                     <div className="imagen">
                         <SiMysql className="icon icon-mysql" />
@@ -143,10 +147,6 @@ export default function Skills() {
                     <div className="imagen">
                         <SiKubernetes className="icon icon-kubernetes" />
                         <p className="nombre-kubernetes"> Kubernetes </p>
-                    </div>
-                    <div className="imagen">
-                        <FaTrello className="icon icon-trello" />
-                        <p className="nombre-trello"> Trello </p>
                     </div>
                     <div className="imagen">
                         <FiFigma className="icon icon-figma" />

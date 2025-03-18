@@ -1,5 +1,150 @@
 [
   {
+    "linkRepo": "https://github.com/Lucascabral95/libreria-cybrary",
+    "nombre": "Librería Cybrary",
+    "claves": "Características Claves:",
+    "id": 30,
+    "titulo": "Librería Cybrary",
+    "subtitulo": "Website de una librería con gestión total de inventario, buscador por título, categoría y autor y perfiles de autores y libros con fotos.",
+    "imagen": "/img/cybrary-uno.png",
+    "urlOficial": "https://libreria-cybrary.vercel.app/",
+    "url": "https://libreria-cybrary.vercel.app/",
+    "descripcion": "Frontend de Cybrary, una plataforma web para explorar libros con información detallada e ilustraciones, buscador dinámico por autor, categoría y título, perfiles de autores con fotos y gestión de inventario para empleados, permitiendo administrar productos, categorías, autores y proveedores",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/logo-sass.svg",
+        "nombre": "Sass"
+      },
+      {
+        "imagen": "/img/logo-zustand-dos.png",
+        "nombre": "Zustand"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-typescript.svg",
+        "nombre": "TypeScript"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      }
+    ],
+    "creacion": "14/02/2025",
+    "fechaDeObtencion": "14/02/2025",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/cybrary-uno.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/cybrary-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/cybrary-tres.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CF6C9C",
+        "tecnologia": "Sass"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "Next JS"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "white",
+        "tecnologia": "JWT"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "#63F655",
+        "tecnologia": "Neon Serverless"
+      },
+      {
+        "colorLetra": "#1B2D47",
+        "fondoColor": "#376BBA",
+        "tecnologia": "Zod"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#347CBE",
+        "tecnologia": "TypeScript"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#08609F",
+        "tecnologia": "HTTPS cookies"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Gestión de Libros",
+        "descripcion": "Permite agregar, actualizar, eliminar y consultar libros en la librería, cada uno con su propia imagen ilustrativa."
+      },
+      {
+        "nombre": "Proveedores",
+        "descripcion": "Control y administración de los proveedores de libros y otros recursos."
+      },
+      {
+        "nombre": "Empleados y Administradores",
+        "descripcion": "Gestión de empleados con diferentes roles y privilegios de acceso."
+      },
+      {
+        "nombre": "Categorías de Libros",
+        "descripcion": "Organización de los libros según sus categorías."
+      },
+      {
+        "nombre": "Autores",
+        "descripcion": "Registro y administración de autores de los libros, con sus respectivas fotos."
+      },
+      {
+        "nombre": "Movimientos de la Librería",
+        "descripcion": "Seguimiento de transacciones y actividades internas, tanto de ventas a clientes como de compras a proveedores."
+      },
+      {
+        "nombre": "Dashboard Administrativo",
+        "descripcion": "Información clave sobre cantidad de productos, proveedores, empleados, libros más vendidos con sus montos en $, etc."
+      },
+      {
+        "nombre": "Autenticación Segura",
+        "descripcion": "Implementada mediante JSON Web Tokens (JWT) y cookies HTTP-only para proteger las rutas de acceso."
+      }
+    ]
+  },
+  {
     "linkRepo": "https://github.com/Lucascabral95/twitter-clone",
     "nombre": "Twitter Clone",
     "claves": "Características Claves:",

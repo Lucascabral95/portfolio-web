@@ -5,11 +5,20 @@ import { IoIosLink } from "react-icons/io";
 import { MdOutlineZoomOutMap } from "react-icons/md";
 import { Link } from "react-router-dom";
 import ImageZoom from "../ImageZoom/ImageZoom";
-import Servicios from "../Servicios/Servicios";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Education() {
     const [isOpenImage, setIsOpenImage] = useState(false)
     const [imagenSeccionada, setImagenSeccionada] = useState('')
+    const [certificacionesAMostrar, setCertificacionesAMostrar] = useState(2)
+
+    const mostrarMas = () => {
+        setCertificacionesAMostrar(Certificaciones.length)
+    }
+
+    const verMenos = () => {
+        setCertificacionesAMostrar(2)
+    }
 
     return (
         <section className="education-section" id="education">
@@ -39,44 +48,62 @@ export default function Education() {
                 </div>
 
                 <div className="contenedor-de-certificaciones">
-                    {Certificaciones.map((certificacion, index) => (
-                        <div className="card-certificado" key={index}>
-                            <div className="contenido-card">
-                                <div className="nombre-fecha">
-                                </div>
-                                <div className="titulo-card">
-                                    <p className="tit-card"> {certificacion.nombre} </p>
-                                    <div className="imagen-card">
-                                        <Link to={`/certificacion/${certificacion.id}`}>
-                                            <img src={certificacion.imagen} alt={certificacion.nombre} className="img" />
-                                        </Link>
-                                        <p className="fecha-emision-certificado"> {certificacion.fechaDeObtencion} </p>
+                    <AnimatePresence>
+                        {Certificaciones.slice(0, certificacionesAMostrar).map((certificacion, index) => (
+                            <motion.div
+                                key={index}
+                                className="card-certificado"
+                                initial={{ opacity: 0, y: 50, scale: 0.95 }}
+                                animate={{ opacity: 1, y: 0, scale: 1 }}
+                                exit={{ opacity: 0, y: -30, scale: 0.95 }}
+                                transition={{
+                                    duration: 0.5,
+                                    ease: [0.25, 0.1, 0.25, 1],
+                                }}
+                            >
+                                <div className="contenido-card">
+                                    <div className="nombre-fecha">
                                     </div>
-                                    <div className="menu-iconos">
-                                        <a href={certificacion.url} target="_blank">
-                                            <div className="icono">
-                                                <IoIosLink className="icon" />
-                                            </div>
-                                        </a>
-                                        <div onClick={() => { setIsOpenImage(!isOpenImage); setImagenSeccionada(certificacion.imagen) }}>
-                                            <div className="icono">
-                                                <MdOutlineZoomOutMap className="icon" />
+                                    <div className="titulo-card">
+                                        <p className="tit-card"> {certificacion.nombre} </p>
+                                        <div className="imagen-card">
+                                            <Link to={`/certificacion/${certificacion.id}`}>
+                                                <img src={certificacion.imagen} alt={certificacion.nombre} className="img" />
+                                            </Link>
+                                            <p className="fecha-emision-certificado"> {certificacion.fechaDeObtencion} </p>
+                                        </div>
+                                        <div className="menu-iconos">
+                                            <a href={certificacion.url} target="_blank">
+                                                <div className="icono">
+                                                    <IoIosLink className="icon" />
+                                                </div>
+                                            </a>
+                                            <div onClick={() => { setIsOpenImage(!isOpenImage); setImagenSeccionada(certificacion.imagen) }}>
+                                                <div className="icono">
+                                                    <MdOutlineZoomOutMap className="icon" />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    ))}
+                            </motion.div>
+                        ))}
+                    </AnimatePresence>
                 </div>
 
                 {isOpenImage &&
                     <ImageZoom isOpenImage={isOpenImage} setIsOpenImage={setIsOpenImage} image={imagenSeccionada} />
                 }
+                
+                <div className="boton-de-ver-mas">
+                    <button onClick={certificacionesAMostrar === 2 ? mostrarMas : verMenos}>
+                        {certificacionesAMostrar === 2 ? "Ver más" : "Ver menos"}
+                    </button>
+                </div>
 
                 <div className="borde-inferior"></div>
             </div>
-            
+
         </section>
     )
 }

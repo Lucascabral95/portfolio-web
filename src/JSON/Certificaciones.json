@@ -1,46 +1,6 @@
 [
   {
-    "id": 6,
-    "nombre": "SQL",
-    "nombreIngles": "SQL",
-    "urlIngles": "https://www.coderhouse.com/ar/certificados/65cdd05c9debb4f2b6bb2f74?lang=es",
-    "url": "https://www.coderhouse.com/ar/certificados/65cdd05c9debb4f2b6bb2f74?lang=es",
-    "imagen": "/img/certificado-sql-lucas-cabral.png",
-    "imagenIngles": "",
-    "creacion": "",
-    "fecha": "TOP 10",
-    "fechaDeObtencion": "18 de enero de 2024",
-    "picture": "/img/certificado-sql-lucas-cabral.png",
-    "descripcion": "Durante el curso, trabajé con MySQL Workbench para la gestión de bases de datos relacionales, abordando tanto consultas SQL como la estructura de las tablas. Además, utilicé herramientas como Excel y Power BI para graficar y visualizar los datos, aplicando análisis visuales sobre grandes conjuntos de información. En el contexto de arquitectura de negocio, diseñé soluciones eficientes para la organización y procesamiento de datos, utilizando estrategias avanzadas de modelado y backups. También aprendí a gestionar la seguridad de bases de datos mediante comandos de DCL. Los temas que abordé incluyen:",
-    "temas": [
-      {
-          "nombre": "Lenguajes SQL y Sublenguajes",
-          "descripcion": "Estudio de los lenguajes SQL y sus sublenguajes (DDL, DML, DCL, TCL) utilizados para interactuar con bases de datos relacionales."
-      },
-      {
-          "nombre": "Consultas, Subconsultas y Vistas",
-          "descripcion": "Creación de consultas complejas, uso de subconsultas y vistas para simplificar la gestión de datos."
-      },
-      {
-          "nombre": "Estructura de Bases de Datos",
-          "descripcion": "Definición de objetos, tablas y su estructura, así como la gestión de datos a través de DDL y DML."
-      },
-      {
-          "nombre": "Funciones y Procedimientos Almacenados",
-          "descripcion": "Uso de funciones, creación de procedimientos almacenados y triggers para automatizar tareas en la base de datos."
-      },
-      {
-          "nombre": "Gestión de Transacciones y Backups",
-          "descripcion": "Manejo de transacciones con comandos TCL y estrategias para realizar copias de seguridad de bases de datos."
-      },
-      {
-          "nombre": "Data Warehouse y Charlas Profesionales",
-          "descripcion": "Introducción a conceptos de data warehouse en inteligencia de datos y aprendizaje a través de charlas con expertos."
-      }
-  ]
-  },
-  {
-    "id": 5,
+    "id": 1,
     "nombre": "Carrera de Desarrollo Full Stack",
     "nombreIngles": "Full Stack Development Career",
     "urlIngles": "https://www.coderhouse.com/ar/certificados/6543ef7fed19d8fa831ff7ba?lang=es",
@@ -67,7 +27,211 @@
       },
       {
         "nombre": "Programación Backend",
-        "descripcion": "Me especialicé en desarrollo backend con Node.js, Express y Nest.js, aprendiendo a trabajar con bases de datos NoSQL (MongoDB) y WebSockets para aplicaciones en tiempo real. Adquirí conocimientos en optimización de aplicaciones, seguridad, autenticación y autorización con JWT y Passport, así como en arquitectura en capas, mailing, TypeScript, testing, mocks y orquestación de contenedores."
+        "descripcion": "Me especialicé en desarrollo backend con Node.js, Express y NestJS, aprendiendo a trabajar con bases de datos NoSQL (MongoDB) y WebSockets para aplicaciones en tiempo real. Adquirí conocimientos en optimización de aplicaciones, seguridad, autenticación y autorización con JWT y Passport, así como en arquitectura en capas, mailing, TypeScript, testing, mocks y orquestación de contenedores."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "SQL",
+    "nombreIngles": "SQL",
+    "urlIngles": "https://www.coderhouse.com/ar/certificados/65cdd05c9debb4f2b6bb2f74?lang=es",
+    "url": "https://www.coderhouse.com/ar/certificados/65cdd05c9debb4f2b6bb2f74?lang=es",
+    "imagen": "/img/certificado-sql-lucas-cabral.png",
+    "imagenIngles": "",
+    "creacion": "",
+    "fecha": "TOP 10",
+    "fechaDeObtencion": "18 de enero de 2024",
+    "picture": "/img/certificado-sql-lucas-cabral.png",
+    "descripcion": "Durante el curso, trabajé con MySQL Workbench para la gestión de bases de datos relacionales, abordando tanto consultas SQL como la estructura de las tablas. Además, utilicé herramientas como Excel y Power BI para graficar y visualizar los datos, aplicando análisis visuales sobre grandes conjuntos de información. En el contexto de arquitectura de negocio, diseñé soluciones eficientes para la organización y procesamiento de datos, utilizando estrategias avanzadas de modelado y backups. También aprendí a gestionar la seguridad de bases de datos mediante comandos de DCL. Los temas que abordé incluyen:",
+    "temas": [
+      {
+        "nombre": "Lenguajes SQL y Sublenguajes",
+        "descripcion": "Estudio de los lenguajes SQL y sus sublenguajes (DDL, DML, DCL, TCL) utilizados para interactuar con bases de datos relacionales."
+      },
+      {
+        "nombre": "Consultas, Subconsultas y Vistas",
+        "descripcion": "Creación de consultas complejas, uso de subconsultas y vistas para simplificar la gestión de datos."
+      },
+      {
+        "nombre": "Estructura de Bases de Datos",
+        "descripcion": "Definición de objetos, tablas y su estructura, así como la gestión de datos a través de DDL y DML."
+      },
+      {
+        "nombre": "Funciones y Procedimientos Almacenados",
+        "descripcion": "Uso de funciones, creación de procedimientos almacenados y triggers para automatizar tareas en la base de datos."
+      },
+      {
+        "nombre": "Gestión de Transacciones y Backups",
+        "descripcion": "Manejo de transacciones con comandos TCL y estrategias para realizar copias de seguridad de bases de datos."
+      },
+      {
+        "nombre": "Data Warehouse y Charlas Profesionales",
+        "descripcion": "Introducción a conceptos de data warehouse en inteligencia de datos y aprendizaje a través de charlas con expertos."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "NestJS: Backend Escalable con Node.js ",
+    "nombreIngles": "NestJS: Backend Escalable con Node.js",
+    "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-c121b7d5-3a65-446b-a2dc-6c7842a3df50.jpg",
+    "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-c121b7d5-3a65-446b-a2dc-6c7842a3df50.jpg",
+    "imagen": "/img/Nest-escalable-con-node.jpg",
+    "imagenIngles": "",
+    "creacion": "",
+    "fecha": "",
+    "fechaDeObtencion": "5 de enero del 2025",
+    "picture": "/img/Nest-escalable-con-node.jpg",
+    "descripcion": "Durante el curso, trabajé con MySQL Workbench para la gestión de bases de datos relacionales, abordando tanto consultas SQL como la estructura de las tablas. Además, utilicé herramientas como Excel y Power BI para graficar y visualizar los datos, aplicando análisis visuales sobre grandes conjuntos de información. En el contexto de arquitectura de negocio, diseñé soluciones eficientes para la organización y procesamiento de datos, utilizando estrategias avanzadas de modelado y backups. También aprendí a gestionar la seguridad de bases de datos mediante comandos de DCL. Los temas que abordé incluyen:",
+    "temas": [
+      {
+        "nombre": "Lenguajes SQL y Sublenguajes",
+        "descripcion": "Estudio de los lenguajes SQL y sus sublenguajes (DDL, DML, DCL, TCL) utilizados para interactuar con bases de datos relacionales."
+      },
+      {
+        "nombre": "Consultas, Subconsultas y Vistas",
+        "descripcion": "Creación de consultas complejas, uso de subconsultas y vistas para simplificar la gestión de datos."
+      },
+      {
+        "nombre": "Estructura de Bases de Datos",
+        "descripcion": "Definición de objetos, tablas y su estructura, así como la gestión de datos a través de DDL y DML."
+      },
+      {
+        "nombre": "Funciones y Procedimientos Almacenados",
+        "descripcion": "Uso de funciones, creación de procedimientos almacenados y triggers para automatizar tareas en la base de datos."
+      },
+      {
+        "nombre": "Gestión de Transacciones y Backups",
+        "descripcion": "Manejo de transacciones con comandos TCL y estrategias para realizar copias de seguridad de bases de datos."
+      },
+      {
+        "nombre": "Data Warehouse y Charlas Profesionales",
+        "descripcion": "Introducción a conceptos de data warehouse en inteligencia de datos y aprendizaje a través de charlas con expertos."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Linux y Shell Scripting",
+    "nombreIngles": "Linux y Shell Scripting",
+    "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-e0382144-3a2d-4770-8ba2-b07209739144.jpg",
+    "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-e0382144-3a2d-4770-8ba2-b07209739144.jpg",
+    "imagen": "/img/linux-comandos-shell-scripting.jpg",
+    "imagenIngles": "",
+    "creacion": "",
+    "fecha": "",
+    "fechaDeObtencion": "20 de febrero del 2025",
+    "picture": "/img/linux-comandos-shell-scripting.jpg",
+    "descripcion": "Durante el curso, trabajé con MySQL Workbench para la gestión de bases de datos relacionales, abordando tanto consultas SQL como la estructura de las tablas. Además, utilicé herramientas como Excel y Power BI para graficar y visualizar los datos, aplicando análisis visuales sobre grandes conjuntos de información. En el contexto de arquitectura de negocio, diseñé soluciones eficientes para la organización y procesamiento de datos, utilizando estrategias avanzadas de modelado y backups. También aprendí a gestionar la seguridad de bases de datos mediante comandos de DCL. Los temas que abordé incluyen:",
+    "temas": [
+      {
+        "nombre": "Lenguajes SQL y Sublenguajes",
+        "descripcion": "Estudio de los lenguajes SQL y sus sublenguajes (DDL, DML, DCL, TCL) utilizados para interactuar con bases de datos relacionales."
+      },
+      {
+        "nombre": "Consultas, Subconsultas y Vistas",
+        "descripcion": "Creación de consultas complejas, uso de subconsultas y vistas para simplificar la gestión de datos."
+      },
+      {
+        "nombre": "Estructura de Bases de Datos",
+        "descripcion": "Definición de objetos, tablas y su estructura, así como la gestión de datos a través de DDL y DML."
+      },
+      {
+        "nombre": "Funciones y Procedimientos Almacenados",
+        "descripcion": "Uso de funciones, creación de procedimientos almacenados y triggers para automatizar tareas en la base de datos."
+      },
+      {
+        "nombre": "Gestión de Transacciones y Backups",
+        "descripcion": "Manejo de transacciones con comandos TCL y estrategias para realizar copias de seguridad de bases de datos."
+      },
+      {
+        "nombre": "Data Warehouse y Charlas Profesionales",
+        "descripcion": "Introducción a conceptos de data warehouse en inteligencia de datos y aprendizaje a través de charlas con expertos."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Analista Junior en Ciberseguridad",
+    "nombreIngles": "Analista Junior en Ciberseguridad",
+    "urlIngles": "https://www.credly.com/badges/d0187545-8440-4064-8fa0-e37f3f059602",
+    "url": "https://www.credly.com/badges/d0187545-8440-4064-8fa0-e37f3f059602",
+    "imagen": "/img/analista-junior-ciberseguridad.png",
+    "imagenIngles": "",
+    "creacion": "",
+    "fecha": "",
+    "fechaDeObtencion": "26 de febrero del 2025",
+    "picture": "/img/analista-junior-ciberseguridad.png",
+    "descripcion": "Durante el curso, trabajé con MySQL Workbench para la gestión de bases de datos relacionales, abordando tanto consultas SQL como la estructura de las tablas. Además, utilicé herramientas como Excel y Power BI para graficar y visualizar los datos, aplicando análisis visuales sobre grandes conjuntos de información. En el contexto de arquitectura de negocio, diseñé soluciones eficientes para la organización y procesamiento de datos, utilizando estrategias avanzadas de modelado y backups. También aprendí a gestionar la seguridad de bases de datos mediante comandos de DCL. Los temas que abordé incluyen:",
+    "temas": [
+      {
+        "nombre": "Lenguajes SQL y Sublenguajes",
+        "descripcion": "Estudio de los lenguajes SQL y sus sublenguajes (DDL, DML, DCL, TCL) utilizados para interactuar con bases de datos relacionales."
+      },
+      {
+        "nombre": "Consultas, Subconsultas y Vistas",
+        "descripcion": "Creación de consultas complejas, uso de subconsultas y vistas para simplificar la gestión de datos."
+      },
+      {
+        "nombre": "Estructura de Bases de Datos",
+        "descripcion": "Definición de objetos, tablas y su estructura, así como la gestión de datos a través de DDL y DML."
+      },
+      {
+        "nombre": "Funciones y Procedimientos Almacenados",
+        "descripcion": "Uso de funciones, creación de procedimientos almacenados y triggers para automatizar tareas en la base de datos."
+      },
+      {
+        "nombre": "Gestión de Transacciones y Backups",
+        "descripcion": "Manejo de transacciones con comandos TCL y estrategias para realizar copias de seguridad de bases de datos."
+      },
+      {
+        "nombre": "Data Warehouse y Charlas Profesionales",
+        "descripcion": "Introducción a conceptos de data warehouse en inteligencia de datos y aprendizaje a través de charlas con expertos."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "NestJS + Microservicios",
+    "nombreIngles": "NestJS + Microservicios",
+    "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-fce8daaa-3978-4a60-9505-ff2f0a62fe32.jpg?v=1741652566000",
+    "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-fce8daaa-3978-4a60-9505-ff2f0a62fe32.jpg?v=1741652566000",
+    "imagen": "/img/nestjs-microservicios.jpg",
+    "imagenIngles": "",
+    "creacion": "",
+    "fecha": "",
+    "fechaDeObtencion": "10 de marzo del 2025",
+    "picture": "/img/nestjs-microservicios.jpg",
+    "descripcion": "Durante este curso profundizo en la construcción de aplicaciones modernas utilizando NestJS y una arquitectura de microservicios. Apliqué prácticas reales y modernas, junto a herramientas clave, para el desarrollo y despliegue continuo de sistemas distribuidos, garantizando escalabilidad, seguridad y eficiencia operativa.",
+    "temas": [
+      {
+        "nombre": "API Gateway",
+        "descripcion": "Configuración de una capa que centraliza y gestiona las solicitudes entrantes, facilitando la comunicación con los microservicios internos."
+      },
+      {
+        "nombre": "Microservicios con NATS y TCP",
+        "descripcion": "Implementación de NATS para la mensajería eficiente entre microservicios y TCP para garantizar comunicaciones en tiempo real y de baja latencia."
+      },
+      {
+        "nombre": "Orquestación con Docker Compose y Git Submodules",
+        "descripcion": "Gestión de contenedores y dependencias de microservicios, asegurando un entorno de desarrollo coherente y escalable."
+      },
+      {
+        "nombre": "Integración con Stripe con Webhook:",
+        "descripcion": "Se integra Stripe para la gestión segura de pagoas, configurando webhooks para recibir notificaciones en tiempo real sobre eventos de transacciones."
+      },
+      {
+        "nombre": "Google Cloud Platform (GCP)",
+        "descripcion": "Se explora el despliegue y gestión de aplicaciones en la nube, aprovechando los servicios de GCP para escalabilidad y rendimiento."
+      },
+      {
+        "nombre": "CI/CD con Google Kubernetes Engine (GKE)",
+        "descripcion": "Se implementan pipelines de integración y entrega continua, utilizando GKE para la gestión de contenedores y orquestación de despliegues."
+      },
+      {
+        "nombre": "Kubernetes con Helm:",
+        "descripcion": "Se simplifica la gestión de aplicaciones en Kubernetes mediante Helm, facilitando despliegues consistentes y repetibles."
       }
     ]
   }

@@ -1,11 +1,11 @@
 .skills {
     width: 100%;
 
-    .borde-superior-skills{
-           height: 100px;
-           width: 100%;
-           clip-path: polygon(100% 0, 100% 99%, 0 6%);
-           background-image: var(--gradiente-de-header);
+    .borde-superior-skills {
+        height: 100px;
+        width: 100%;
+        clip-path: polygon(100% 0, 100% 99%, 0 6%);
+        background-image: var(--gradiente-de-header);
     }
 
     .contenedor {
@@ -227,13 +227,13 @@
                     transition: 0.2s ease-in-out;
                 }
 
-                .nombre-yarn {
-                    color: #3392BD;
+                .nombre-linux {
+                    color: #FCC624;
                     transition: 0.2s ease-in-out;
                 }
 
-                .icon-yarn {
-                    color: #3392BD;
+                .icon-linux {
+                    color: #FCC624;
                     transition: 0.2s ease-in-out;
                 }
 
@@ -272,13 +272,14 @@
                     transition: 0.2s ease-in-out;
                 }
 
-                .icon-trello {
-                    color: #2A82FC;
+                .icon-bash {
+                    // color: #39FF14;
+                    color: #53AC2A;
                     transition: 0.2s ease-in-out;
                 }
 
-                .nombre-trello {
-                    color: #2A82FC;
+                .nombre-bash {
+                    color: #53AC2A;
                     transition: 0.2s ease-in-out;
                 }
 
@@ -341,7 +342,7 @@
                     color: #194156;
                     transition: 0.2s ease-in-out;
                 }
-                
+
                 .icon-supabase {
                     color: #41CF8F;
                     transition: 0.2s ease-in-out;
@@ -369,34 +370,34 @@
 @media (max-width: 767px) {
     .skills {
         width: 100%;
-    
-        .borde-superior-skills{
-               height: 100px;
-               width: 100%;
-               clip-path: polygon(100% 0, 100% 99%, 0 6%);
-               background-image: var(--gradiente-de-header);
+
+        .borde-superior-skills {
+            height: 100px;
+            width: 100%;
+            clip-path: polygon(100% 0, 100% 99%, 0 6%);
+            background-image: var(--gradiente-de-header);
         }
-    
+
         .contenedor {
             padding: 0 20px;
-    
+
             .borde-superior {
                 background-color: red;
                 clip-path: polygon(100% 0, 0% 100%, 100% 100%);
             }
-    
+
             .contenedor-numero-azul {
-    
+
                 .numero {
                     background-color: #0F1B33;
                     border: 3px solid var(--color-de-texto-azul);
-    
+
                     p {
                         color: var(--color-de-texto-azul);
                     }
                 }
             }
-    
+
             .seccion-titulo-subtitulo-azul {
                 margin: 0 0 42px 0;
 
@@ -405,51 +406,50 @@
                         color: var(--color-de-texto-azul);
                     }
                 }
-    
+
                 .subtitulo {
                     h3 {}
                 }
-    
+
                 .linea-delimitante {
                     background-color: var(--color-de-texto-azul);
                 }
-    
+
                 .descripcion {
                     p {}
                 }
             }
-    
+
             .especialidades {
                 width: 100%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
 
-                .especialidad-frontend{
+                .especialidad-frontend {
                     margin: 0 0 6px 0;
                 }
 
-                .especialidad-backend{
-                }
-    
+                .especialidad-backend {}
+
                 .especialidad {
                     width: 100%;
-    
+
                     .nombre-skill {
                         margin: 0 0 3% 0;
-    
+
                         p {
                             font-size: clamp(22px, 2.5vw, 24px);
                         }
                     }
-    
+
                     .imagenes {
                         width: 100%;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
                         flex-wrap: wrap;
-    
+
                         .contenedor-de-imagen {
                             width: 30%;
                             padding: 10px;
@@ -458,25 +458,25 @@
                             align-items: center;
                             margin: auto;
                             margin-bottom: 6%;
-                            border: none !important;                            
-    
+                            border: none !important;
+
                             img {
                                 width: 72%;
                                 height: auto;
                             }
                         }
-    
+
                     }
                 }
             }
-    
+
             .separador {
                 width: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 display: none;
-    
+
                 .img {
                     width: 30%;
                     height: 88%;
@@ -486,33 +486,32 @@
                     box-shadow: 0 0 10px 0 var(--color-de-texto-azul);
                     border-top-left-radius: 20px;
                     border-bottom-right-radius: 20px;
-    
+
                     img {
                         width: 100%;
                         height: auto;
                     }
-    
+
                 }
             }
-    
+
             .seccion-titulo-subtitulo-herramientas {
                 margin: 36px 0 0 0;
-    
-                .subtitulo {
-                    h3 {
 
-                    }
+                .subtitulo {
+                    h3 {}
                 }
-    
+
                 .linea-delimitante {}
-    
+
                 .descripcion {
                     margin: -20px 0 26px 0;
+
                     p {}
                 }
             }
         }
-    
+
         .encuadrante {
             width: 100%;
             display: flex;
@@ -520,23 +519,23 @@
             flex-wrap: wrap;
             justify-content: space-evenly;
             margin: 40px 0 22px 0;
-    
+
             .imagen {
                 width: 50%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin: 0 0 40px 0;
-    
+
                 .icon {
                     width: 24px;
                     height: 24px;
                 }
-    
+
                 p {
                     font-size: clamp(10px, 6vw, 20px);
                 }
-    
+
             }
         }
     }
