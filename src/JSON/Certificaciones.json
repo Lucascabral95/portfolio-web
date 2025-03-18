@@ -163,31 +163,35 @@
     "fecha": "",
     "fechaDeObtencion": "26 de febrero del 2025",
     "picture": "/img/analista-junior-ciberseguridad.png",
-    "descripcion": "Durante el curso, trabajé con MySQL Workbench para la gestión de bases de datos relacionales, abordando tanto consultas SQL como la estructura de las tablas. Además, utilicé herramientas como Excel y Power BI para graficar y visualizar los datos, aplicando análisis visuales sobre grandes conjuntos de información. En el contexto de arquitectura de negocio, diseñé soluciones eficientes para la organización y procesamiento de datos, utilizando estrategias avanzadas de modelado y backups. También aprendí a gestionar la seguridad de bases de datos mediante comandos de DCL. Los temas que abordé incluyen:",
+    "descripcion": "En este curso, abordé herramientas y técnicas fundamentales para la protección de redes y sistemas informáticos. También profundicé en la configuración de dispositivos de seguridad, la protección de infraestructuras en la nube y la gestión de comunicaciones seguras mediante el uso de criptografía y redes privadas virtuales. Además, se exploraré enfoques avanzados para la detección y prevención de intrusiones, así como la identificación y mitigación de vulnerabilidades en aplicaciones web. Los temas principales tratados incluyen:",
     "temas": [
       {
-        "nombre": "Lenguajes SQL y Sublenguajes",
-        "descripcion": "Estudio de los lenguajes SQL y sus sublenguajes (DDL, DML, DCL, TCL) utilizados para interactuar con bases de datos relacionales."
+        "nombre": "Firewalls (Cisco, Palo Alto, Fortinet)",
+        "descripcion": "Configuración y gestión de firewalls para filtrar tráfico y proteger redes."
       },
       {
-        "nombre": "Consultas, Subconsultas y Vistas",
-        "descripcion": "Creación de consultas complejas, uso de subconsultas y vistas para simplificar la gestión de datos."
+        "nombre": "Administración de redes y protocolos",
+        "descripcion": "Gestión de redes y protocolos para asegurar la comunicación segura entre sistemas."
       },
       {
-        "nombre": "Estructura de Bases de Datos",
-        "descripcion": "Definición de objetos, tablas y su estructura, así como la gestión de datos a través de DDL y DML."
+        "nombre": "IDS/IPS (Snort, Suricata)",
+        "descripcion": "Implementación de sistemas de detección y prevención de intrusiones para identificar y bloquear amenazas."
       },
       {
-        "nombre": "Funciones y Procedimientos Almacenados",
-        "descripcion": "Uso de funciones, creación de procedimientos almacenados y triggers para automatizar tareas en la base de datos."
+        "nombre": "VPN (IPSec, SSL)",
+        "descripcion": "Configuración de VPNs para crear conexiones seguras y privadas a través de redes públicas."
       },
       {
-        "nombre": "Gestión de Transacciones y Backups",
-        "descripcion": "Manejo de transacciones con comandos TCL y estrategias para realizar copias de seguridad de bases de datos."
+        "nombre": "Cloud Security (AWS)",
+        "descripcion": "Protección de infraestructuras en la nube, específicamente en Amazon Web Services (AWS)."
       },
       {
-        "nombre": "Data Warehouse y Charlas Profesionales",
-        "descripcion": "Introducción a conceptos de data warehouse en inteligencia de datos y aprendizaje a través de charlas con expertos."
+        "nombre": "Criptografía (TLS, PKI, AES)",
+        "descripcion": "Uso de tecnologías criptográficas como TLS, PKI y AES para asegurar la privacidad y autenticidad de los datos."
+      },
+      {
+        "nombre": "OWASP, Burp Suite",
+        "descripcion": "OWASP se enfoca en las principales vulnerabilidades de aplicaciones web, y Burp Suite es una herramienta utilizada para identificar, analizar y corregir estas vulnerabilidades mediante pruebas de penetración."
       }
     ]
   },
