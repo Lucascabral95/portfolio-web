@@ -201,12 +201,12 @@
     "nombreIngles": "NestJS + Microservicios",
     "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-fce8daaa-3978-4a60-9505-ff2f0a62fe32.jpg?v=1741652566000",
     "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-fce8daaa-3978-4a60-9505-ff2f0a62fe32.jpg?v=1741652566000",
-    "imagen": "/img/nestjs-microservicios.jpg",
+    "imagen": "/img/nest-desarrollo-backend-certificado.jpg",
     "imagenIngles": "",
     "creacion": "",
     "fecha": "",
     "fechaDeObtencion": "10 de marzo del 2025",
-    "picture": "/img/nestjs-microservicios.jpg",
+    "picture": "/img/nest-desarrollo-backend-certificado.jpg",
     "descripcion": "Durante este curso profundizo en la construcción de aplicaciones modernas utilizando NestJS y una arquitectura de microservicios. Apliqué prácticas reales y modernas, junto a herramientas clave, para el desarrollo y despliegue continuo de sistemas distribuidos, garantizando escalabilidad, seguridad y eficiencia operativa.",
     "temas": [
       {
@@ -236,6 +236,50 @@
       {
         "nombre": "Kubernetes con Helm:",
         "descripcion": "Se simplifica la gestión de aplicaciones en Kubernetes mediante Helm, facilitando despliegues consistentes y repetibles."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Angular de 0 a experto - Edición 2025",
+    "nombreIngles": "Angular de 0 a experto - Edición 2025",
+    "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-2f309dea-5544-4b3d-9aae-6325acfa4e5d.jpg?v=1747599934000",
+    "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-2f309dea-5544-4b3d-9aae-6325acfa4e5d.jpg?v=1747599934000",
+    "imagen": "/img/angular-0-100-certificado.jpg",
+    "imagenIngles": "",
+    "creacion": "",
+    "fecha": "",
+    "fechaDeObtencion": "18 de junio del 2025",
+    "picture": "/img/angular-0-100-certificado.jpg",
+    "descripcion": "Completé este curso de Angular (versión 19+) sumamente robusto y completo, enfocado en el desarrollo de aplicaciones modernas con la nueva sintaxis del framework. Abordé en profundidad temas como programación reactiva con RxJS, autenticación y autorización, componentes stand alone, signals, manejo avanzado de rutas, formularios reactivos, interceptores HTTP y creación de pipes personalizados, adquiriendo así todas las herramientas necesarias para desenvolverme profesionalmente en Angular.",
+    "temas": [
+      {
+        "nombre": "RxJS (Programación reactiva y manejo de observables)",
+        "descripcion": "Adquirí experiencia en la gestión de flujos de datos asíncronos y eventos mediante observables y operadores de transformación."
+      },
+      {
+        "nombre": "Autenticación y autorización en aplicaciones Angular",
+        "descripcion": "Implementé mecanismos de protección de rutas y control de acceso de usuarios utilizando tokens y guardas."
+      },
+      {
+        "nombre": "Componentes stand alone y uso de Signals",
+        "descripcion": "Desarrollé componentes independientes sin módulos y gestioné el estado reactivo de la interfaz con signals."
+      },
+      {
+        "nombre": "Manejo avanzado de rutas (rutas hijas y lazy loading)",
+        "descripcion": "Configuré rutas hijas y optimicé la carga de módulos mediante lazy loading para mejorar el rendimiento."
+      },
+      {
+        "nombre": "Formularios reactivos",
+        "descripcion": "Construí formularios dinámicos y apliqué validaciones avanzadas utilizando el enfoque reactivo de Angular."
+      },
+      {
+        "nombre": "Interceptores HTTP",
+        "descripcion": "Apliqué interceptores para centralizar la gestión y modificación de solicitudes y respuestas HTTP."
+      },
+      {
+        "nombre": "Pipes personalizados",
+        "descripcion": "Implementé pipes a medida para transformar y presentar datos según los requerimientos de la aplicación."
       }
     ]
   }

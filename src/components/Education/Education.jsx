@@ -73,7 +73,7 @@ export default function Education() {
                                             <p className="fecha-emision-certificado"> {certificacion.fechaDeObtencion} </p>
                                         </div>
                                         <div className="menu-iconos">
-                                            <a href={certificacion.url} target="_blank">
+                                            <a href={certificacion.url} target="_blank" rel="noopener noreferrer">
                                                 <div className="icono">
                                                     <IoIosLink className="icon" />
                                                 </div>
@@ -94,7 +94,7 @@ export default function Education() {
                 {isOpenImage &&
                     <ImageZoom isOpenImage={isOpenImage} setIsOpenImage={setIsOpenImage} image={imagenSeccionada} />
                 }
-                
+
                 <div className="boton-de-ver-mas">
                     <button onClick={certificacionesAMostrar === 2 ? mostrarMas : verMenos}>
                         {certificacionesAMostrar === 2 ? "Ver más" : "Ver menos"}

@@ -1,316 +1,325 @@
 [
-    {
-      "id": 1,
-      "skill": "Javascript",
-      "progress": 80,
-      "imagen": "/img/logo-javascript.svg",
-      "imagenMonocolor": "/img/monocromatico-javascript.svg",
-      "tipo": "Frontend",
-      "subtipo": "",
-      "bordeColor": "linear-gradient(to right, #F7DF1E, #080808) 1",
-      "boxShadow": "0 0 10px 2px #F7DF1E, 0 0 10px 2px #080808"
-    },
-    {
-      "id": 2,
-      "skill": "Typescript",
-      "progress": 80,
-      "imagen": "/img/logo-typescript.svg",
-      "imagenMonocolor": "/img/logo-github.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #3178C6, #ffffff, #3178C6) 1",
-      "boxShadow": "0 0 10px 2px #3178C6, 0 0 10px 2px #ffffff, 0 0 10px 2px #3178C6"
-    },
-    {
-      "id": 3,
-      "skill": "React JS",
-      "progress": 80,
-      "imagen": "/img/react.svg",
-      "imagenMonocolor": "/img/monocromatico-react.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #007ACC, #007ACC) 1",
-      "boxShadow": "0 0 10px 2px #007ACC"
-    },
-    {
-      "id": 4,
-      "skill": "Vite JS",
-      "progress": 80,
-      "imagen": "/img/logo-vite.svg",
-      "imagenMonocolor": "/img/logo-vite.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #FFCD25, #6C99FE, #B939FE) 1",
-      "boxShadow": "0 0 10px 2px #FFCD25, 0 0 10px 2px #6C99FE, 0 0 10px 2px #B939FE"
-    },
-    {
-      "id": 5,
-      "skill": "Next JS",
-      "progress": 80,
-      "imagen": "/img/logo-next.svg",
-      "imagenMonocolor": "/img/logo-next.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #ffffff, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff",
-      "boxShadowInterno": "0 0 4px 1px #ffffff, 0 0 4px 1px #ffffff"
-    },
-    {
-      "id": 6,
-      "skill": "Redux JS",
-      "progress": 80,
-      "imagen": "/img/logo-redux.svg",
-      "imagenMonocolor": "/img/logo-github.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #764ABC, #764ABC) 1",
-      "boxShadow": "0 0 10px 2px #764ABC, 0 0 10px 2px #764ABC"
-    },
-    {
-      "id": 7,
-      "skill": "HTML5",
-      "progress": 80,
-      "imagen": "/img/logo-html.png",
-      "imagenMonocolor": "/img/monocromatico-html.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #FC490B, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #FC490B, 0 0 10px 2px #ffffff"
-    },
-    {
-      "id": 8,
-      "skill": "CSS3",
-      "progress": 80,
-      "imagen": "/img/logo-css.svg",
-      "imagenMonocolor": "/img/monocromatico-css.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #264DE4, #2965F1, #EBEBEB, #FFFFFF) 1",
-      "boxShadow": "0 0 10px 2px #264DE4, 0 0 10px 2px #2965F1, 0 0 10px 2px #EBEBEB, 0 0 10px 2px #FFFFFF"
-    },
-    {
-      "id": 9,
-      "skill": "Sass",
-      "progress": 80,
-      "imagen": "/img/logo-sass.svg",
-      "imagenMonocolor": "/img/monocromatico-sass.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #CD6799, #CD6799) 1",
-      "boxShadow": "0 0 10px 2px #CD6799, 0 0 10px 2px #CD6799"
-    },
-    {
-      "id": 10,
-      "skill": "Responsive",
-      "progress": 80,
-      "imagen": "/img/logo-responsive.svg",
-      "imagenMonocolor": "/img/logo-github.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #999999, #13111C, #E50914) 1",
-      "boxShadow": "0 0 10px 2px #999999, 0 0 10px 2px #13111C, 0 0 10px 2px #E50914"
-    },
-    {
-      "id": 11,
-      "skill": "Bootstrap",
-      "progress": 80,
-      "imagen": "/img/logo-bootstrap.svg",
-      "imagenMonocolor": "/img/monocromatico-bootstrap.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #563D7C, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #563D7C, 0 0 10px 2px #ffffff"
-    },
-    {
-      "id": 12,
-      "skill": "Tailwind",
-      "progress": 80,
-      "imagen": "/img/tailwind.svg",
-      "imagenMonocolor": "/img/tailwind.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #44A8B3, #44A8B3) 1",
-      "boxShadow": "0 0 10px 2px #44A8B3, 0 0 10px 2px #44A8B3"
-    },
-    {
-      "id": 13,
-      "skill": "GraphQL",
-      "progress": 80,
-      "imagen": "/img/graphql.svg",
-      "imagenMonocolor": "/img/graphql.svg",
-      "tipo": "Frontend",
-      "bordeColor": "linear-gradient(to right, #E535AB, #E535AB) 1",
-      "boxShadow": "0 0 10px 2px #E535AB, 0 0 10px 2px #E535AB"
-    },
-    {
-      "id": 14,
-      "skill": "Node JS",
-      "progress": 80,
-      "imagen": "/img/logo-node-js.svg",
-      "imagenMonocolor": "https://www.svgrepo.com/show/314392/node.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #77B360, #77B360) 1",
-      "boxShadow": "0 0 10px 2px #77B360, 0 0 10px 2px #77B360"
-    },
-    {
-      "id": 15,
-      "skill": "Nest JS",
-      "progress": 80,
-      "imagen": "/img/nestjs.svg",
-      "imagenMonocolor": "/img/logo-github.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #E0234E, #E0234E, #E0234E) 1",
-      "boxShadow": "0 0 10px 2px #E0234E, 0 0 10px 2px #E0234E, 0 0 10px 2px #E0234E"
-    },
-    {
-      "id": 16,
-      "skill": "Typescript",
-      "progress": 80,
-      "imagen": "/img/logo-typescript.svg",
-      "imagenMonocolor": "/img/monocromatico-javascript.svg",
-      "tipo": "Backend",
-      "subtipo": "",
-      "bordeColor": "linear-gradient(to right, #3178C6, #ffffff, #3178C6) 1",
-      "boxShadow": "0 0 10px 2px #3178C6, 0 0 10px 2px #ffffff, 0 0 10px 2px #3178C6"
-    },
-    {
-      "id": 17,
-      "skill": "Next JS",
-      "progress": 80,
-      "imagen": "/img/logo-next.svg",
-      "imagenMonocolor": "/img/logo-nextjs-white.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #ffffff, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff",
-      "boxShadowInterno": "0 0 4px 1px #ffffff, 0 0 4px 1px #ffffff"
-    },
-    {
-      "id": 18,
-      "skill": "Express JS",
-      "progress": 80,
-      "imagen": "/img/logo-express-white.svg",
-      "imagenMonocolor": "/img/logo-express.svg",
-      "tipo": "Backend",
-      "boxShadow": "0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff"
-    },
-    {
-      "id": 19,
-      "skill": "RESTful API",
-      "progress": 80,
-      "imagen": "/img/logo-api-dos.svg",
-      "imagenMonocolor": "/img/logo-api.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #853BCE, #853BCE) 1",
-      "boxShadow": "0 0 10px 2px #853BCE, 0 0 10px 2px #853BCE"
-    },
-    {
-      "id": 20,
-      "skill": "Mongo DB",
-      "progress": 80,
-      "imagen": "/img/logo-mongo-db.svg",
-      "imagenMonocolor": "/img/monocromatico-mongodb.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #13AA52, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #13AA52, 0 0 10px 2px #ffffff"
-    },
-    {
-      "id": 21,
-      "skill": "SQL",
-      "progress": 80,
-      "imagen": "/img/logo-sql.svg",
-      "imagenMonocolor": "/img/monocromatico-mysql.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #00BCF2, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #00BCF2, 0 0 10px 2px #ffffff"
-    },
-    {
-      "id": 22,
-      "skill": "Excel",
-      "progress": 80,
-      "imagen": "/img/logo-excel.svg",
-      "imagenMonocolor": "/img/monocromatico-excel.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #117D42, #33C481, #21A366, #107C41) 1",
-      "boxShadow": "0 0 10px 2px #117D42, 0 0 10px 2px #33C481, 0 0 10px 2px #21A366, 0 0 10px 2px #107C41"
-    },
-    {
-      "id": 23,
-      "skill": "Power BI",
-      "progress": 80,
-      "imagen": "/img/logo-powerbi-dos.svg",
-      "imagenMonocolor": "/img/logo-power-bi.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #FAC708, #2B2728) 1",
-      "boxShadow": "0 0 10px 2px #FAC708, 0 0 10px 2px #2B2728"
-    },
-    {
-      "id": 24,
-      "skill": "Python",
-      "progress": 80,
-      "imagen": "/img/python.svg",
-      "imagenMonocolor": "/img/python.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #3671A1, #3671A1) 1",
-      "boxShadow": "0 0 10px 2px #3671A1, 0 0 10px 2px #3671A1"
-    },
-    {
-      "id": 25,
-      "skill": "Postman",
-      "progress": 80,
-      "imagen": "/img/django.svg",
-      "imagenMonocolor": "/img/monocromatico-postman.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #113228, #113228) 1",
-      "boxShadow": "0 0 10px 2px #113228, 0 0 10px 2px #113228"
-    },
-    {
-      "id": 26,
-      "skill": "Zustand",
-      "progress": 80,
-      "imagen": "/img/logo-zustand.png",
-      "imagenMonocolor": "/img/monocromatico-zustand.png",
-      "tipo": "",
-      "bordeColor": "linear-gradient(to right, #4A453F, #FAC33E) 1",
-      "boxShadow": "0 0 10px 2px #4A453F, 0 0 10px 2px #FAC33E"
-    },
-    {
-      "id": 27,
-      "skill": "Docker",
-      "progress": 80,
-      "imagen": "/img/logo-docker.svg",
-      "imagenMonocolor": "/img/monocromatico-docker.svg",
-      "tipo": "",
-      "bordeColor": "linear-gradient(to right, #007ACC, #007ACC, #26C2EE, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #007ACC, 0 0 10px 2px #007ACC, 0 0 10px 2px #26C2EE, 0 0 10px 2px #ffffff"
-    },
-    {
-      "id": 28,
-      "skill": "Git",
-      "progress": 80,
-      "imagen": "/img/logo-git.svg",
-      "imagenMonocolor": "/img/monocromatico-git.svg",
-      "tipo": "",
-      "bordeColor": "linear-gradient(to right, #F15739, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #F15739, 0 0 10px 2px #ffffff"
-    },
-    {
-      "id": 29,
-      "skill": "Github",
-      "progress": 80,
-      "imagen": "/img/logo-github.svg",
-      "imagenMonocolor": "/img/logo-github.svg",
-      "tipo": "",
-      "bordeColor": "linear-gradient(to right, #23262B, black, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #23262B, 0 0 10px 2px black, 0 0 10px 2px #ffffff"
-    },
-    {
-      "id": 30,
-      "skill": "GraphQL",
-      "progress": 80,
-      "imagen": "/img/graphql.svg",
-      "imagenMonocolor": "/img/graphql.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #E535AB, #E535AB) 1",
-      "boxShadow": "0 0 10px 2px #E535AB, 0 0 10px 2px #E535AB"
-    },
-    {
-      "id": 31,
-      "skill": "Swagger",
-      "progress": 80,
-      "imagen": "/img/logo-swagger.svg",
-      "imagenMonocolor": "/img/monocromatico-swagger.svg",
-      "tipo": "Backend",
-      "bordeColor": "linear-gradient(to right, #49A32B, #ffffff) 1",
-      "boxShadow": "0 0 10px 2px #49A32B, 0 0 10px 2px #ffffff"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "skill": "Javascript",
+    "progress": 80,
+    "imagen": "/img/logo-javascript.svg",
+    "imagenMonocolor": "/img/monocromatico-javascript.svg",
+    "tipo": "Frontend",
+    "subtipo": "",
+    "bordeColor": "linear-gradient(to right, #F7DF1E, #080808) 1",
+    "boxShadow": "0 0 10px 2px #F7DF1E, 0 0 10px 2px #080808"
+  },
+  {
+    "id": 2,
+    "skill": "Typescript",
+    "progress": 80,
+    "imagen": "/img/logo-typescript.svg",
+    "imagenMonocolor": "/img/logo-github.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #3178C6, #ffffff, #3178C6) 1",
+    "boxShadow": "0 0 10px 2px #3178C6, 0 0 10px 2px #ffffff, 0 0 10px 2px #3178C6"
+  },
+  {
+    "id": 3,
+    "skill": "React JS",
+    "progress": 80,
+    "imagen": "/img/react.svg",
+    "imagenMonocolor": "/img/monocromatico-react.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #007ACC, #007ACC) 1",
+    "boxShadow": "0 0 10px 2px #007ACC"
+  },
+  {
+    "id": 4,
+    "skill": "Angular",
+    "progress": 80,
+    "imagen": "/img/logo-angular.svg",
+    "imagenMonocolor": "/img/monocromatico-swagger.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #DE0837, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #DE0837, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 5,
+    "skill": "Vite JS",
+    "progress": 80,
+    "imagen": "/img/logo-vite.svg",
+    "imagenMonocolor": "/img/logo-vite.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #FFCD25, #6C99FE, #B939FE) 1",
+    "boxShadow": "0 0 10px 2px #FFCD25, 0 0 10px 2px #6C99FE, 0 0 10px 2px #B939FE"
+  },
+  {
+    "id": 6,
+    "skill": "Next JS",
+    "progress": 80,
+    "imagen": "/img/logo-next.svg",
+    "imagenMonocolor": "/img/logo-next.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #ffffff, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff",
+    "boxShadowInterno": "0 0 4px 1px #ffffff, 0 0 4px 1px #ffffff"
+  },
+  {
+    "id": 7,
+    "skill": "Redux JS",
+    "progress": 80,
+    "imagen": "/img/logo-redux.svg",
+    "imagenMonocolor": "/img/logo-github.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #764ABC, #764ABC) 1",
+    "boxShadow": "0 0 10px 2px #764ABC, 0 0 10px 2px #764ABC"
+  },
+  {
+    "id": 8,
+    "skill": "HTML5",
+    "progress": 80,
+    "imagen": "/img/logo-html.png",
+    "imagenMonocolor": "/img/monocromatico-html.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #FC490B, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #FC490B, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 9,
+    "skill": "CSS3",
+    "progress": 80,
+    "imagen": "/img/logo-css.svg",
+    "imagenMonocolor": "/img/monocromatico-css.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #264DE4, #2965F1, #EBEBEB, #FFFFFF) 1",
+    "boxShadow": "0 0 10px 2px #264DE4, 0 0 10px 2px #2965F1, 0 0 10px 2px #EBEBEB, 0 0 10px 2px #FFFFFF"
+  },
+  {
+    "id": 10,
+    "skill": "Sass",
+    "progress": 80,
+    "imagen": "/img/logo-sass.svg",
+    "imagenMonocolor": "/img/monocromatico-sass.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #CD6799, #CD6799) 1",
+    "boxShadow": "0 0 10px 2px #CD6799, 0 0 10px 2px #CD6799"
+  },
+  {
+    "id": 11,
+    "skill": "Responsive",
+    "progress": 80,
+    "imagen": "/img/logo-responsive.svg",
+    "imagenMonocolor": "/img/logo-github.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #999999, #13111C, #E50914) 1",
+    "boxShadow": "0 0 10px 2px #999999, 0 0 10px 2px #13111C, 0 0 10px 2px #E50914"
+  },
+  {
+    "id": 12,
+    "skill": "Bootstrap",
+    "progress": 80,
+    "imagen": "/img/logo-bootstrap.svg",
+    "imagenMonocolor": "/img/monocromatico-bootstrap.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #563D7C, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #563D7C, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 13,
+    "skill": "Tailwind",
+    "progress": 80,
+    "imagen": "/img/tailwind.svg",
+    "imagenMonocolor": "/img/tailwind.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #44A8B3, #44A8B3) 1",
+    "boxShadow": "0 0 10px 2px #44A8B3, 0 0 10px 2px #44A8B3"
+  },
+  {
+    "id": 14,
+    "skill": "GraphQL",
+    "progress": 80,
+    "imagen": "/img/graphql.svg",
+    "imagenMonocolor": "/img/graphql.svg",
+    "tipo": "Frontend",
+    "bordeColor": "linear-gradient(to right, #E535AB, #E535AB) 1",
+    "boxShadow": "0 0 10px 2px #E535AB, 0 0 10px 2px #E535AB"
+  },
+  {
+    "id": 15,
+    "skill": "Node JS",
+    "progress": 80,
+    "imagen": "/img/logo-node-js.svg",
+    "imagenMonocolor": "https://www.svgrepo.com/show/314392/node.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #77B360, #77B360) 1",
+    "boxShadow": "0 0 10px 2px #77B360, 0 0 10px 2px #77B360"
+  },
+  {
+    "id": 16,
+    "skill": "Nest JS",
+    "progress": 80,
+    "imagen": "/img/nestjs.svg",
+    "imagenMonocolor": "/img/logo-github.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #E0234E, #E0234E, #E0234E) 1",
+    "boxShadow": "0 0 10px 2px #E0234E, 0 0 10px 2px #E0234E, 0 0 10px 2px #E0234E"
+  },
+  {
+    "id": 17,
+    "skill": "Typescript",
+    "progress": 80,
+    "imagen": "/img/logo-typescript.svg",
+    "imagenMonocolor": "/img/monocromatico-javascript.svg",
+    "tipo": "Backend",
+    "subtipo": "",
+    "bordeColor": "linear-gradient(to right, #3178C6, #ffffff, #3178C6) 1",
+    "boxShadow": "0 0 10px 2px #3178C6, 0 0 10px 2px #ffffff, 0 0 10px 2px #3178C6"
+  },
+  {
+    "id": 18,
+    "skill": "Next JS",
+    "progress": 80,
+    "imagen": "/img/logo-next.svg",
+    "imagenMonocolor": "/img/logo-nextjs-white.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #ffffff, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff",
+    "boxShadowInterno": "0 0 4px 1px #ffffff, 0 0 4px 1px #ffffff"
+  },
+  {
+    "id": 19,
+    "skill": "Express JS",
+    "progress": 80,
+    "imagen": "/img/logo-express-white.svg",
+    "imagenMonocolor": "/img/logo-express.svg",
+    "tipo": "Backend",
+    "boxShadow": "0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 20,
+    "skill": "RESTful API",
+    "progress": 80,
+    "imagen": "/img/logo-api-dos.svg",
+    "imagenMonocolor": "/img/logo-api.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #853BCE, #853BCE) 1",
+    "boxShadow": "0 0 10px 2px #853BCE, 0 0 10px 2px #853BCE"
+  },
+  {
+    "id": 21,
+    "skill": "Mongo DB",
+    "progress": 80,
+    "imagen": "/img/logo-mongo-db.svg",
+    "imagenMonocolor": "/img/monocromatico-mongodb.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #13AA52, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #13AA52, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 22,
+    "skill": "SQL",
+    "progress": 80,
+    "imagen": "/img/logo-sql.svg",
+    "imagenMonocolor": "/img/monocromatico-mysql.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #00BCF2, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #00BCF2, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 23,
+    "skill": "Excel",
+    "progress": 80,
+    "imagen": "/img/logo-excel.svg",
+    "imagenMonocolor": "/img/monocromatico-excel.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #117D42, #33C481, #21A366, #107C41) 1",
+    "boxShadow": "0 0 10px 2px #117D42, 0 0 10px 2px #33C481, 0 0 10px 2px #21A366, 0 0 10px 2px #107C41"
+  },
+  {
+    "id": 24,
+    "skill": "Power BI",
+    "progress": 80,
+    "imagen": "/img/logo-powerbi-dos.svg",
+    "imagenMonocolor": "/img/logo-power-bi.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #FAC708, #2B2728) 1",
+    "boxShadow": "0 0 10px 2px #FAC708, 0 0 10px 2px #2B2728"
+  },
+  {
+    "id": 25,
+    "skill": "Python",
+    "progress": 80,
+    "imagen": "/img/python.svg",
+    "imagenMonocolor": "/img/python.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #3671A1, #3671A1) 1",
+    "boxShadow": "0 0 10px 2px #3671A1, 0 0 10px 2px #3671A1"
+  },
+  {
+    "id": 26,
+    "skill": "Postman",
+    "progress": 80,
+    "imagen": "/img/django.svg",
+    "imagenMonocolor": "/img/monocromatico-postman.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #113228, #113228) 1",
+    "boxShadow": "0 0 10px 2px #113228, 0 0 10px 2px #113228"
+  },
+  {
+    "id": 27,
+    "skill": "Zustand",
+    "progress": 80,
+    "imagen": "/img/logo-zustand.png",
+    "imagenMonocolor": "/img/monocromatico-zustand.png",
+    "tipo": "",
+    "bordeColor": "linear-gradient(to right, #4A453F, #FAC33E) 1",
+    "boxShadow": "0 0 10px 2px #4A453F, 0 0 10px 2px #FAC33E"
+  },
+  {
+    "id": 28,
+    "skill": "Docker",
+    "progress": 80,
+    "imagen": "/img/logo-docker.svg",
+    "imagenMonocolor": "/img/monocromatico-docker.svg",
+    "tipo": "",
+    "bordeColor": "linear-gradient(to right, #007ACC, #007ACC, #26C2EE, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #007ACC, 0 0 10px 2px #007ACC, 0 0 10px 2px #26C2EE, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 29,
+    "skill": "Git",
+    "progress": 80,
+    "imagen": "/img/logo-git.svg",
+    "imagenMonocolor": "/img/monocromatico-git.svg",
+    "tipo": "",
+    "bordeColor": "linear-gradient(to right, #F15739, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #F15739, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 30,
+    "skill": "Github",
+    "progress": 80,
+    "imagen": "/img/logo-github.svg",
+    "imagenMonocolor": "/img/logo-github.svg",
+    "tipo": "",
+    "bordeColor": "linear-gradient(to right, #23262B, black, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #23262B, 0 0 10px 2px black, 0 0 10px 2px #ffffff"
+  },
+  {
+    "id": 31,
+    "skill": "GraphQL",
+    "progress": 80,
+    "imagen": "/img/graphql.svg",
+    "imagenMonocolor": "/img/graphql.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #E535AB, #E535AB) 1",
+    "boxShadow": "0 0 10px 2px #E535AB, 0 0 10px 2px #E535AB"
+  },
+  {
+    "id": 32,
+    "skill": "Swagger",
+    "progress": 80,
+    "imagen": "/img/logo-swagger.svg",
+    "imagenMonocolor": "/img/monocromatico-swagger.svg",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #49A32B, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #49A32B, 0 0 10px 2px #ffffff"
+  }
+]

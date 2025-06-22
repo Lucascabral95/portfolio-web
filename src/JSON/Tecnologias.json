@@ -1,114 +1,122 @@
 [
-    {
-        "id": 1,
-        "tecnologia": "VSCode",
-        "imagen": "SiVisualstudiocode",
-        "estilo": "",
-        "clase": "icon-vscode",
-        "nombre": "nombre-vscode"
-    },
-    {
-        "id": 2,
-        "tecnologia": "Git",
-        "imagen": "FaGitAlt",
-        "estilo": "",
-        "clase": "icon-git",
-        "nombre": "nombre-git"
-    },
-    {
-        "id": 3,
-        "tecnologia": "Github",
-        "imagen": "FaGithub",
-        "estilo": "",
-        "clase": "icon-github",
-        "nombre": "nombre-github"
-    },
-    {
-        "id": 4,
-        "tecnologia": "NPM",
-        "imagen": "FaNpm",
-        "estilo": "",
-        "clase": "icon-npm",
-        "nombre": "nombre-npm"
-    },
-    {
-        "id": 5,
-        "tecnologia": "Workbench",
-        "imagen": "SiMysql",
-        "estilo": "",
-        "clase": "icon-mysql",
-        "nombre": "nombre-workbench"
-    },
-    {
-        "id": 6,
-        "tecnologia": "Stripe",
-        "imagen": "FaStripe",
-        "estilo": "",
-        "clase": "icon-stripe",
-        "nombre": "nombre-stripe"
-    },
-    {
-        "id": 7,
-        "tecnologia": "Docker",
-        "imagen": "TbBrandDocker",
-        "estilo": "",
-        "clase": "icon-docker",
-        "nombre": "nombre-docker"
-    },
-    {
-        "id": 8,
-        "tecnologia": "Kubernetes",
-        "imagen": "SiKubernetes",
-        "estilo": "",
-        "clase": "icon-kubernetes",
-        "nombre": "nombre-kubernetes"
-    },
-    {
-        "id": 9,
-        "tecnologia": "Trello",
-        "imagen": "FaTrello",
-        "estilo": "",
-        "clase": "icon-trello",
-        "nombre": "nombre-trello"
-    },
-    {
-        "id": 10,
-        "tecnologia": "Vercel",
-        "imagen": "SiVercel",
-        "estilo": "",
-        "clase": "icon-vercel",
-        "nombre": "nombre-vercel"
-    },
-    {
-        "id": 11,
-        "tecnologia": "Railway",
-        "imagen": "SiRailway",
-        "estilo": "",
-        "clase": "icon-railway",
-        "nombre": "nombre-railway"
-    },
-    {
-        "id": 12,
-        "tecnologia": "Netlify",
-        "imagen": "BiLogoNetlify",
-        "estilo": "",
-        "clase": "icon-netlify",
-        "nombre": "nombre-netlify"
-    },
-    {
-        "id": 13,
-        "tecnologia": "Heroku",
-        "imagen": "BiLogoHeroku",
-        "estilo": "",
-        "clase": "icon-heroku",
-        "nombre": "nombre-heroku"
-    },
-    {
-        "id": 14,
-        "tecnologia": "Figma",
-        "imagen": "FiFigma",
-        "estilo": "",
-        "clase": "icon-figma",
-        "nombre": "nombre-figma"
-    }
+  {
+    "id": 1,
+    "tecnologia": "VSCode",
+    "imagen": "SiVisualstudiocode",
+    "estilo": "",
+    "clase": "icon-vscode",
+    "nombre": "nombre-vscode"
+  },
+  {
+    "id": 2,
+    "tecnologia": "Git",
+    "imagen": "FaGitAlt",
+    "estilo": "",
+    "clase": "icon-git",
+    "nombre": "nombre-git"
+  },
+  {
+    "id": 3,
+    "tecnologia": "Github",
+    "imagen": "FaGithub",
+    "estilo": "",
+    "clase": "icon-github",
+    "nombre": "nombre-github"
+  },
+  {
+    "id": 4,
+    "tecnologia": "NPM",
+    "imagen": "FaNpm",
+    "estilo": "",
+    "clase": "icon-npm",
+    "nombre": "nombre-npm"
+  },
+  {
+    "id": 5,
+    "tecnologia": "Workbench",
+    "imagen": "SiMysql",
+    "estilo": "",
+    "clase": "icon-mysql",
+    "nombre": "nombre-workbench"
+  },
+  {
+    "id": 6,
+    "tecnologia": "Stripe",
+    "imagen": "FaStripe",
+    "estilo": "",
+    "clase": "icon-stripe",
+    "nombre": "nombre-stripe"
+  },
+  {
+    "id": 7,
+    "tecnologia": "Docker",
+    "imagen": "TbBrandDocker",
+    "estilo": "",
+    "clase": "icon-docker",
+    "nombre": "nombre-docker"
+  },
+  {
+    "id": 8,
+    "tecnologia": "Kubernetes",
+    "imagen": "SiKubernetes",
+    "estilo": "",
+    "clase": "icon-kubernetes",
+    "nombre": "nombre-kubernetes"
+  },
+  {
+    "id": 9,
+    "tecnologia": "Trello",
+    "imagen": "FaTrello",
+    "estilo": "",
+    "clase": "icon-trello",
+    "nombre": "nombre-trello"
+  },
+  {
+    "id": 10,
+    "tecnologia": "Vercel",
+    "imagen": "SiVercel",
+    "estilo": "",
+    "clase": "icon-vercel",
+    "nombre": "nombre-vercel"
+  },
+  {
+    "id": 11,
+    "tecnologia": "Railway",
+    "imagen": "SiRailway",
+    "estilo": "",
+    "clase": "icon-railway",
+    "nombre": "nombre-railway"
+  },
+  {
+    "id": 12,
+    "tecnologia": "Netlify",
+    "imagen": "BiLogoNetlify",
+    "estilo": "",
+    "clase": "icon-netlify",
+    "nombre": "nombre-netlify"
+  },
+  {
+    "id": 13,
+    "tecnologia": "Heroku",
+    "imagen": "BiLogoHeroku",
+    "estilo": "",
+    "clase": "icon-heroku",
+    "nombre": "nombre-heroku"
+  },
+  {
+    "id": 14,
+    "tecnologia": "Figma",
+    "imagen": "FiFigma",
+    "estilo": "",
+    "clase": "icon-figma",
+    "nombre": "nombre-figma"
+  },
+  {
+    "id": 15,
+    "tecnologia": "Socket.IO",
+    "imagen": "SiSocketdotio",
+    "estilo": "",
+    "clase": "icon-socket",
+    "nombre": "nombre-socket"
+  }
 ]

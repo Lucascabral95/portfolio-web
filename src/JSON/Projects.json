@@ -1,5 +1,162 @@
 [
   {
+    "linkRepo": "https://github.com/Lucascabral95/hospital-management-system-healthsync-argentina",
+    "nombre": "Hospital Management System: HealthSync",
+    "claves": "Características Claves:",
+    "id": 31,
+    "titulo": "Hospital Management System: HealthSync",
+    "subtitulo": "Aplicación web para gestionar pacientes, médicos, citas en tiempo real e historiales clínicos en hospitales.",
+    "imagen": "/img/healthsync-2.png",
+    "urlOficial": "https://hospital-management-system-healthsync.netlify.app/",
+    "url": "https://hospital-management-system-healthsync.netlify.app/",
+    "descripcion": "Hospital Management System: HealthSync es una aplicación web moderna desarrollada con Angular y TypeScript para la gestión integral de hospitales. Permite administrar pacientes, doctores, internaciones, citas médicas en tiempo real, historiales clínicos y más, facilitando la operación diaria y la toma de decisiones en entornos hospitalarios.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/tailwind.svg",
+        "nombre": "Tailwind"
+      },
+      {
+        "imagen": "/img/nestjs-svg.svg",
+        "nombre": "NestJS"
+      },
+      {
+        "imagen": "/img/logo-typescript.svg",
+        "nombre": "TypeScript"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      },
+      {
+        "imagen": "/img/socket-io.svg",
+        "nombre": "Socket.IO"
+      }
+    ],
+    "creacion": "20/06/2025",
+    "fechaDeObtencion": "20/06/2025",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/healthsync-2.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/healthsync-3.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/healthsync-5.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#EB2F4B",
+        "tecnologia": "NestJS"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "white",
+        "tecnologia": "JWT"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "#63F655",
+        "tecnologia": "Neon Serverless"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#194156",
+        "tecnologia": "Prisma"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#347CBE",
+        "tecnologia": "TypeScript"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#08609F",
+        "tecnologia": "LocalStorage"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "Socket.IO"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Gestión de Pacientes",
+        "descripcion": "Registro, edición y búsqueda de pacientes, con información personal, historial y estado de admisión."
+      },
+      {
+        "nombre": "Administración de Doctores",
+        "descripcion": "Alta, edición y filtrado de personal médico, con especialidades y perfiles."
+      },
+      {
+        "nombre": "Internaciones",
+        "descripcion": "Registro y seguimiento de internaciones, diagnósticos asociados y estados (pendiente, en progreso, completada)."
+      },
+      {
+        "nombre": "Citas Médicas",
+        "descripcion": "Solicitud, gestión y visualización de turnos médicos, con estados y especialidades."
+      },
+      {
+        "nombre": "Historiales Médicos",
+        "descripcion": "Visualización y registro de diagnósticos y tratamientos por paciente y doctor."
+      },
+      {
+        "nombre": "Panel de Administración",
+        "descripcion": "Dashboard con métricas clave y acceso rápido a los módulos principales."
+      },
+      {
+        "nombre": "Comunicación en Tiempo Real",
+        "descripcion": "Actualización instantánea de citas médicas mediante WebSockets (Socket.io)."
+      },
+      {
+        "nombre": "Autenticación y Autorización",
+        "descripcion": "Acceso seguro con JWT y roles (ADMIN, DOCTOR, PATIENT)."
+      },
+      {
+        "nombre": "Paginación y Filtros",
+        "descripcion": "Listados con paginación y filtros avanzados por nombre, especialidad, estado, etc."
+      },
+      {
+        "nombre": "UI Moderna",
+        "descripcion": "Interfaz responsiva con TailwindCSS y DaisyUI."
+      },
+      {
+        "nombre": "Dark mode",
+        "descripcion": "Modo oscuro con TailwindCSS y DaisyUI. Tema claro: Corporate. Tema oscuro: Drácula."
+      }
+    ]
+  },
+  {
     "linkRepo": "https://github.com/Lucascabral95/libreria-cybrary",
     "nombre": "Librería Cybrary",
     "claves": "Características Claves:",
@@ -1021,11 +1178,11 @@
       {
         "nombreImagen": "Foto extra 1",
         "imagenExtra": "/img/ecommerce-doraemon.jpg"
-      }, 
+      },
       {
         "nombreImagen": "Foto extra 2",
         "imagenExtra": "/img/doraemon-dos.png"
-      }, 
+      },
       {
         "nombreImagen": "Foto extra 3",
         "imagenExtra": "/img/dorameon-tres.png"

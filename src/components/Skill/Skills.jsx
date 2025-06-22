@@ -1,14 +1,13 @@
 import "./Skills.scss"
 import Stacks from "../../JSON/Skills.json"
 import { useState } from "react"
-import { FaTrello, FaGithub, FaGitAlt, FaNpm, FaStripe, FaLinux } from "react-icons/fa";
+import { FaGithub, FaGitAlt, FaNpm, FaStripe, FaLinux } from "react-icons/fa";
 import { RiSupabaseFill } from "react-icons/ri";
-import { SiVercel, SiVisualstudiocode, SiKubernetes, SiMysql, SiBun, SiGnubash, SiPrisma, SiSequelize } from "react-icons/si";
+import { SiVercel, SiVisualstudiocode, SiKubernetes, SiMysql, SiBun, SiGnubash, SiPrisma, SiSequelize, SiSocketdotio } from "react-icons/si";
 import { TbBrandDocker } from "react-icons/tb";
-import { FiFigma } from "react-icons/fi";
 
 export default function Skills() {
-    const [arraySkills, setArraySkills] = useState({
+    const [arraySkills] = useState({
         frontend: Stacks.filter(skill => skill.tipo.includes("Frontend")),
         backend: Stacks.filter(skill => skill.tipo.includes("Backend")),
         allSkills: Stacks.filter(skill => skill.tipo.includes("Frontend") || skill.tipo.includes("Backend"))
@@ -83,7 +82,6 @@ export default function Skills() {
                                         style={{
                                             borderRadius: `${item.skill === "Next JS" ? "50%" : "0"}`,
                                             boxShadow: `${item.skill === "Next JS" && item.boxShadowInterno}`,
-
                                             backgroundColor: `${item.skill === "Next JS" ? "white" : "transparent"}`
                                         }}
                                     />
@@ -149,13 +147,15 @@ export default function Skills() {
                         <p className="nombre-kubernetes"> Kubernetes </p>
                     </div>
                     <div className="imagen">
-                        <FiFigma className="icon icon-figma" />
-                        <p className="nombre-figma"> Figma </p>
+                        <SiSocketdotio className="icon icon-socket" />
+                        <p className="nombre-socket"> Socket.IO </p>
                     </div>
+
+
                     <div className="imagen">
                         <SiSequelize className="icon icon-sequelize" />
                         <p className="nombre-sequelize"> Sequelize </p>
-                    </div>                     
+                    </div>
                     <div className="imagen">
                         <SiPrisma className="icon icon-prisma" />
                         <p className="nombre-prisma"> Prisma </p>
