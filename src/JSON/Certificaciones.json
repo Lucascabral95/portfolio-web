@@ -7,7 +7,7 @@
     "url": "https://www.coderhouse.com/ar/certificados/6543ef7fed19d8fa831ff7ba?lang=es",
     "imagen": "/img/certificado-carrera-full-stack.png",
     "imagenIngles": "",
-    "creacion": "",
+    "creacion": "2023-10-05",
     "fecha": "TOP 10",
     "fechaDeObtencion": "05 de octubre de 2023",
     "picture": "/img/certificado-carrera-full-stack.png",
@@ -39,7 +39,7 @@
     "url": "https://www.coderhouse.com/ar/certificados/65cdd05c9debb4f2b6bb2f74?lang=es",
     "imagen": "/img/certificado-sql-lucas-cabral.png",
     "imagenIngles": "",
-    "creacion": "",
+    "creacion": "2024-01-18",
     "fecha": "TOP 10",
     "fechaDeObtencion": "18 de enero de 2024",
     "picture": "/img/certificado-sql-lucas-cabral.png",
@@ -79,7 +79,7 @@
     "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-c121b7d5-3a65-446b-a2dc-6c7842a3df50.jpg",
     "imagen": "/img/Nest-escalable-con-node.jpg",
     "imagenIngles": "",
-    "creacion": "",
+    "creacion": "2025-01-05",
     "fecha": "",
     "fechaDeObtencion": "5 de enero del 2025",
     "picture": "/img/Nest-escalable-con-node.jpg",
@@ -119,7 +119,7 @@
     "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-e0382144-3a2d-4770-8ba2-b07209739144.jpg",
     "imagen": "/img/linux-comandos-shell-scripting.jpg",
     "imagenIngles": "",
-    "creacion": "",
+    "creacion": "2025-02-20",
     "fecha": "",
     "fechaDeObtencion": "20 de febrero del 2025",
     "picture": "/img/linux-comandos-shell-scripting.jpg",
@@ -159,7 +159,7 @@
     "url": "https://www.credly.com/badges/d0187545-8440-4064-8fa0-e37f3f059602",
     "imagen": "/img/analista-junior-ciberseguridad.png",
     "imagenIngles": "",
-    "creacion": "",
+    "creacion": "2025-02-26",
     "fecha": "",
     "fechaDeObtencion": "26 de febrero del 2025",
     "picture": "/img/analista-junior-ciberseguridad.png",
@@ -203,7 +203,7 @@
     "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-fce8daaa-3978-4a60-9505-ff2f0a62fe32.jpg?v=1741652566000",
     "imagen": "/img/nest-desarrollo-backend-certificado.jpg",
     "imagenIngles": "",
-    "creacion": "",
+    "creacion": "2025-03-10",
     "fecha": "",
     "fechaDeObtencion": "10 de marzo del 2025",
     "picture": "/img/nest-desarrollo-backend-certificado.jpg",
@@ -241,16 +241,60 @@
   },
   {
     "id": 7,
-    "nombre": "Angular de 0 a experto - Edición 2025",
-    "nombreIngles": "Angular de 0 a experto - Edición 2025",
+    "nombre": "Angular de 0 a Experto - Edición 2025",
+    "nombreIngles": "Angular de 0 a Experto - Edición 2025",
     "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-2f309dea-5544-4b3d-9aae-6325acfa4e5d.jpg?v=1747599934000",
     "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-2f309dea-5544-4b3d-9aae-6325acfa4e5d.jpg?v=1747599934000",
     "imagen": "/img/angular-0-100-certificado.jpg",
     "imagenIngles": "",
-    "creacion": "",
+    "creacion": "2025-06-18",
     "fecha": "",
     "fechaDeObtencion": "18 de junio del 2025",
     "picture": "/img/angular-0-100-certificado.jpg",
+    "descripcion": "Completé este curso de Angular (versión 19+) sumamente robusto y completo, enfocado en el desarrollo de aplicaciones modernas con la nueva sintaxis del framework. Abordé en profundidad temas como programación reactiva con RxJS, autenticación y autorización, componentes stand alone, signals, manejo avanzado de rutas, formularios reactivos, interceptores HTTP y creación de pipes personalizados, adquiriendo así todas las herramientas necesarias para desenvolverme profesionalmente en Angular.",
+    "temas": [
+      {
+        "nombre": "RxJS (Programación reactiva y manejo de observables)",
+        "descripcion": "Adquirí experiencia en la gestión de flujos de datos asíncronos y eventos mediante observables y operadores de transformación."
+      },
+      {
+        "nombre": "Autenticación y autorización en aplicaciones Angular",
+        "descripcion": "Implementé mecanismos de protección de rutas y control de acceso de usuarios utilizando tokens y guardas."
+      },
+      {
+        "nombre": "Componentes stand alone y uso de Signals",
+        "descripcion": "Desarrollé componentes independientes sin módulos y gestioné el estado reactivo de la interfaz con signals."
+      },
+      {
+        "nombre": "Manejo avanzado de rutas (rutas hijas y lazy loading)",
+        "descripcion": "Configuré rutas hijas y optimicé la carga de módulos mediante lazy loading para mejorar el rendimiento."
+      },
+      {
+        "nombre": "Formularios reactivos",
+        "descripcion": "Construí formularios dinámicos y apliqué validaciones avanzadas utilizando el enfoque reactivo de Angular."
+      },
+      {
+        "nombre": "Interceptores HTTP",
+        "descripcion": "Apliqué interceptores para centralizar la gestión y modificación de solicitudes y respuestas HTTP."
+      },
+      {
+        "nombre": "Pipes personalizados",
+        "descripcion": "Implementé pipes a medida para transformar y presentar datos según los requerimientos de la aplicación."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Angular Pro - Nivel Superior",
+    "nombreIngles": "Angular Pro - Nivel Superior",
+    "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-14af0bdd-8f51-4d35-bb02-f929da7c9d5a.jpg?v=1751259824000",
+    "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-14af0bdd-8f51-4d35-bb02-f929da7c9d5a.jpg?v=1751259824000",
+    "imagen": "/img/certificado-curso-angular-pro.jpg",
+    "imagenIngles": "/img/certificado-curso-angular-pro.jpg",
+    "creacion": "2025-06-30",
+    "fecha": "",
+    "fechaDeObtencion": "30 de junio del 2025",
+    "picture": "/img/certificado-curso-angular-pro.jpg",
     "descripcion": "Completé este curso de Angular (versión 19+) sumamente robusto y completo, enfocado en el desarrollo de aplicaciones modernas con la nueva sintaxis del framework. Abordé en profundidad temas como programación reactiva con RxJS, autenticación y autorización, componentes stand alone, signals, manejo avanzado de rutas, formularios reactivos, interceptores HTTP y creación de pipes personalizados, adquiriendo así todas las herramientas necesarias para desenvolverme profesionalmente en Angular.",
     "temas": [
       {

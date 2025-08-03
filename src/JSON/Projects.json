@@ -1,5 +1,162 @@
 [
   {
+    "linkRepo": "https://github.com/Lucascabral95/links-shorteners-linkly",
+    "nombre": "Linkly - URL Shortener App",
+    "claves": "Características Claves:",
+    "id": 32,
+    "titulo": "Linkly - URL Shortener App",
+    "subtitulo": "Solución completa para acortamiento y gestión de enlaces web.",
+    "imagen": "/img/link-uno.png",
+    "urlOficial": "https://links-shorteners-linky.netlify.app/",
+    "url": "https://links-shorteners-linky.netlify.app/",
+    "descripcion": "Linkly es una aplicación full-stack en Angular y TypeScript para acortamiento de enlaces con autenticación avanzada, panel de analíticas en tiempo real y gestión de usuarios. Desarrollada con Tailwind CSS, NestJS y PostgreSQL.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-angular.svg",
+        "nombre": "Angular"
+      },
+      {
+        "imagen": "/img/nestjs-svg.svg",
+        "nombre": "NestJS"
+      },
+      {
+        "imagen": "/img/logo-typescript.svg",
+        "nombre": "TypeScript"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      },
+      {
+        "imagen": "/img/logo-responsive.svg",
+        "nombre": "Responsive"
+      },
+      {
+        "imagen": "/img/tailwind.svg",
+        "nombre": "Tailwind"
+      }
+    ],
+    "creacion": "23/07/2025",
+    "fechaDeObtencion": "2025-07-23",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/link-uno.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/link-dos.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/link-tres.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "red",
+        "fondoColor": "white",
+        "tecnologia": "Angular"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#EB2F4B",
+        "tecnologia": "NestJS"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "white",
+        "tecnologia": "JWT"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "#63F655",
+        "tecnologia": "Neon Serverless"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#194156",
+        "tecnologia": "Prisma"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#347CBE",
+        "tecnologia": "TypeScript"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#08609F",
+        "tecnologia": "LocalStorage"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Autenticación y Autorización",
+        "descripcion": "Inicio de sesión y registro local, integración con Google OAuth 2.0, gestión de sesiones seguras con JWT."
+      },
+      {
+        "nombre": "Gestión de Enlaces",
+        "descripcion": "Creación, edición, eliminación y visualización de enlaces cortos, soporte para alias personalizados, protección por contraseña y expiración automática."
+      },
+      {
+        "nombre": "Panel de Analíticas",
+        "descripcion": "Visualización avanzada de clics, dispositivos, ubicación geográfica y tendencias de uso, todo en tiempo real."
+      },
+      {
+        "nombre": "Gestión de Usuarios y Roles",
+        "descripcion": "Interfaz de administración para gestionar usuarios, roles (ADMIN, PREMIUM, FREE) y permisos."
+      },
+      {
+        "nombre": "Sistema de Recuperación de Contraseña",
+        "descripcion": "Envío de correo electrónico con enlace seguro y autodestructivo (válido por 5 minutos) para restablecer la contraseña. Los enlaces se invalidan automáticamente después de su uso o al expirar, garantizando la máxima seguridad."
+      },
+      {
+        "nombre": "Experiencia de Usuario Premium",
+        "descripcion": "UI responsiva, accesible y moderna, animaciones suaves, dark mode y componentes reutilizables."
+      },
+      {
+        "nombre": "Gestión de Errores y Feedback",
+        "descripcion": "Manejo global de errores, notificaciones contextuales y validación de formularios reactivos con mensajes personalizados."
+      },
+      {
+        "nombre": "Seguridad",
+        "descripcion": "Protección avanzada de rutas, guards personalizados y sanitización de datos."
+      },
+      {
+        "nombre": "Testing Extensivo",
+        "descripcion": "Pruebas unitarias y de integración con alta cobertura, asegurando calidad y estabilidad continua."
+      },
+      {
+        "nombre": "Integración CI/CD",
+        "descripcion": "Listo para despliegue automatizado en entornos productivos usando Docker y pipelines modernos."
+      },
+      {
+        "nombre": "Dark mode",
+        "descripcion": "Modo oscuro con TailwindCSS y DaisyUI. Tema claro: Corporate. Tema oscuro: Drácula."
+      }
+    ]
+  },
+  {
     "linkRepo": "https://github.com/Lucascabral95/hospital-management-system-healthsync-argentina",
     "nombre": "Hospital Management System: HealthSync",
     "claves": "Características Claves:",
@@ -37,7 +194,7 @@
       }
     ],
     "creacion": "20/06/2025",
-    "fechaDeObtencion": "20/06/2025",
+    "fechaDeObtencion": "2025-06-20",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -194,7 +351,7 @@
       }
     ],
     "creacion": "14/02/2025",
-    "fechaDeObtencion": "14/02/2025",
+    "fechaDeObtencion": "2025-02-14",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -339,7 +496,7 @@
       }
     ],
     "creacion": "16/12/2024",
-    "fechaDeObtencion": "16/12/2024",
+    "fechaDeObtencion": "2024-12-16",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -475,7 +632,7 @@
       }
     ],
     "creacion": "25/11/2024",
-    "fechaDeObtencion": "25/08/2023",
+    "fechaDeObtencion": "2024-11-25",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -594,7 +751,7 @@
       }
     ],
     "creacion": "15/09/2024",
-    "fechaDeObtencion": "15/09/2024",
+    "fechaDeObtencion": "2024-09-15",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -716,7 +873,7 @@
       }
     ],
     "creacion": "16/10/2024",
-    "fechaDeObtencion": "16/10/2024",
+    "fechaDeObtencion": "2024-10-16",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -844,7 +1001,7 @@
       }
     ],
     "creacion": "01/08/2024",
-    "fechaDeObtencion": "01/08/2024",
+    "fechaDeObtencion": "2024-08-01",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -962,7 +1119,7 @@
       }
     ],
     "creacion": "25/08/2023",
-    "fechaDeObtencion": "25/08/2023",
+    "fechaDeObtencion": "2023-08-25",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1069,7 +1226,7 @@
       }
     ],
     "creacion": "02/10/2024",
-    "fechaDeObtencion": "02/10/2024",
+    "fechaDeObtencion": "2024-10-02",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1173,7 +1330,7 @@
       }
     ],
     "creacion": "08/03/2024",
-    "fechaDeObtencion": "08/03/2024",
+    "fechaDeObtencion": "2024-03-08",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1292,7 +1449,7 @@
       }
     ],
     "creacion": "10/10/2024",
-    "fechaDeObtencion": "10/10/2024",
+    "fechaDeObtencion": "2024-10-10",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1382,7 +1539,7 @@
       }
     ],
     "creacion": "16/02/2024",
-    "fechaDeObtencion": "16/02/2024",
+    "fechaDeObtencion": "2024-02-16",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra",
@@ -1486,7 +1643,7 @@
       }
     ],
     "creacion": "11/04/2023",
-    "fechaDeObtencion": "11/04/2023",
+    "fechaDeObtencion": "2023-04-11",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra",
@@ -1590,7 +1747,7 @@
       }
     ],
     "creacion": "14/05/2024",
-    "fechaDeObtencion": "14/05/2024",
+    "fechaDeObtencion": "2024-05-14",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1703,7 +1860,7 @@
       }
     ],
     "creacion": "14/10/2024",
-    "fechaDeObtencion": "14/10/2024",
+    "fechaDeObtencion": "2024-10-14",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1817,7 +1974,7 @@
       }
     ],
     "creacion": "20/05/2024",
-    "fechaDeObtencion": "20/05/2024",
+    "fechaDeObtencion": "2024-05-20",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra",
@@ -1914,7 +2071,7 @@
       }
     ],
     "creacion": "18/01/2024",
-    "fechaDeObtencion": "18/01/2024",
+    "fechaDeObtencion": "2024-01-18",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",

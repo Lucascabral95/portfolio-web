@@ -49,9 +49,9 @@ export default function Education() {
 
                 <div className="contenedor-de-certificaciones">
                     <AnimatePresence>
-                        {Certificaciones.slice(0, certificacionesAMostrar).map((certificacion, index) => (
+                        {[...Certificaciones].reverse().slice(0, certificacionesAMostrar).map((certificacion) => (
                             <motion.div
-                                key={index}
+                                key={certificacion.id}
                                 className="card-certificado"
                                 initial={{ opacity: 0, y: 50, scale: 0.95 }}
                                 animate={{ opacity: 1, y: 0, scale: 1 }}

@@ -18,7 +18,7 @@ const Certificaciones = () => {
     setFiltroCertificaciones(filtro[0])
 
     const filtroTecnologias = tecnologias.filter(item => item.curso.includes(filtro[0].nombre))
-    const tecnologiasFiltradas = filtroTecnologias.map(item => item.tecnologia)
+    // const tecnologiasFiltradas = filtroTecnologias.map(item => item.tecnologia)
     setTecnologias(filtroTecnologias)
 
     setImagenSeleccionada(filtro[0].imagen)

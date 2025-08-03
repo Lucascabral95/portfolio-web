@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "titulo": "Desarrollo Web con React y Next.js",
+    "titulo": "Desarrollo Web con React, Next.js y Angular",
     "descripcion": "Desarrollo de aplicaciones web interactivas y de alto rendimiento utilizando React, Next.js y TypeScript, asegurando una experiencia de usuario óptima en todos los dispositivos.",
     "icono": "FaLaptopCode",
     "colorIcono": "#51A958",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "titulo": "Gestión de Bases de Datos",
-    "descripcion": "Integración y optimización de bases de datos como MySQL, PostgreSQL, MongoDB, Firebase y Redis, asegurando eficiencia, escalabilidad y seguridad para aplicaciones dinámicas.",
+    "descripcion": "Integración y optimización de bases de datos como MySQL, PostgreSQL, MongoDB, Firebase, Pinecone y Redis, asegurando eficiencia, escalabilidad y seguridad para aplicaciones dinámicas.",
     "icono": "GiDatabase",
     "colorIcono": "#48429C",
     "colorFondoIcono": "#1B182F",

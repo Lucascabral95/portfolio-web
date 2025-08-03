@@ -36,7 +36,7 @@ export default function AboutMe() {
                         </div>
                     </div>
                     <div className="descripcion">
-                        <p> Desarrollador Full Stack con experiencia en la creación de soluciones robustas y escalables. Especializado en Node.js, NestJS, React.js, Next.js, Vite.js y TypeScript. Mi enfoque se basa en la excelencia técnica, la simplicidad y la optimización de la experiencia de usuario, aplicando las mejores prácticas de programación estructurada y modular. Comprometido en aportar creatividad y experiencia a proyectos desafiantes y colaborativos. </p>
+                        <p>Desarrollador Full Stack con más de dos años de experiencia, especializado en transformar ideas complejas en aplicaciones web escalables y de alto rendimiento. Con expertise técnico avanzado en React, Angular, Next.js, NestJS y TypeScript, combino mi sólido background en gestión de datos empresariales con arquitecturas modernas utilizando Docker, PostgreSQL y MongoDB, potenciado con IA para soluciones empresariales eficientes.</p>
                     </div>
                 </div>
 

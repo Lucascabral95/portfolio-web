@@ -34,7 +34,7 @@ export default function Skills() {
                     </div>
                     <div className="linea-delimitante"></div>
                     <div className="descripcion">
-                        <p> Con una pasión por la innovación y una atención meticulosa a los detalles, me especializo en el desarrollo Full Stack, cerrando de manera fluida la brecha entre las tecnologías de frontend y backend. Mi experiencia se centra en el diseño e implementación de soluciones robustas y escalables que priorizan la experiencia del usuario, asegurando al mismo tiempo una funcionalidad eficiente en toda la pila de software. </p>
+                        <p> Con una pasión por la innovación y una atención meticulosa a los detalles, me especializo en el desarrollo Full Stack, cerrando de manera fluida la brecha entre las tecnologías de frontend y backend. Mi experiencia se centra en el diseño e implementación de soluciones robustas y escalables que priorizan la experiencia del usuario, asegurando al mismo tiempo una funcionalidad eficiente en toda la pila de software.</p>
                     </div>
                 </div>
 

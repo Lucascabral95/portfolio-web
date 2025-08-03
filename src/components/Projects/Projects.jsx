@@ -13,10 +13,17 @@ export default function Projects() {
     })
 
     const verMas = () => {
+        setInicioFin(prev => ({
+            inicio: 0,
+            fin: prev.fin + proyectosAMostrar
+        }));
+    }
+
+    const verMenos = () => {
         setInicioFin({
-            inicio: inicioFin.inicio,
-            fin: inicioFin.fin + proyectosAMostrar
-        })
+            inicio: 0,
+            fin: proyectosAMostrar
+        });
     }
 
     return (
@@ -24,7 +31,7 @@ export default function Projects() {
             <div className="contenedor">
 
                 <div className="contenedor-numero contenedor-numero-violeta">
-                    <div className="numero" >
+                    <div className="numero">
                         <p> 3 </p>
                     </div>
                 </div>
@@ -76,8 +83,15 @@ export default function Projects() {
                                     <div className="tecnologias">
                                         <div className="img">
                                             {projects.tecnologias.map((tecnologia, index) => (
-                                                <img style={{ backgroundColor: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "white" : null, borderRadius: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "50%" : null }}
-                                                    src={tecnologia.imagen} alt={tecnologia.nombre} key={index} />
+                                                <img
+                                                    style={{
+                                                        backgroundColor: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "white" : null,
+                                                        borderRadius: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "50%" : null
+                                                    }}
+                                                    src={tecnologia.imagen}
+                                                    alt={tecnologia.nombre}
+                                                    key={index}
+                                                />
                                             ))}
                                         </div>
                                         <div className="fecha">
@@ -90,11 +104,15 @@ export default function Projects() {
                     </AnimatePresence>
                 </div>
 
-                {cantidadProyectos > inicioFin.fin &&
+                {cantidadProyectos > inicioFin.fin ? (
                     <div className="boton-de-ver-mas">
-                        <button onClick={verMas}> Ver más </button>
+                        <button onClick={verMas}>Ver más</button>
                     </div>
-                }
+                ) : inicioFin.fin > proyectosAMostrar && (
+                    <div className="boton-de-ver-mas">
+                        <button onClick={verMenos}>Ver menos</button>
+                    </div>
+                )}
 
             </div>
         </section>
