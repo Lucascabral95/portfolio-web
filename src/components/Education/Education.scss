@@ -1,350 +1,416 @@
 .education-section {
+  .contenedor {
+    max-width: 1160px !important;
+    margin: auto;
 
-    .contenedor {
-        max-width: 1160px !important;
-        margin: auto;
+    .contenedor-numero-verde {
+      .numero {
+        background-color: #15231d;
+        border: 2px solid var(--color-de-texto-verde-uno);
 
-        .contenedor-numero-verde {
-
-            .numero {
-                background-color: #15231D;
-                border: 2px solid var(--color-de-texto-verde-uno);
-
-                p {
-                    color: var(--color-de-texto-verde-uno);
-                }
-            }
+        p {
+          color: var(--color-de-texto-verde-uno);
         }
-
-        .seccion-titulo-subtitulo-verde {
-
-            .titulo {
-                h2 {
-                    color: var(--color-de-texto-verde-uno);
-                }
-            }
-
-            .subtitulo {
-                h3 {}
-            }
-
-            .linea-delimitante {
-                background-color: var(--color-de-texto-verde-uno);
-            }
-
-            .descripcion {
-                p {}
-            }
-        }
-
-        .contenedor-de-certificaciones {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-
-            .card-certificado {
-                width: 48%;
-                display: flex;
-                padding: 16px;
-                justify-content: space-evenly;
-                border-radius: 8px;
-                margin: 0 0 22px 0;
-                color: white;
-                background-color: black;
-                border: 2.5px solid #853BCE;
-
-                &:hover {
-                    transition: 0.2s;
-                    background-color: #5A189A;
-                }
-
-                .foto-de-perfil {
-                    width: 40px;
-                    display: flex;
-                    justify-content: flex-start;
-
-                    img {
-                        border-radius: 50%;
-                        width: 40px;
-                        height: 40px;
-                    }
-                }
-
-                .contenido-card {
-                    width: 100%;
-
-                    .nombre-fecha {
-                        display: flex;
-                        align-items: center;
-
-                        .nombre {
-                            margin: 0;
-                            color: white;
-                            font-size: 20px;
-                            font-weight: bold;
-                        }
-
-                        .fecha {
-                            color: #868E96;
-                            font-size: 14px;
-                            margin: 0 0 0 12px;
-                        }
-                    }
-
-                    .titulo-card {
-                        display: flex;
-                        flex-direction: column;
-
-                        .tit-card {
-                            font-size: 27px;
-                            margin: 0 0 18px 0;
-                            font-weight: bolder;
-                            text-align: center;
-                        }
-
-                        .tit-texto {
-                            font-size: 18px;
-                            font-weight: 400;
-                            margin: 0 0 16px 0;
-                        }
-
-                        .imagen-card {
-                            width: 100%;
-                            cursor: pointer;
-
-                            .img {
-                                border-radius: 12px;
-                                width: 100%;
-                                height: auto;
-                            }
-                        }
-
-                        .menu-iconos {
-                            display: flex;
-                            justify-content: flex-end;
-                            align-items: center;
-
-                            .icono {
-                                margin: 10px 4px 0 4px;
-                                width: 32px;
-                                height: 32px;
-                                border-radius: 4px;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                cursor: pointer;
-
-                                .icon {
-                                    color: #853BCE;
-                                    font-size: 20px;
-                                }
-
-                                &:hover {
-                                    transition: 0.2s;
-                                    background-color: rgba(133, 59, 206, 0.3);
-                                }
-                            }
-                        }
-
-                        .fecha-emision-certificado {
-                            color: #868E96;
-                            font-size: 14px;
-                            margin: 2px 0 0 0;
-                            text-align: end;
-                        }
-                    }
-                }
-            }
-        }
-
-        .boton-de-ver-mas {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 10px 0 0 0;
-
-            button {
-                background-color: #291839;
-                border: none;
-                outline: none;
-                border-radius: 5px;
-                padding: 6px 20px;
-                font-weight: 600;
-                font-size: 16px;
-                border: 1px solid #853BCE;
-                color: #853BCE;
-
-                &:hover {
-                    transition: 0.2s ease-in-out;
-                    background-color: #853BCE;
-                    color: #291839;
-                }
-            }
-        }
+      }
     }
+
+    .seccion-titulo-subtitulo-verde {
+      .titulo {
+        h2 {
+          color: var(--color-de-texto-verde-uno);
+        }
+      }
+
+      .subtitulo {
+        h3 {
+        }
+      }
+
+      .linea-delimitante {
+        background-color: var(--color-de-texto-verde-uno);
+      }
+
+      .descripcion {
+        p {
+        }
+      }
+    }
+    ////
+    .filtros {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin: 0 0 20px 0;
+      padding: 0 1%;
+
+      label {
+        color: #e2e8f0;
+        font-size: 14px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      select {
+        background-color: #1a1326;
+        border: 1px solid #2b0f47;
+        color: #e2e8f0;
+        padding: 6px 12px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease;
+
+        &:hover {
+          border-color: #853bce;
+        }
+
+        &:focus {
+          border-color: #853bce;
+          box-shadow: 0 0 0 2px rgba(133, 59, 206, 0.2);
+        }
+
+        option {
+          background-color: #1a1326;
+          color: #e2e8f0;
+          padding: 8px;
+        }
+      }
+    }
+    ////
+    .contenedor-de-certificaciones {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .card-certificado {
+        width: 48%;
+        display: flex;
+        padding: 16px;
+        justify-content: space-evenly;
+        border-radius: 8px;
+        margin: 0 0 22px 0;
+        color: white;
+        background-color: black;
+        border: 2.5px solid #853bce;
+
+        &:hover {
+          transition: 0.2s;
+          background-color: #5a189a;
+        }
+
+        .foto-de-perfil {
+          width: 40px;
+          display: flex;
+          justify-content: flex-start;
+
+          img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+          }
+        }
+
+        .contenido-card {
+          width: 100%;
+
+          .nombre-fecha {
+            display: flex;
+            align-items: center;
+
+            .nombre {
+              margin: 0;
+              color: white;
+              font-size: 20px;
+              font-weight: bold;
+            }
+
+            .fecha {
+              color: #868e96;
+              font-size: 14px;
+              margin: 0 0 0 12px;
+            }
+          }
+
+          .titulo-card {
+            display: flex;
+            flex-direction: column;
+
+            .tit-card {
+              font-size: 27px;
+              margin: 0 0 18px 0;
+              font-weight: bolder;
+              text-align: center;
+            }
+
+            .tit-texto {
+              font-size: 18px;
+              font-weight: 400;
+              margin: 0 0 16px 0;
+            }
+
+            .imagen-card {
+              width: 100%;
+              cursor: pointer;
+
+              .img {
+                border-radius: 12px;
+                width: 100%;
+                height: auto;
+              }
+            }
+
+            .menu-iconos {
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+
+              .icono {
+                margin: 10px 4px 0 4px;
+                width: 32px;
+                height: 32px;
+                border-radius: 4px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                .icon {
+                  color: #853bce;
+                  font-size: 20px;
+                }
+
+                &:hover {
+                  transition: 0.2s;
+                  background-color: rgba(133, 59, 206, 0.3);
+                }
+              }
+            }
+
+            .fecha-emision-certificado {
+              color: #868e96;
+              font-size: 14px;
+              margin: 2px 0 0 0;
+              text-align: end;
+            }
+          }
+        }
+      }
+    }
+
+    .boton-de-ver-mas {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0 0 0;
+
+      button {
+        background-color: #291839;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 6px 20px;
+        font-weight: 600;
+        font-size: 16px;
+        border: 1px solid #853bce;
+        color: #853bce;
+
+        &:hover {
+          transition: 0.2s ease-in-out;
+          background-color: #853bce;
+          color: #291839;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
-    .education-section {
-        padding: 0 32px;
+  .education-section {
+    padding: 4% 20px 4% 20px;
 
-        .contenedor {
-            max-width: 1160px !important;
-            margin: auto;
+    .contenedor {
+      max-width: 1160px !important;
+      margin: auto;
 
-            .contenedor-numero-verde {
-
-                .numero {
-
-                    p {}
-                }
-            }
-
-            .seccion-titulo-subtitulo-verde {
-
-                .titulo {
-                    h2 {}
-                }
-
-                .subtitulo {
-                    h3 {}
-                }
-
-                .linea-delimitante {}
-
-                .descripcion {
-                    p {}
-                }
-            }
-
-            .contenedor-de-certificaciones {
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                flex-wrap: wrap;
-
-                .card-certificado {
-                    width: 98%;
-                    display: flex;
-                    padding: 16px;
-                    justify-content: space-evenly;
-                    margin: 0 0 22px 0;
-
-                    .foto-de-perfil {
-                        width: 40px;
-                        display: flex;
-                        justify-content: flex-start;
-
-                        img {
-                            border-radius: 50%;
-                            width: 40px;
-                            height: 40px;
-                        }
-                    }
-
-                    .contenido-card {
-                        width: 100%;
-
-                        .nombre-fecha {
-                            display: flex;
-                            align-items: center;
-
-                            .nombre {
-                                font-size: 20px;
-                            }
-
-                            .fecha {
-                                font-size: 14px;
-                                margin: 0 0 0 12px;
-                            }
-                        }
-
-                        .titulo-card {
-                            display: flex;
-                            flex-direction: column;
-
-                            .tit-card {
-                                font-size: clamp(20px, 2.5vw, 27px);
-                                margin: 0 0 18px 0;
-                            }
-
-                            .tit-texto {
-                                font-size: 18px;
-                                margin: 0 0 16px 0;
-                            }
-
-                            .imagen-card {
-                                width: 100%;
-
-                                .img {
-                                    border-radius: 12px;
-                                    width: 100%;
-                                    height: auto;
-                                }
-                            }
-
-                            .menu-iconos {
-                                display: flex;
-                                justify-content: flex-end;
-                                align-items: center;
-
-                                .icono {
-                                    margin: 4px 4px 0 4px;
-                                    width: 32px;
-                                    height: 32px;
-                                    border-radius: 4px;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-
-                                    .icon {
-                                        font-size: 20px;
-                                    }
-
-                                }
-                            }
-
-                            .fecha-emision-certificado {
-                                font-size: 12.8px;
-                                margin: 2px 0 0 0;
-                            }
-                        }
-                    }
-                }
-            }
+      .contenedor-numero-verde {
+        .numero {
+          p {
+          }
         }
+      }
+
+      .seccion-titulo-subtitulo-verde {
+        .titulo {
+          h2 {
+          }
+        }
+
+        .subtitulo {
+          h3 {
+          }
+        }
+
+        .linea-delimitante {
+        }
+
+        .descripcion {
+          p {
+          }
+        }
+      }
+
+      .filtros {
+        justify-content: flex-start;
+        margin-bottom: 15px;
+        padding: 0 2%;
+
+        label {
+          font-size: 13px;
+        }
+
+        select {
+          padding: 5px 10px;
+          font-size: 13px;
+        }
+      }
+
+      .contenedor-de-certificaciones {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .card-certificado {
+          width: 98%;
+          display: flex;
+          padding: 16px;
+          justify-content: space-evenly;
+          margin: 0 0 22px 0;
+
+          .foto-de-perfil {
+            width: 40px;
+            display: flex;
+            justify-content: flex-start;
+
+            img {
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+            }
+          }
+
+          .contenido-card {
+            width: 100%;
+
+            .nombre-fecha {
+              display: flex;
+              align-items: center;
+
+              .nombre {
+                font-size: 20px;
+              }
+
+              .fecha {
+                font-size: 14px;
+                margin: 0 0 0 12px;
+              }
+            }
+
+            .titulo-card {
+              display: flex;
+              flex-direction: column;
+
+              .tit-card {
+                font-size: clamp(20px, 2.5vw, 27px);
+                margin: 0 0 18px 0;
+              }
+
+              .tit-texto {
+                font-size: 18px;
+                margin: 0 0 16px 0;
+              }
+
+              .imagen-card {
+                width: 100%;
+
+                .img {
+                  border-radius: 12px;
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .menu-iconos {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                .icono {
+                  margin: 4px 4px 0 4px;
+                  width: 32px;
+                  height: 32px;
+                  border-radius: 4px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  .icon {
+                    font-size: 20px;
+                  }
+                }
+              }
+
+              .fecha-emision-certificado {
+                font-size: 12.8px;
+                margin: 2px 0 0 0;
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }
 
 @media (max-width: 480px) {
-    .education-section {
+  .education-section {
+    .contenedor {
+      .filtros {
+        flex-direction: column;
+        gap: 8px;
 
-        .contenedor {
-
-            .contenedor-de-certificaciones {
-
-                .card-certificado {
-                    padding: 12px;
-                    border: 0.4px solid rgba(133, 59, 206, 0.5);
-
-                    .contenido-card {
-
-                        .titulo-card {
-
-                            .tit-card {
-                                margin: 0 0 10px 0;
-                            }
-
-                            .fecha-emision-certificado {
-                                font-size: 10.8px;
-                                font-weight: 600;
-                            }
-                        }
-                    }
-                }
-            }
+        label {
+          margin-bottom: 4px;
         }
+
+        select {
+          width: 100%;
+          max-width: 200px;
+        }
+      }
+      .contenedor-de-certificaciones {
+        .card-certificado {
+          padding: 12px;
+          border: 0.4px solid rgba(133, 59, 206, 0.5);
+
+          .contenido-card {
+            .titulo-card {
+              .tit-card {
+                margin: 0 0 10px 0;
+              }
+
+              .fecha-emision-certificado {
+                font-size: 10.8px;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }

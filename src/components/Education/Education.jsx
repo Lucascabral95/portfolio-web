@@ -11,6 +11,7 @@ export default function Education() {
     const [isOpenImage, setIsOpenImage] = useState(false)
     const [imagenSeccionada, setImagenSeccionada] = useState('')
     const [certificacionesAMostrar, setCertificacionesAMostrar] = useState(2)
+    const [orden, setOrden] = useState('reciente');
 
     const mostrarMas = () => {
         setCertificacionesAMostrar(Certificaciones.length)
@@ -19,6 +20,12 @@ export default function Education() {
     const verMenos = () => {
         setCertificacionesAMostrar(2)
     }
+
+    const certificacionesOrdenadas = [...Certificaciones].sort((a, b) => {
+        const fechaA = new Date(a.creacion);
+        const fechaB = new Date(b.creacion);
+        return orden === 'reciente' ? fechaB - fechaA : fechaA - fechaB;
+    });
 
     return (
         <section className="education-section" id="education">
@@ -47,11 +54,26 @@ export default function Education() {
                     </div>
                 </div>
 
+                <div className="filtros">
+                    <label>Ordenar por fecha: </label>
+                    <select
+                        value={orden}
+                        onChange={(e) => {
+                            setOrden(e.target.value);
+                            setCertificacionesAMostrar(certificacionesAMostrar);
+                        }}
+                        style={{ padding: '5px', borderRadius: '4px' }}
+                    >
+                        <option value="reciente">Más recientes primero</option>
+                        <option value="antiguo">Más antiguos primero</option>
+                    </select>
+                </div>
+
                 <div className="contenedor-de-certificaciones">
                     <AnimatePresence>
-                        {[...Certificaciones].reverse().slice(0, certificacionesAMostrar).map((certificacion) => (
+                        {certificacionesOrdenadas.slice(0, certificacionesAMostrar).map((certificacion, index) => (
                             <motion.div
-                                key={certificacion.id}
+                                key={index}
                                 className="card-certificado"
                                 initial={{ opacity: 0, y: 50, scale: 0.95 }}
                                 animate={{ opacity: 1, y: 0, scale: 1 }}

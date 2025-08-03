@@ -24,7 +24,7 @@
     }
 
     .seccion-titulo-subtitulo-violeta {
-      margin: 0 0 66px 0;
+      // margin: 0 0 66px 0;
 
       .titulo {
         h2 {
@@ -36,6 +36,51 @@
         background-color: var(--color-de-texto-violeta-uno);
       }
     }
+
+    ////////
+    .filtros {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin: 0 0 20px 0;
+      padding: 0 1%;
+
+      label {
+        color: #e2e8f0;
+        font-size: 14px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      select {
+        background-color: #1a1326;
+        border: 1px solid #2b0f47;
+        color: #e2e8f0;
+        padding: 6px 12px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease;
+
+        &:hover {
+          border-color: #853bce;
+        }
+
+        &:focus {
+          border-color: #853bce;
+          box-shadow: 0 0 0 2px rgba(133, 59, 206, 0.2);
+        }
+
+        option {
+          background-color: #1a1326;
+          color: #e2e8f0;
+          padding: 8px;
+        }
+      }
+    }
+    ////////
 
     .contenedor-de-proyectos {
       width: 100%;
@@ -206,7 +251,7 @@
       }
 
       .seccion-titulo-subtitulo-violeta {
-        margin: 0 0 64px 0;
+        // margin: 0 0 64px 0;
 
         .titulo {
           h2 {
@@ -327,7 +372,7 @@
       }
 
       .seccion-titulo-subtitulo-violeta {
-        margin: 0 0 54px 0;
+        // margin: 0 0 54px 0;
 
         .titulo {
           h2 {
@@ -448,7 +493,7 @@
       }
 
       .seccion-titulo-subtitulo-violeta {
-        margin: 0 0 46px 0;
+        //margin: 0 0 46px 0;
 
         .titulo {
           h2 {
@@ -546,6 +591,48 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+// Media queries para responsividad de filtros
+@media (max-width: 767px) {
+  .projects-section {
+    .contenedor {
+      .filtros {
+        justify-content: flex-start;
+        margin-bottom: 15px;
+        padding: 0 2%;
+
+        label {
+          font-size: 13px;
+        }
+
+        select {
+          padding: 5px 10px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-section {
+    .contenedor {
+      .filtros {
+        flex-direction: column;
+        gap: 8px;
+
+        label {
+          margin-bottom: 4px;
+        }
+
+        select {
+          width: 100%;
+          max-width: 200px;
         }
       }
     }

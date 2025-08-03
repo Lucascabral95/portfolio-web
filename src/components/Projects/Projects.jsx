@@ -11,6 +11,7 @@ export default function Projects() {
         inicio: 0,
         fin: proyectosAMostrar
     })
+    const [orden, setOrden] = useState('reciente');
 
     const verMas = () => {
         setInicioFin(prev => ({
@@ -26,10 +27,15 @@ export default function Projects() {
         });
     }
 
+    const proyectosOrdenados = [...Proyectos].sort((a, b) => {
+        const fechaA = new Date(a.fechaDeObtencion);
+        const fechaB = new Date(b.fechaDeObtencion);
+        return orden === 'reciente' ? fechaB - fechaA : fechaA - fechaB;
+    });
+
     return (
         <section className="projects-section" id="projects">
             <div className="contenedor">
-
                 <div className="contenedor-numero contenedor-numero-violeta">
                     <div className="numero">
                         <p> 3 </p>
@@ -49,9 +55,25 @@ export default function Projects() {
                     </div>
                 </div>
 
+                <div className="filtros" style={{ margin: '20px 0', display: 'flex', justifyContent: 'flex-end' }}>
+                    <label style={{ marginRight: '10px' }}>Ordenar por fecha: </label>
+                    <select
+                        value={orden}
+                        onChange={(e) => {
+                            setOrden(e.target.value);
+                            setInicioFin({ inicio: 0, fin: proyectosAMostrar });
+                        }}
+                        style={{ padding: '5px', borderRadius: '4px' }}
+                    >
+                        <option value="reciente">Más recientes primero</option>
+                        <option value="antiguo">Más antiguos primero</option>
+                    </select>
+                </div>
+
+
                 <div className="contenedor-de-proyectos">
                     <AnimatePresence>
-                        {Proyectos.slice(inicioFin.inicio, inicioFin.fin).map((projects, index) => (
+                        {proyectosOrdenados.slice(inicioFin.inicio, inicioFin.fin).map((projects, index) => (
                             <motion.div
                                 key={index}
                                 className="card"
@@ -117,4 +139,4 @@ export default function Projects() {
             </div>
         </section>
     )
-}
+}                     
