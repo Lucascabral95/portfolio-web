@@ -41,8 +41,17 @@ export default function AboutMe() {
                 </div>
 
                 <animated.div style={stylePhotoProfile} className="img">
-                    <img src="/img/dev-lucas-cat-dos.png" alt="Imagen de presentación" />
+                    <img src="/img/lucas2-cv.jpg" alt="Imagen de presentación" />
                 </animated.div>
+
+                <div className="botones-de-accion">
+                    <div className="boton">
+                        <a href="#projects" className="boton-de-redireccion"> Mis proyectos </a>
+                    </div>
+                    <div className="boton">
+                        <a href="#contactme" className="boton-de-redireccion"> Contactame </a>
+                    </div>
+                </div>
 
             </div>
 

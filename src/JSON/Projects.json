@@ -37,7 +37,8 @@
       }
     ],
     "creacion": "23/07/2025",
-    "fechaDeObtencion": "2025-07-23",
+    "fechaDeObtencion": "23 de julio de 2025",
+    "fechaFormateada": "2025-07-23",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -194,7 +195,8 @@
       }
     ],
     "creacion": "20/06/2025",
-    "fechaDeObtencion": "2025-06-20",
+    "fechaDeObtencion": "20 de junio de 2025",
+    "fechaFormateada": "2025-06-20",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -351,7 +353,8 @@
       }
     ],
     "creacion": "14/02/2025",
-    "fechaDeObtencion": "2025-02-14",
+    "fechaDeObtencion": "14 de febrero de 2025",
+    "fechaFormateada": "2025-02-14",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -496,7 +499,8 @@
       }
     ],
     "creacion": "16/12/2024",
-    "fechaDeObtencion": "2024-12-16",
+    "fechaDeObtencion": "16 de diciembre de 2024",
+    "fechaFormateada": "2024-12-16",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -632,7 +636,8 @@
       }
     ],
     "creacion": "25/11/2024",
-    "fechaDeObtencion": "2024-11-25",
+    "fechaDeObtencion": "25 de noviembre de 2024",
+    "fechaFormateada": "2024-11-25",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -751,7 +756,8 @@
       }
     ],
     "creacion": "15/09/2024",
-    "fechaDeObtencion": "2024-09-15",
+    "fechaDeObtencion": "15 de septiembre de 2024",
+    "fechaFormateada": "2024-09-15",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -873,7 +879,8 @@
       }
     ],
     "creacion": "16/10/2024",
-    "fechaDeObtencion": "2024-10-16",
+    "fechaDeObtencion": "16 de octubre de 2024",
+    "fechaFormateada": "2024-10-16",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1001,7 +1008,8 @@
       }
     ],
     "creacion": "01/08/2024",
-    "fechaDeObtencion": "2024-08-01",
+    "fechaDeObtencion": "01 de agosto de 2024",
+    "fechaFormateada": "2024-08-01",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1119,7 +1127,8 @@
       }
     ],
     "creacion": "25/08/2023",
-    "fechaDeObtencion": "2023-08-25",
+    "fechaDeObtencion": "25 de agosto de 2023",
+    "fechaFormateada": "2023-08-25",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1226,7 +1235,8 @@
       }
     ],
     "creacion": "02/10/2024",
-    "fechaDeObtencion": "2024-10-02",
+    "fechaDeObtencion": "02 de octubre de 2024",
+    "fechaFormateada": "2024-10-02",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1330,7 +1340,8 @@
       }
     ],
     "creacion": "08/03/2024",
-    "fechaDeObtencion": "2024-03-08",
+    "fechaDeObtencion": "08 de marzo de 2024",
+    "fechaFormateada": "2024-03-08",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1449,7 +1460,8 @@
       }
     ],
     "creacion": "10/10/2024",
-    "fechaDeObtencion": "2024-10-10",
+    "fechaDeObtencion": "10 de octubre de 2024",
+    "fechaFormateada": "2024-10-10",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1539,7 +1551,8 @@
       }
     ],
     "creacion": "16/02/2024",
-    "fechaDeObtencion": "2024-02-16",
+    "fechaDeObtencion": "16 de febrero de 2024",
+    "fechaFormateada": "2024-02-16",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra",
@@ -1643,7 +1656,8 @@
       }
     ],
     "creacion": "11/04/2023",
-    "fechaDeObtencion": "2023-04-11",
+    "fechaDeObtencion": "11 de abril de 2023",
+    "fechaFormateada": "2023-04-11",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra",
@@ -1747,7 +1761,8 @@
       }
     ],
     "creacion": "14/05/2024",
-    "fechaDeObtencion": "2024-05-14",
+    "fechaDeObtencion": "14 de mayo de 2024",
+    "fechaFormateada": "2024-05-14",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1860,7 +1875,8 @@
       }
     ],
     "creacion": "14/10/2024",
-    "fechaDeObtencion": "2024-10-14",
+    "fechaDeObtencion": "14 de octubre de 2024",
+    "fechaFormateada": "2024-10-14",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",
@@ -1974,7 +1990,8 @@
       }
     ],
     "creacion": "20/05/2024",
-    "fechaDeObtencion": "2024-05-20",
+    "fechaDeObtencion": "20 de mayo de 2024",
+    "fechaFormateada": "2024-05-20",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra",
@@ -2071,7 +2088,8 @@
       }
     ],
     "creacion": "18/01/2024",
-    "fechaDeObtencion": "2024-01-18",
+    "fechaDeObtencion": "18 de enero de 2024",
+    "fechaFormateada": "2024-01-18",
     "masImagenes": [
       {
         "nombreImagen": "Foto extra 1",

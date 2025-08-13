@@ -2,11 +2,13 @@ import "./MenuHeader.scss"
 import { animated, useSpring } from "@react-spring/web"
 import { useNavigate } from "react-router-dom"
 
-export default function MenuHeader(props) {
+export default function MenuHeader({ visible, setVisible }) {
     const navigate = useNavigate();
 
     const irAlLink = (id) => {
         navigate(`/#${id}`)
+        document.body.style.overflow = 'auto';
+        setVisible(false);
         setTimeout(() => {
             const element = document.getElementById(id);
             if (element) {
@@ -25,7 +27,7 @@ export default function MenuHeader(props) {
     return (
         <>
             <animated.div
-                style={{ ...menuAbriendose, display: props.visible ? "block" : 'none' }}
+                style={{ ...menuAbriendose, display: visible ? "block" : 'none' }}
                 className="menu-header">
                 <div className="contenedor">
 

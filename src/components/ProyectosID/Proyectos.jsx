@@ -22,17 +22,17 @@ const ProyectosId = () => {
         <StructuraBody>
 
             <EstructuraDetalle
-                filtroCertificaciones={project}      
-                tecnologias={detallesTecnologia}    
-                existeProyecto={true}     
-                imagenesExtras={project.masImagenes}     
-                setImagenSeleccionada={setImagenSeleccionada}    
-                imagen={imagenSeleccionada}    
-                close={setIsOpenImage}     
-                setIsOpenImage={setIsOpenImage}    
-                isOpenImage={isOpenImage}    
-            />    
- 
+                filtroCertificaciones={project}
+                tecnologias={detallesTecnologia}
+                existeProyecto={true}
+                imagenesExtras={project.masImagenes}
+                setImagenSeleccionada={setImagenSeleccionada}
+                imagen={imagenSeleccionada}
+                close={setIsOpenImage}
+                setIsOpenImage={setIsOpenImage}
+                isOpenImage={isOpenImage}
+            />
+
         </StructuraBody>
     )
 }

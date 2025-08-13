@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"
 import { CgMenuCake } from "react-icons/cg";
 import { IoIosCloseCircle } from "react-icons/io";
 import MenuHeader from "./MenuHeader";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
     const [activeMenu, setActiveMenu] = useState(false)
@@ -18,6 +18,18 @@ export default function Header() {
             }
         }, 0);
     };
+
+    const activateMenuHeader = () => {
+        setActiveMenu(!activeMenu);
+    };
+
+    useEffect(() => {
+        document.body.style.overflow = activeMenu ? 'hidden' : 'auto';
+
+        return () => {
+            document.body.style.overflow = 'auto';
+        };
+    }, [activeMenu]);
 
     return (
         <>
@@ -60,7 +72,7 @@ export default function Header() {
                                 <p> Contacto </p>
                             </div>
                         </div>
-                        <div className="seccion seccion-menu" style={{ display: "none" }} onClick={() => setActiveMenu(!activeMenu)}>
+                        <div className="seccion seccion-menu" style={{ display: "none" }} onClick={() => activateMenuHeader()}>
                             <button className="icono">
                                 {activeMenu ? <IoIosCloseCircle className="icon" /> : <CgMenuCake className="icon" />}
                             </button>
@@ -69,7 +81,7 @@ export default function Header() {
                 </nav>
             </header>
 
-            <MenuHeader visible={activeMenu} />
+            <MenuHeader visible={activeMenu} setVisible={setActiveMenu} />
         </>
     )
 }

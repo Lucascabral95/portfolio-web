@@ -1,56 +1,56 @@
 .menu-header {
+  width: 100%;
+  height: calc(100vh - 72px);
+  background-color: var(--color-de-fondo-body);
+  z-index: 99;
+  margin: 32px 0;
+
+  .contenedor {
     width: 100%;
-    height: calc(100vh - 72px);
     background-color: var(--color-de-fondo-body);
-    z-index: 99;
-    margin: 32px 0;
 
-    .contenedor {
-        width: 100%;
-        background-color: var(--color-de-fondo-body);
+    .category {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 3% 0;
 
-        .category {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin: 3% 0;
+      .cat {
+        margin: 0 0 3% 0;
 
-            .cat {
-                margin: 0 0 3% 0;
-
-                p {
-                    margin: 0;
-                    color: white;
-                    font-weight: 700;
-                    font-size: 30px;
-                    text-align: center;
-                    display: block;
-                }
-
-                button {
-                    background-color: transparent;
-                    border: none;
-
-                    .icon {
-                        color: white;
-                        width: 40px;
-                        height: 40px;
-                    }
-                }
-
-                &:hover {
-                    a {
-                        transition: 0.2s ease-in-out;
-                        color: white;
-                    }
-                }
-            }
+        p {
+          margin: 0;
+          color: white;
+          font-weight: 700;
+          font-size: 30px;
+          text-align: center;
+          display: block;
         }
+
+        button {
+          background-color: transparent;
+          border: none;
+
+          .icon {
+            color: white;
+            width: 40px;
+            height: 40px;
+          }
+        }
+
+        &:hover {
+          a {
+            transition: 0.2s ease-in-out;
+            color: white;
+          }
+        }
+      }
     }
+  }
 }
 
 @media (min-width: 767px) {
-    .menu-header {
-        display: none !important;
-    }
+  .menu-header {
+    display: none !important;
+  }
 }

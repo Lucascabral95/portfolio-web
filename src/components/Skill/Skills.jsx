@@ -3,8 +3,9 @@ import Stacks from "../../JSON/Skills.json"
 import { useState } from "react"
 import { FaGithub, FaGitAlt, FaNpm, FaStripe, FaLinux } from "react-icons/fa";
 import { RiSupabaseFill } from "react-icons/ri";
-import { SiVercel, SiVisualstudiocode, SiKubernetes, SiMysql, SiBun, SiGnubash, SiPrisma, SiSequelize, SiSocketdotio } from "react-icons/si";
+import { SiVercel, SiKubernetes, SiMysql, SiGnubash, SiPrisma, SiSequelize, SiSocketdotio, SiN8N } from "react-icons/si";
 import { TbBrandDocker } from "react-icons/tb";
+import { DiVisualstudio } from "react-icons/di";
 
 export default function Skills() {
     const [arraySkills] = useState({
@@ -103,7 +104,7 @@ export default function Skills() {
 
                 <div className="encuadrante">
                     <div className="imagen">
-                        <SiVisualstudiocode className="icon icon-vscode" />
+                        <DiVisualstudio className="icon icon-vscode" />
                         <p className="nombre-vscode"> VSCode </p>
                     </div>
                     <div className="imagen">
@@ -119,8 +120,8 @@ export default function Skills() {
                         <p className="nombre-npm"> NPM </p>
                     </div>
                     <div className="imagen">
-                        <SiBun className="icon icon-bun" />
-                        <p className="nombre-bun"> Bun </p>
+                        <SiN8N className="icon icon-n8n" />
+                        <p className="nombre-n8n"> n8n </p>
                     </div>
                     <div className="imagen">
                         <FaLinux className="icon icon-linux" />

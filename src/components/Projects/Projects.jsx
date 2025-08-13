@@ -28,8 +28,8 @@ export default function Projects() {
     }
 
     const proyectosOrdenados = [...Proyectos].sort((a, b) => {
-        const fechaA = new Date(a.fechaDeObtencion);
-        const fechaB = new Date(b.fechaDeObtencion);
+        const fechaA = new Date(a.fechaFormateada);
+        const fechaB = new Date(b.fechaFormateada);
         return orden === 'reciente' ? fechaB - fechaA : fechaA - fechaB;
     });
 

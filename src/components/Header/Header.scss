@@ -1,150 +1,146 @@
 .header {
-    width: 100%;
-    z-index: 1001;
+  width: 100%;
+  z-index: 1001;
 
-    .navbar {
-        max-width: 1160px;
-        height: 72px;
-        margin: auto;
-        padding: 0px 32px;
+  .navbar {
+    max-width: 1160px;
+    height: 72px;
+    margin: auto;
+    padding: 0px 32px;
 
-        .logo {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: fit-content;
-            cursor: pointer;
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      cursor: pointer;
 
-            h2 {
-                color: var(--color-de-titulos);
-                margin: 0;
-                font-size: var(--font-size-titulos-categorias);
-            }
-        }
-
-        .categorias {
-            display: flex;
-            width: fit-content;
-
-            .seccion {
-                display: flex;
-                align-items: center;
-                width: fit-content;
-                margin: 0 10px;
-                cursor: pointer;
-
-                p {
-                    margin: 0;
-                    border-bottom: 2.5px solid transparent;
-                    padding: 0 2px;
-                    color: var(--color-de-texto-gris-uno);
-                    font-weight: 600;
-                    font-size: var(--font-size-textos);
-                }
-
-                &:hover {
-                    p {
-                        border-bottom: 2.5px solid var(--color-de-texto-gris-uno);
-                    }
-                }
-
-            }
-
-            .seccion-menu {
-
-                .icono {
-                    border: none;
-                    background-color: transparent;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-
-                    .icon {
-                        color: var(--color-de-texto-gris-uno);
-                        width: 26px;
-                        height: 26px;
-                    }
-                }
-            }
-        }
+      h2 {
+        color: var(--color-de-titulos);
+        margin: 0;
+        font-size: var(--font-size-titulos-categorias);
+      }
     }
+
+    .categorias {
+      display: flex;
+      width: fit-content;
+
+      .seccion {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        margin: 0 10px;
+        cursor: pointer;
+
+        p {
+          margin: 0;
+          border-bottom: 2.5px solid transparent;
+          padding: 0 2px;
+          color: var(--color-de-texto-gris-uno);
+          font-weight: 600;
+          font-size: var(--font-size-textos);
+        }
+
+        &:hover {
+          p {
+            border-bottom: 2.5px solid var(--color-de-texto-gris-uno);
+          }
+        }
+      }
+
+      .seccion-menu {
+        .icono {
+          border: none;
+          background-color: transparent;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .icon {
+            color: var(--color-de-texto-gris-uno);
+            width: 26px;
+            height: 26px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) and (max-width: 930px) {
-    .header {
-        .navbar {
-            .categorias {
-                .categoria-desktop {
-                    .seccion {
-                        margin: 0 8px;
-                        p {
-                            font-size: 16px;
-                        }
-                    }
-                }
+  .header {
+    .navbar {
+      .categorias {
+        .categoria-desktop {
+          .seccion {
+            margin: 0 8px;
+            p {
+              font-size: 16px;
             }
+          }
         }
+      }
     }
+  }
 }
 
-
 @media (max-width: 767px) {
-    .header {
-        width: 100%;
+  .header {
+    width: 100%;
 
-        .navbar {
-            max-width: 1160px;
-            height: 72px;
-            margin: auto;
-            padding: 0px 20px;
+    .navbar {
+      max-width: 1160px;
+      height: 72px;
+      margin: auto;
+      padding: 0px 20px;
 
-            .logo {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: fit-content;
-            }
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+      }
 
-            .categorias {
-                display: flex;
-                width: fit-content;
+      .categorias {
+        display: flex;
+        width: fit-content;
 
-                .categoria-desktop {
-                    display: none;
-                }
-
-                .seccion {
-                    display: flex;
-                    align-items: center;
-                    width: fit-content;
-                    margin: 0 10px;
-
-                    p {
-                        border-bottom: 2.5px solid transparent;
-                        padding: 0 2px;
-                        font-weight: 600;
-                    }
-
-                }
-
-                .seccion-menu {
-                    display: block !important;
-                    width: 30px;
-                    height: 30px;
-                    padding: 0;
-                    margin: 0;
-
-                    .icono {
-                        padding: 0;
-                        margin: 0;
-
-                        .icon {
-                            width: 30px;
-                            height: 30px;
-                        }
-                    }
-                }
-            }
+        .categoria-desktop {
+          display: none;
         }
+
+        .seccion {
+          display: flex;
+          align-items: center;
+          width: fit-content;
+          margin: 0 10px;
+
+          p {
+            border-bottom: 2.5px solid transparent;
+            padding: 0 2px;
+            font-weight: 600;
+          }
+        }
+
+        .seccion-menu {
+          display: block !important;
+          width: 30px;
+          height: 30px;
+          padding: 0;
+          margin: 0;
+
+          .icono {
+            padding: 0;
+            margin: 0;
+
+            .icon {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
     }
+  }
 }

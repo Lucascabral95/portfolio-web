@@ -284,7 +284,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "nombre": "Angular Pro - Nivel Superior",
     "nombreIngles": "Angular Pro - Nivel Superior",
     "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-14af0bdd-8f51-4d35-bb02-f929da7c9d5a.jpg?v=1751259824000",
@@ -295,35 +295,31 @@
     "fecha": "",
     "fechaDeObtencion": "30 de junio del 2025",
     "picture": "/img/certificado-curso-angular-pro.jpg",
-    "descripcion": "Completé este curso de Angular (versión 19+) sumamente robusto y completo, enfocado en el desarrollo de aplicaciones modernas con la nueva sintaxis del framework. Abordé en profundidad temas como programación reactiva con RxJS, autenticación y autorización, componentes stand alone, signals, manejo avanzado de rutas, formularios reactivos, interceptores HTTP y creación de pipes personalizados, adquiriendo así todas las herramientas necesarias para desenvolverme profesionalmente en Angular.",
+    "descripcion": "Este curso avanzado de Angular me permitió profundizar en técnicas profesionales de desarrollo, optimización y escalabilidad de aplicaciones web. Adquirí conocimientos especializados en renderizado del lado del servidor, gestión de estados moderna, testing integral y arquitecturas monorepo, elementos fundamentales para el desarrollo de aplicaciones Angular de nivel empresarial.",
     "temas": [
       {
-        "nombre": "RxJS (Programación reactiva y manejo de observables)",
-        "descripcion": "Adquirí experiencia en la gestión de flujos de datos asíncronos y eventos mediante observables y operadores de transformación."
+        "nombre": "Desarrollo Avanzado con Angular (Zoneless, SSR, SSG)",
+        "descripcion": "Implementación de aplicaciones sin Zone.js para mejor rendimiento, renderizado del lado del servidor para SEO optimizado y generación de sitios estáticos para máxima velocidad de carga."
       },
       {
-        "nombre": "Autenticación y autorización en aplicaciones Angular",
-        "descripcion": "Implementé mecanismos de protección de rutas y control de acceso de usuarios utilizando tokens y guardas."
+        "nombre": "Internacionalización (i18n)",
+        "descripcion": "Configuración y manejo de aplicaciones multiidioma, gestión de traducciones dinámicas y adaptación cultural de interfaces para audiencias globales."
       },
       {
-        "nombre": "Componentes stand alone y uso de Signals",
-        "descripcion": "Desarrollé componentes independientes sin módulos y gestioné el estado reactivo de la interfaz con signals."
+        "nombre": "Testing Avanzado (Unitario y E2E con Jasmine y Karma)",
+        "descripcion": "Desarrollo de suites de pruebas comprehensivas, testing unitario de componentes y servicios, y pruebas end-to-end para garantizar calidad y estabilidad del código."
       },
       {
-        "nombre": "Manejo avanzado de rutas (rutas hijas y lazy loading)",
-        "descripcion": "Configuré rutas hijas y optimicé la carga de módulos mediante lazy loading para mejorar el rendimiento."
+        "nombre": "Gestión de Estados con TanStack Query",
+        "descripcion": "Implementación de cache inteligente, sincronización de datos del servidor, y manejo eficiente del estado global de la aplicación con esta moderna librería."
       },
       {
-        "nombre": "Formularios reactivos",
-        "descripcion": "Construí formularios dinámicos y apliqué validaciones avanzadas utilizando el enfoque reactivo de Angular."
+        "nombre": "Desarrollo y Gestión de Monorepos en Angular",
+        "descripcion": "Arquitectura de proyectos escalables, compartición de código entre aplicaciones, y gestión de dependencias en estructuras de repositorio único."
       },
       {
-        "nombre": "Interceptores HTTP",
-        "descripcion": "Apliqué interceptores para centralizar la gestión y modificación de solicitudes y respuestas HTTP."
-      },
-      {
-        "nombre": "Pipes personalizados",
-        "descripcion": "Implementé pipes a medida para transformar y presentar datos según los requerimientos de la aplicación."
+        "nombre": "SEO Avanzado en Angular (SSR, SSG, Meta Etiquetas)",
+        "descripcion": "Optimización para motores de búsqueda mediante renderizado híbrido, generación de meta etiquetas dinámicas y configuración de URLs amigables para mejor indexación."
       }
     ]
   }

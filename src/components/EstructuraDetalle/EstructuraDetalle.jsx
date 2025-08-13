@@ -35,7 +35,7 @@ const EstructuraDetalle = ({
                         </div>
                     }
                     <div className="credencial">
-                        <a href={filtroCertificaciones.url} target="_blank" title="Ver credencial digital">
+                        <a href={filtroCertificaciones.url} target="_blank" rel="noopener noreferrer" title="Ver credencial digital">
                             <div className="caja-credencial">
                                 {existeProyecto
                                     ?
@@ -46,7 +46,7 @@ const EstructuraDetalle = ({
                             </div>
                         </a>
                         {filtroCertificaciones.linkRepo &&
-                            <a href={filtroCertificaciones.linkRepo} target="_blank" title="Ir al repositorio">
+                            <a href={filtroCertificaciones.linkRepo} target="_blank" rel="noopener noreferrer" title="Ir al repositorio">
                                 <div className="caja-credencial">
                                     <p>
                                         {filtroCertificaciones.id === 10 ? "Ir al Drive" : "Ir al Repo"}

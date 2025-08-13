@@ -1,487 +1,485 @@
 .certificaciones {
+  width: 100%;
+  margin: 0 0 -6% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  background: rgb(10, 9, 15);
+  background: linear-gradient(
+    45deg,
+    rgba(10, 9, 15, 1) 0%,
+    rgba(10, 9, 15, 1) 2%,
+    rgba(10, 9, 15, 1) 80%,
+    rgba(153, 15, 234, 1) 90%,
+    rgba(153, 47, 123, 1) 95%
+  );
+  //--- al menos 100vh ------
+  min-height: calc(100vh - 72px - 150.2px - 2.8vw);
+  //--- al menos 100vh ------
+
+  .contenedor-de-certificaciones {
+    width: 100%;
+    max-width: 1160px !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 0;
+    border-radius: 20px;
+    padding: 24px 40px;
+    background-color: #13111c;
+
+    .titulo-certificaciones-mobile {
+      display: none;
+
+      h2 {
+        text-align: center;
+        font-weight: bold;
+        text-align: center;
+        color: #ffd700;
+      }
+    }
+
+    .foto {
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        cursor: pointer;
+        border: 0.4px solid #990fea;
+      }
+
+      .fecha-de-obtencion {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 2px 0 0;
+        margin: 2px 0 0 0;
+
+        p {
+          color: #fed402;
+          margin: 0;
+          font-weight: 400;
+          font-size: 12.8px;
+        }
+      }
+
+      .credencial {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .caja-credencial {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 4px;
+          padding: 4px 8px;
+          cursor: pointer;
+          background-color: #990fea;
+          margin: 15px 12px 0 12px;
+
+          p {
+            margin: 0;
+            color: white;
+          }
+
+          .icon-link-repo {
+            color: white;
+            margin: 0 0 0 4px;
+            font-size: 20px;
+          }
+
+          &:hover {
+            transition: 0.2s ease-in-out;
+            background-color: #b33efb;
+          }
+        }
+      }
+
+      .mas-imagenes-proyecto {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .imagenes {
+          width: 22.6%;
+          height: auto;
+          margin: 12px 0;
+          cursor: pointer;
+
+          .img-mas-imagenes {
+            width: 100%;
+            height: auto;
+            border: none;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+
+    .linea-divisoria {
+      display: none;
+    }
+
+    .certificaciones-detalles {
+      width: 48%;
+      color: white;
+
+      .contenedor-detalles {
+        width: 100%;
+
+        .titulo {
+          display: flex;
+          flex-direction: column;
+
+          h2 {
+            font-weight: bold;
+            text-align: center;
+            color: #ffd700;
+          }
+
+          .detalles-texto {
+            color: red;
+            margin: 0;
+            font-weight: 500;
+            text-align: center;
+          }
+        }
+
+        .descripcion {
+          margin: 20px 0 0 0;
+
+          .caracteristicas-claves {
+            width: 100%;
+            margin: 24px 0 -4px 0;
+
+            .caracteristicas-claves-titulo {
+              font-weight: 600;
+              font-size: 17.2px;
+              color: #ffd700;
+            }
+          }
+
+          .contenedor-de-descripcion {
+            display: flex;
+            flex-direction: column;
+
+            .organizador {
+              display: flex;
+              margin: 4px 0;
+              align-items: center;
+
+              .texto-englobador {
+                display: block;
+
+                .t-e {
+                  font-weight: bold;
+                }
+
+                .texto {
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+
+        .tecnologias-vistas {
+          display: flex;
+          flex-direction: column;
+
+          .contenedor-de-tecnologias {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 16px 0 0 0;
+
+            .tecnos {
+              width: fit-content;
+              margin: 5px;
+              padding: 5px 6px;
+              border-radius: 4px;
+
+              .tecnos-texto {
+                margin: 0;
+                font-weight: 600;
+                display: flex;
+                text-align: center;
+              }
+
+              img {
+                width: 32px;
+                height: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .certificaciones {
     width: 100%;
     margin: 0 0 -6% 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
-    background: rgb(10, 9, 15);
-    background: linear-gradient(45deg, rgba(10, 9, 15, 1) 0%, rgba(10, 9, 15, 1) 2%, rgba(10, 9, 15, 1) 80%, rgba(153, 15, 234, 1) 90%, rgba(153, 47, 123, 1) 95%);
-    //--- al menos 100vh ------
-    min-height: calc(100vh - 72px - 150.2px - 2.8vw);
-    //--- al menos 100vh ------
+    padding: 0 32px;
 
     .contenedor-de-certificaciones {
-        width: 100%;
-        max-width: 1160px !important;
+      width: 100%;
+      max-width: 1160px !important;
+      display: flex;
+      justify-content: space-between;
+      margin: 4% 0;
+      border-radius: 20px;
+      padding: 16.8px 28px;
+
+      .foto {
+        width: 48%;
         display: flex;
-        justify-content: space-between;
-        margin: 4% 0;
-        border-radius: 20px;
-        padding: 24px 40px;
-        background-color: #13111C;
-
-        .titulo-certificaciones-mobile {
-            display: none;
-
-            h2 {
-                text-align: center;
-                font-weight: bold;
-                text-align: center;
-                color: #FFD700;
-            }
-        }
-
-        .foto {
-            width: 48%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            img {
-                width: 100%;
-                height: auto;
-                border-radius: 12px;
-                cursor: pointer;
-                border: 0.4px solid #990FEA;
-            }
-
-            .fecha-de-obtencion {
-                width: 100%;
-                display: flex;
-                justify-content: flex-end;
-                padding: 0 2px 0 0;
-                margin: 2px 0 0 0;
-
-                p {
-                    color: #FED402;
-                    margin: 0;
-                    font-weight: 400;
-                    font-size: 12.8px;
-                }
-            }
-
-            .credencial {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                .caja-credencial {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: 4px;
-                    padding: 4px 8px;
-                    cursor: pointer;
-                    background-color: #990FEA;
-                    margin: 15px 12px 0 12px;
-
-                    p {
-                        margin: 0;
-                        color: white;
-                    }
-
-                    .icon-link-repo {
-                        color: white;
-                        margin: 0 0 0 4px;
-                        font-size: 20px;
-                    }
-
-                    &:hover {
-                        transition: 0.2s ease-in-out;
-                        background-color: #B33EFB;
-                    }
-                }
-            }
-
-            .mas-imagenes-proyecto {
-                width: 100%;
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
-
-                .imagenes {
-                    width: 22.6%;
-                    height: auto;
-                    margin: 12px 0;
-                    cursor: pointer;
-
-                    .img-mas-imagenes {
-                        width: 100%;
-                        height: auto;
-                        border: none;
-                        border-radius: 4px;
-                    }
-                }
-            }
-        }
-
-        .linea-divisoria {
-            display: none;
-        }
-
-        .certificaciones-detalles {
-            width: 48%;
-            color: white;
-
-            .contenedor-detalles {
-                width: 100%;
-
-                .titulo {
-                    display: flex;
-                    flex-direction: column;
-
-                    h2 {
-                        font-weight: bold;
-                        text-align: center;
-                        color: #FFD700;
-                    }
-
-                    .detalles-texto {
-                        color: red;
-                        margin: 0;
-                        font-weight: 500;
-                        text-align: center;
-                    }
-                }
-
-                .descripcion {
-                    margin: 20px 0 0 0;
-
-                    .caracteristicas-claves {
-                        width: 100%;
-                        margin: 24px 0 -4px 0;
-
-                        .caracteristicas-claves-titulo {
-                            font-weight: 600;
-                            font-size: 17.2px;
-                            color: #FFD700;
-                        }
-                    }
-
-                    .contenedor-de-descripcion {
-                        display: flex;
-                        flex-direction: column;
-
-                        .organizador {
-                            display: flex;
-                            margin: 4px 0;
-                            align-items: center;
-
-                            .texto-englobador {
-                                display: block;
-
-                                .t-e {
-                                    font-weight: bold;
-                                }
-
-                                .texto {
-                                    margin: 0;
-                                }
-                            }
-                        }
-                    }
-                }
-
-                .tecnologias-vistas {
-                    display: flex;
-                    flex-direction: column;
-
-                    .contenedor-de-tecnologias {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-wrap: wrap;
-                        margin: 16px 0 0 0;
-
-                        .tecnos {
-                            width: fit-content;
-                            margin: 5px;
-                            padding: 5px 6px;
-                            border-radius: 4px;
-
-                            .tecnos-texto {
-                                margin: 0;
-                                font-weight: 600;
-                                display: flex;
-                                text-align: center;
-                            }
-
-                            img {
-                                width: 32px;
-                                height: 32px;
-                            }
-
-                            ;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1200px) {
-    .certificaciones {
-        width: 100%;
-        margin: 0 0 -6% 0;
-        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 32px;
 
-        .contenedor-de-certificaciones {
-            width: 100%;
-            max-width: 1160px !important;
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .credencial {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .caja-credencial {
             display: flex;
-            justify-content: space-between;
-            margin: 4% 0;
-            border-radius: 20px;
-            padding: 16.8px 28px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            padding: 4px 8px;
+            margin: 15px 10px 0 10px;
+          }
+        }
+      }
 
-            .foto {
-                width: 48%;
+      .certificaciones-detalles {
+        width: 48%;
+
+        .contenedor-detalles {
+          width: 100%;
+
+          .titulo {
+            display: flex;
+            flex-direction: column;
+
+            .detalles-texto {
+              margin: 0;
+            }
+          }
+
+          .descripcion {
+            margin: 20px 0 0 0;
+
+            .contenedor-de-descripcion {
+              display: flex;
+              flex-direction: column;
+
+              .organizador {
                 display: flex;
-                flex-direction: column;
-                justify-content: center;
+                margin: 4px 0;
                 align-items: center;
 
+                .texto-englobador {
+                  display: block;
+
+                  .texto {
+                    margin: 0;
+                  }
+                }
+              }
+            }
+          }
+
+          .tecnologias-vistas {
+            display: flex;
+            flex-direction: column;
+
+            .contenedor-de-tecnologias {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              margin: 12px 0 0 0;
+
+              .tecnos {
+                width: fit-content;
+                margin: 5px;
+                padding: 5px 6px;
+                border-radius: 4px;
+
+                .tecnos-texto {
+                  display: flex;
+                }
+
                 img {
-                    width: 100%;
-                    height: auto;
+                  width: 32px;
+                  height: 32px;
                 }
-
-                .credencial {
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    .caja-credencial {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        border-radius: 4px;
-                        padding: 4px 8px;
-                        margin: 15px 10px 0 10px;
-
-                    }
-                }
+              }
             }
-
-            .certificaciones-detalles {
-                width: 48%;
-
-                .contenedor-detalles {
-                    width: 100%;
-
-                    .titulo {
-                        display: flex;
-                        flex-direction: column;
-
-                        .detalles-texto {
-                            margin: 0;
-                        }
-                    }
-
-                    .descripcion {
-                        margin: 20px 0 0 0;
-
-                        .contenedor-de-descripcion {
-                            display: flex;
-                            flex-direction: column;
-
-                            .organizador {
-                                display: flex;
-                                margin: 4px 0;
-                                align-items: center;
-
-                                .texto-englobador {
-                                    display: block;
-
-                                    .texto {
-                                        margin: 0;
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    .tecnologias-vistas {
-                        display: flex;
-                        flex-direction: column;
-
-                        .contenedor-de-tecnologias {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            flex-wrap: wrap;
-                            margin: 12px 0 0 0;
-
-                            .tecnos {
-                                width: fit-content;
-                                margin: 5px;
-                                padding: 5px 6px;
-                                border-radius: 4px;
-
-                                .tecnos-texto {
-                                    display: flex;
-                                }
-
-                                img {
-                                    width: 32px;
-                                    height: 32px;
-                                }
-
-                                ;
-                            }
-                        }
-                    }
-                }
-            }
+          }
         }
+      }
     }
+  }
 }
 
 @media (max-width: 767px) {
-    .certificaciones {
-        padding: 0 20px;
+  .certificaciones {
+    padding: 0 20px;
 
-        .contenedor-de-certificaciones {
-            padding: 14px 14px;
+    .contenedor-de-certificaciones {
+      padding: 14px 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titulo-certificaciones-mobile {
+        display: block;
+        margin: 0 0 12px 0;
+      }
+
+      .foto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .credencial {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .caja-credencial {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            padding: 4px 8px;
+            margin: 20px 10px 0 10px;
+
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .linea-divisoria {
+        width: 100%;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin: 28px 0 16px 0;
+
+        .linea-interior {
+          width: 90%;
+          box-shadow: 0 0 10px 0 #990fea;
+          height: 0.8px;
+          background-color: #990fea;
+          border-radius: 50%;
+        }
+      }
+
+      .certificaciones-detalles {
+        width: 100%;
+
+        .contenedor-detalles {
+          width: 100%;
+          margin: 0;
+
+          .titulo {
+            flex-direction: column;
+            // display: flex;
+            display: none;
+
+            .detalles-texto {
+              margin: 0;
+            }
+          }
+
+          .descripcion {
+            margin: 8px 0 0 0;
+
+            .contenedor-de-descripcion {
+              display: flex;
+              flex-direction: column;
+
+              .organizador {
+                display: flex;
+                margin: 4px 0;
+                align-items: center;
+
+                .texto-englobador {
+                  .texto {
+                    margin: 0;
+                  }
+                }
+              }
+            }
+          }
+
+          .tecnologias-vistas {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
 
-            .titulo-certificaciones-mobile {
-                display: block;
-                margin: 0 0 12px 0;
-            }
+            .contenedor-de-tecnologias {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              margin: 12px 0 0 0;
 
-            .foto {
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+              .tecnos {
+                width: fit-content;
+                margin: 5px;
+                padding: 5px 6px;
+                border-radius: 4px;
+
+                .tecnos-texto {
+                  display: flex;
+                }
 
                 img {
-                    width: 100%;
-                    height: auto;
+                  width: 32px;
+                  height: 32px;
                 }
-
-                .credencial {
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    .caja-credencial {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        border-radius: 4px;
-                        padding: 4px 8px;
-                        margin: 20px 10px 0 10px;
-
-                        p {
-                            font-size: 16px;
-                        }
-
-                    }
-                }
+              }
             }
-
-            .linea-divisoria {
-                width: 100%;
-                display: flex !important;
-                justify-content: center;
-                align-items: center;
-                margin: 28px 0 16px 0;
-
-                .linea-interior {
-                    width: 90%;
-                    box-shadow: 0 0 10px 0 #990FEA;
-                    height: 0.8px;
-                    background-color: #990FEA;
-                    border-radius: 50%;
-                }
-            }
-
-            .certificaciones-detalles {
-                width: 100%;
-
-                .contenedor-detalles {
-                    width: 100%;
-                    margin: 0;
-
-                    .titulo {
-                        flex-direction: column;
-                        // display: flex;
-                        display: none;
-
-                        .detalles-texto {
-                            margin: 0;
-                        }
-                    }
-
-                    .descripcion {
-                        margin: 8px 0 0 0;
-
-                        .contenedor-de-descripcion {
-                            display: flex;
-                            flex-direction: column;
-
-                            .organizador {
-                                display: flex;
-                                margin: 4px 0;
-                                align-items: center;
-
-                                .texto-englobador {
-
-                                    .texto {
-                                        margin: 0;
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    .tecnologias-vistas {
-                        display: flex;
-                        flex-direction: column;
-
-                        .contenedor-de-tecnologias {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            flex-wrap: wrap;
-                            margin: 12px 0 0 0;
-
-                            .tecnos {
-                                width: fit-content;
-                                margin: 5px;
-                                padding: 5px 6px;
-                                border-radius: 4px;
-
-                                .tecnos-texto {
-                                    display: flex;
-                                }
-
-                                img {
-                                    width: 32px;
-                                    height: 32px;
-                                }
-
-                                ;
-                            }
-                        }
-                    }
-                }
-            }
+          }
         }
+      }
     }
+  }
 }
