@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import Proyectos from "../../JSON/Projects.json"
 import EstructuraDetalle from "../EstructuraDetalle/EstructuraDetalle.jsx"
 import StructuraBody from "../EstructuraBody/EstructuraBody.jsx"
+import Seo from "../common/Seo/Seo.jsx"
 
 const ProyectosId = () => {
     const { id } = useParams()
@@ -10,6 +11,8 @@ const ProyectosId = () => {
     const [imagenSeleccionada, setImagenSeleccionada] = useState('')
     const [isOpenImage, setIsOpenImage] = useState(false)
     const [detallesTecnologia, setDetallesTecnologia] = useState([])
+    const baseUrl = import.meta.env.VITE_BASE_URL;
+    const canonical = `${baseUrl.replace(/\/$/, "")}/`;
 
     useEffect(() => {
         const proyectoElegido = project.filter(item => item.id === Number(id))
@@ -20,6 +23,16 @@ const ProyectosId = () => {
 
     return (
         <StructuraBody>
+
+            <Seo
+                title={`${project.nombre || 'Proyecto'} | Lucas Cabral`}
+                description={project?.tecnologias?.length > 0
+                    ? `Proyecto desarrollado con: ${project.tecnologias.map(t => t.nombre).join(', ')}.`
+                    : 'Proyecto de desarrollo web profesional.'}
+                canonical={`/proyecto/${id}`}
+                image={`${canonical}/${project.imagen}`}
+                type="article"
+            />
 
             <EstructuraDetalle
                 filtroCertificaciones={project}
