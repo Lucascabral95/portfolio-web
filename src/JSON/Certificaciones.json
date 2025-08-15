@@ -330,5 +330,54 @@
         "descripcion": "Optimización para motores de búsqueda mediante renderizado híbrido, generación de meta etiquetas dinámicas y configuración de URLs amigables para mejor indexación."
       }
     ]
+  },
+  {
+    "id": 9,
+    "nombre": "React Native + Expo",
+    "nombreIngles": "React Native + Expo",
+    "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-622586c7-cf17-4db1-8407-cc9901570886.jpg?v=1755218579000",
+    "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-622586c7-cf17-4db1-8407-cc9901570886.jpg?v=1755218579000",
+    "imagen": "/img/react-native-expo.jpg",
+    "imagenIngles": "/img/react-native-expo.jpg",
+    "institucion": "Udemy",
+    "creacion": "2025-08-14",
+    "fecha": "",
+    "fechaDeObtencion": "14 de agosto del 2025",
+    "picture": "/img/react-native-expo.jpg",
+    "descripcion": "Este curso profesional de React Native con Expo me permitió implementar funcionalidades nativas clave listas para producción en iOS y Android: notificaciones push con Firebase, orquestación de permisos del sistema, geolocalización y mapas, cámara/galería, almacenamiento seguro y persistente, navegación con deep links desde notificaciones y formularios robustos con Formik, culminando en el despliegue en App Store y Google Play.",
+    "temas": [
+      {
+        "nombre": "Notificaciones Push con Firebase Cloud Messaging (FCM)",
+        "descripcion": "Configuración en Firebase, registro de tokens, permisos de notificaciones en iOS/Android, recepción en foreground/background/quit y deep links a pantallas específicas."
+      },
+      {
+        "nombre": "Permisos del Sistema y Flujos de Autorización",
+        "descripcion": "Manejo centralizado de permisos (Info.plist/AndroidManifest y runtime), reintentos, estados negado/permanente y derivación a ajustes del sistema."
+      },
+      {
+        "nombre": "Almacenamiento Seguro (Secure Storage)",
+        "descripcion": "Resguardo de tokens/credenciales con Keychain (iOS) y Keystore (Android), cifrado en reposo y recuperación segura."
+      },
+      {
+        "nombre": "Geolocalización y Mapas",
+        "descripcion": "Ubicación en tiempo real y bajo demanda, geocodificación inversa, rutas y visualización en mapas con líneas de recorrido (polylines), marcadores y seguimiento en tiempo real."
+      },
+      {
+        "nombre": "Cámara y Galería de Imágenes/Videos",
+        "descripcion": "Captura y selección de medios, compresión/redimensionamiento, metadatos EXIF, permisos por plataforma y subida optimizada."
+      },
+      {
+        "nombre": "Navegación y Deep Linking desde Notificaciones",
+        "descripcion": "React Navigation con rutas protegidas, parámetros desde payloads de notificación y persistencia del estado de navegación."
+      },
+      {
+        "nombre": "Formularios Avanzados con Formik",
+        "descripcion": "Estados controlados, validación con Yup, manejo de errores por campo y optimización de performance."
+      },
+      {
+        "nombre": "Publicación en App Store y Google Play",
+        "descripcion": "Compilaciones de producción, firma de apps, gestión de certificados y despliegue en tiendas."
+      }
+    ]
   }
 ]
