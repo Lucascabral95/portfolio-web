@@ -1,0 +1,38 @@
+$rigth-toast: 20px;
+$bottom-toast: 26px;
+$color-toast: #9f3efc;
+$padding-y-div: 8px;
+$padding-x-div: 12px;
+
+.tostada {
+  position: fixed;
+  right: $rigth-toast;
+  bottom: $bottom-toast;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: all 200ms ease;
+
+  &.show {
+    opacity: 1;
+    transition: all 200ms ease;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .contenedor-tostada {
+    border: 1px solid $color-toast;
+    border-radius: 12px;
+    padding: $padding-y-div $padding-x-div;
+    background-color: #13111c;
+
+    .message {
+      display: flex;
+      align-items: center;
+
+      .text-message {
+        font-size: 14px;
+        color: $color-toast;
+      }
+    }
+  }
+}
