@@ -1,7 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom"
 import { useEffect } from "react"
 import ProgressBar from "../components/Animacion/ProgressBar.jsx"
-import LucasWeb from "../components/Animacion/LucasWeb.jsx"
 import Certificaciones from "../components/Certificaciones/Certificaciones.jsx"
 import Main from "../components/Main.jsx"
 import ProyectosId from "../components/ProyectosID/Proyectos.jsx"
@@ -17,8 +16,6 @@ export default function PublicRoutes() {
         <>
 
             <ProgressBar />
-
-            <LucasWeb />
 
             <Routes>
 

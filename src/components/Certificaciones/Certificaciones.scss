@@ -1,3 +1,6 @@
+$margin-top-photo-desktop: 70px 0 0 0;
+$margin-top-photo-mobile: 0 0 0 0;
+
 .certificaciones {
   width: 100%;
   margin: 0 0 -6% 0;
@@ -43,8 +46,8 @@
       width: 48%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      justify-content: flex-start;
+      margin: $margin-top-photo-desktop;
 
       img {
         width: 100%;
@@ -72,6 +75,7 @@
       .credencial {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
 
@@ -250,8 +254,8 @@
         width: 48%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        margin: $margin-top-photo-desktop;
 
         img {
           width: 100%;
@@ -369,6 +373,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: $margin-top-photo-mobile;
 
         img {
           width: 100%;
@@ -421,7 +426,6 @@
 
           .titulo {
             flex-direction: column;
-            // display: flex;
             display: none;
 
             .detalles-texto {

@@ -1,3 +1,6 @@
+$width-div-img: 56%;
+$min-width-div-img: 900px;
+
 .image-zoom {
   width: 100%;
   height: 100vh;
@@ -25,6 +28,7 @@
       position: fixed;
       top: 2%;
       left: 2%;
+      cursor: pointer;
 
       .cont-icono {
         width: 40px;
@@ -48,7 +52,8 @@
     }
 
     .imagen-del-zoom {
-      width: 56%;
+      min-width: $min-width-div-img;
+      width: $width-div-img;
       border-radius: 0px;
       display: flex;
       justify-content: center;
@@ -106,17 +111,14 @@
       }
 
       .imagen-del-zoom {
+        min-width: auto;
         width: 100%;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 0 0 0;
-
-        .img-zoom {
-          border: none;
-          box-shadow: none;
-        }
+        padding: 0 2%;
       }
     }
   }
@@ -129,6 +131,16 @@
     .contenedor {
       .iconooo {
         padding: 4% 2% 0 2%;
+      }
+
+      .imagen-del-zoom {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        .img-zoom {
+          width: 100%;
+          height: auto;
+        }
       }
     }
   }

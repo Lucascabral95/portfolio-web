@@ -1,12 +1,19 @@
 import { useState, useMemo } from "react"
 import { Typewriter } from "react-simple-typewriter"
 import { useSpring, animated } from "@react-spring/web"
-import "./AboutMe.scss"
 import Toast from "./Components/Toast"
+import "./AboutMe.scss"
 
 export default function AboutMe() {
     const [imageLoaded, setImageLoaded] = useState(false)
     const [emailCopied, setEmailCopied] = useState(false)
+
+    const word = [
+        'Desarrollo Full Stack',
+        'Arquitecturas Backend',
+        'NestJS · React · Next.js',
+        'Microservicios',
+    ]
 
     const email = "lucassimple1995@hotmail.com"
     const linkedinUrl = "https://www.linkedin.com/in/lucas-gast%C3%B3n-cabral/"
@@ -66,13 +73,10 @@ export default function AboutMe() {
                         </h1>
 
                         <h2 className="aboutMe__subtitle">
-                            <span>Soy un </span>
+                            <span>Especialista en </span>
                             <span className="typewriter">
                                 <Typewriter
-                                    words={[
-                                        "Code Lover",
-                                        "Full Stack Developer",
-                                    ]}
+                                    words={word}
                                     loop={0}
                                     cursor
                                     cursorStyle="|"

@@ -1,5 +1,5 @@
 import ImageZoom from "../ImageZoom/ImageZoom.jsx";
-import { FaGithubAlt, FaGoogleDrive } from "react-icons/fa";
+import LinkEstructuraDetalle from "./components/LinkEstructuraDetalle.jsx";
 
 const EstructuraDetalle = ({
     filtroCertificaciones,
@@ -46,30 +46,14 @@ const EstructuraDetalle = ({
                             </div>
                         </a>
                         {filtroCertificaciones.linkRepo &&
-                            <a href={filtroCertificaciones.linkRepo} target="_blank" rel="noopener noreferrer" title="Ir al repositorio">
-                                <div className="caja-credencial">
-                                    <p>
-                                        {filtroCertificaciones.id === 10 ? "Ir al Drive" : "Ir al Repo"}
-                                    </p>
-                                    {filtroCertificaciones.id === 10
-                                        ?
-                                        <FaGoogleDrive className="icon-link-repo" />
-                                        :
-                                        <FaGithubAlt className="icon-link-repo" />
-                                    }
-                                </div>
-                            </a>
+                            <LinkEstructuraDetalle isBackend={false} linkRepo={filtroCertificaciones.linkRepo} id={filtroCertificaciones.id} />
+                        }
+                        {filtroCertificaciones.repoBackend &&
+                            <LinkEstructuraDetalle isBackend={true} linkRepo={filtroCertificaciones.repoBackendLink} id={filtroCertificaciones.id} />
                         }
                     </div>
 
-                    {
-                        isOpenImage &&
-                        <ImageZoom
-                            image={imagen}
-                            setIsOpenImage={setIsOpenImage}
-                            isOpenImage={isOpenImage}
-                        />
-                    }
+                    {isOpenImage && <ImageZoom image={imagen} setIsOpenImage={setIsOpenImage} isOpenImage={isOpenImage} />}
 
                 </div>
                 <div className="linea-divisoria">

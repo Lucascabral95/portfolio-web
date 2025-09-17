@@ -1,7 +1,7 @@
-import "./ImageZoom.scss"
 import { motion } from "framer-motion"
 import { IoCloseSharp } from "react-icons/io5"
-import { useRef } from "react"
+import { useEffect, useRef } from "react"
+import "./ImageZoom.scss"
 
 const ImageZoom = ({ image, setIsOpenImage, isOpenImage }) => {
   const imageRef = useRef(null)
@@ -16,6 +16,21 @@ const ImageZoom = ({ image, setIsOpenImage, isOpenImage }) => {
     }
     setIsOpenImage(false)
   }
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setIsOpenImage(false)
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [setIsOpenImage])
+
 
   return (
     <motion.div
