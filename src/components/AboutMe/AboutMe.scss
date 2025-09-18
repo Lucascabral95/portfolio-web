@@ -9,18 +9,6 @@
   --shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: #f7f6fb;
-    --bg-2: #ffffff;
-    --text: #1b152b;
-    --text-dim: #534c62;
-    --stroke: rgba(0, 0, 0, 0.06);
-    --shadow: 0 10px 30px rgba(32, 15, 68, 0.08);
-  }
-}
-
-/* HERO FULL-BLEED */
 .aboutMe {
   position: relative;
   min-height: calc(100vh - 72px);
@@ -34,7 +22,7 @@
 
 .aboutMe__bg {
   position: absolute;
-  inset: -10% 0 -10% 0; /* full ancho real */
+  inset: -10% 0 -10% 0;
   background: radial-gradient(
       1200px 600px at 85% 20%,
       rgba(159, 62, 252, 0.18),
@@ -202,7 +190,7 @@
   box-shadow: 0 12px 28px rgba(159, 62, 252, 0.28),
     0 4px 12px rgba(0, 0, 0, 0.22);
 }
-///////
+
 .btn--ghost:hover {
   border-color: rgba(159, 62, 252, 0.45);
   color: var(--brand);
@@ -302,7 +290,6 @@
   color: var(--text-dim);
 }
 
-/* Foto full-bleed hero */
 .aboutMe__photo {
   position: relative;
   display: grid;
@@ -390,7 +377,6 @@
   margin-top: clamp(12px, 4vw, 24px);
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
   .aboutMe__content {
     grid-template-columns: 1fr;
