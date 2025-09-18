@@ -1,59 +1,88 @@
-import "./Footer.scss";
+import { useCallback, useMemo } from "react";
 import { FaGithub, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import "./Footer.scss";
 
 export default function Footer() {
-    const scrollToSection = (id) => {
+    const scrollToSection = useCallback((id) => {
         const element = document.getElementById(id);
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
         }
-    };
+    }, []);
+
+    const socialLinks = useMemo(() => [
+        {
+            href: "https://www.linkedin.com/feed/",
+            icon: FaLinkedin,
+            label: "LinkedIn"
+        },
+        {
+            href: "https://github.com/Lucascabral95",
+            icon: FaGithub,
+            label: "GitHub"
+        },
+        {
+            href: "https://www.instagram.com/lucascabral95/",
+            icon: FaInstagram,
+            label: "Instagram"
+        },
+        {
+            href: "https://web.facebook.com/lucas.cabral3/",
+            icon: FaFacebook,
+            label: "Facebook"
+        }
+    ], []);
+
+    const navigationSections = useMemo(() => [
+        { id: "aboutMe", label: "Sobre mí" },
+        { id: "skills", label: "Habilidades" },
+        { id: "projects", label: "Proyectos" },
+        { id: "education", label: "Educación" },
+        { id: "contactme", label: "Contacto" }
+    ], []);
+
+    const handleSectionClick = useCallback((sectionId) => {
+        scrollToSection(sectionId);
+    }, [scrollToSection]);
 
     return (
         <footer className="footer">
             <div className="contenedor">
                 <div className="footer-redes">
                     <div className="contenedor">
-                        <div className="icono">
-                            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedin className="icon" />
-                            </a>
-                        </div>
-                        <div className="icono">
-                            <a href="https://github.com/Lucascabral95" target="_blank" rel="noopener noreferrer">
-                                <FaGithub className="icon" />
-                            </a>
-                        </div>
-                        <div className="icono">
-                            <a href="https://www.instagram.com/lucascabral95/" target="_blank" rel="noopener noreferrer">
-                                <FaInstagram className="icon" />
-                            </a>
-                        </div>
-                        <div className="icono">
-                            <a href="https://web.facebook.com/lucas.cabral3/" target="_blank" rel="noopener noreferrer">
-                                <FaFacebook className="icon" />
-                            </a>
-                        </div>
+                        {socialLinks.map(({ href, icon: Icon, label }) => (
+                            <div key={href} className="icono">
+                                <a
+                                    href={href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label={`Visitar perfil de ${label}`}
+                                >
+                                    <Icon className="icon" />
+                                </a>
+                            </div>
+                        ))}
                     </div>
                 </div>
 
-                <div className="footer-secciones">
-                    <div className="seccion" onClick={() => scrollToSection("aboutMe")}>
-                        <p>Sobre mí</p>
-                    </div>
-                    <div className="seccion" onClick={() => scrollToSection("skills")}>
-                        <p>Habilidades</p>
-                    </div>
-                    <div className="seccion" onClick={() => scrollToSection("projects")}>
-                        <p>Proyectos</p>
-                    </div>
-                    <div className="seccion" onClick={() => scrollToSection("education")}>
-                        <p>Educación</p>
-                    </div>
-                    <div className="seccion" onClick={() => scrollToSection("contactme")}>
-                        <p>Contacto</p>
-                    </div>
-                </div>
+                <nav className="footer-secciones">
+                    {navigationSections.map(({ id, label }) => (
+                        <div
+                            key={id}
+                            className="seccion"
+                            onClick={() => handleSectionClick(id)}
+                            role="button"
+                            tabIndex={0}
+                            onKeyDown={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                    handleSectionClick(id);
+                                }
+                            }}
+                        >
+                            <p>{label}</p>
+                        </div>
+                    ))}
+                </nav>
 
                 <div className="footer-derechos-reservados">
                     <div className="texto">

@@ -1,15 +1,32 @@
-import "./Header.scss"
-import { Link, useNavigate } from "react-router-dom"
+import { useState, useEffect, useCallback, useMemo } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { CgMenuCake } from "react-icons/cg";
 import { IoIosCloseCircle } from "react-icons/io";
 import MenuHeader from "./MenuHeader";
-import { useState, useEffect } from "react";
+import "./Header.scss";
+
+const navigationItems = [
+    { id: "aboutme", label: "Sobre mí" },
+    { id: "skills", label: "Habilidades" },
+    { id: "servicios", label: "Servicios" },
+    { id: "projects", label: "Proyectos" },
+    { id: "education", label: "Educación" },
+    { id: "contactme", label: "Contacto" }
+];
+
+const NavigationItem = ({ id, label, onClick }) => (
+    <div className="categoria-desktop" onClick={() => onClick(id)}>
+        <div className="seccion">
+            <p>{label}</p>
+        </div>
+    </div>
+);
 
 export default function Header() {
-    const [activeMenu, setActiveMenu] = useState(false)
+    const [activeMenu, setActiveMenu] = useState(false);
     const navigate = useNavigate();
 
-    const scrollToSection = (id) => {
+    const scrollToSection = useCallback((id) => {
         navigate(`/#${id}`);
         setTimeout(() => {
             const element = document.getElementById(id);
@@ -17,11 +34,15 @@ export default function Header() {
                 element.scrollIntoView({ behavior: 'smooth' });
             }
         }, 0);
-    };
+    }, [navigate]);
 
-    const activateMenuHeader = () => {
-        setActiveMenu(!activeMenu);
-    };
+    const toggleMenuHeader = useCallback(() => {
+        setActiveMenu(prev => !prev);
+    }, []);
+
+    const handleNavigationClick = useCallback((sectionId) => {
+        scrollToSection(sectionId);
+    }, [scrollToSection]);
 
     useEffect(() => {
         document.body.style.overflow = activeMenu ? 'hidden' : 'auto';
@@ -31,57 +52,53 @@ export default function Header() {
         };
     }, [activeMenu]);
 
+    const menuIcon = useMemo(() => (
+        activeMenu ? <IoIosCloseCircle className="icon" /> : <CgMenuCake className="icon" />
+    ), [activeMenu]);
+
+    const menuHeaderProps = useMemo(() => ({
+        visible: activeMenu,
+        setVisible: setActiveMenu
+    }), [activeMenu]);
+
     return (
         <>
             <header className="header">
                 <nav className="navbar">
                     <div className="logo">
                         <Link to="/">
-                            <h2> Lucas Cabral </h2>
+                            <h2>Lucas Cabral</h2>
                         </Link>
                     </div>
 
                     <div className="categorias">
-                        <div className="categoria-desktop" onClick={() => scrollToSection("aboutme")}>
-                            <div className="seccion">
-                                <p> Sobre mí </p>
-                            </div>
-                        </div>
-                        <div className="categoria-desktop" onClick={() => scrollToSection("skills")}>
-                            <div className="seccion">
-                                <p> Habilidades </p>
-                            </div>
-                        </div>
-                        <div className="categoria-desktop" onClick={() => scrollToSection("servicios")}>
-                            <div className="seccion">
-                                <p> Servicios </p>
-                            </div>
-                        </div>
-                        <div className="categoria-desktop" onClick={() => scrollToSection("projects")}>
-                            <div className="seccion">
-                                <p> Proyectos </p>
-                            </div>
-                        </div>
-                        <div className="categoria-desktop" onClick={() => scrollToSection("education")}>
-                            <div className="seccion">
-                                <p> Educación </p>
-                            </div>
-                        </div>
-                        <div className="categoria-desktop" onClick={() => scrollToSection("contactme")}>
-                            <div className="seccion">
-                                <p> Contacto </p>
-                            </div>
-                        </div>
-                        <div className="seccion seccion-menu" style={{ display: "none" }} onClick={() => activateMenuHeader()}>
-                            <button className="icono">
-                                {activeMenu ? <IoIosCloseCircle className="icon" /> : <CgMenuCake className="icon" />}
+                        {navigationItems.map(({ id, label }) => (
+                            <NavigationItem
+                                key={id}
+                                id={id}
+                                label={label}
+                                onClick={handleNavigationClick}
+                            />
+                        ))}
+
+                        <div
+                            className="seccion seccion-menu"
+                            style={{ display: "none" }}
+                            onClick={toggleMenuHeader}
+                        >
+                            <button
+                                className="icono"
+                                type="button"
+                                aria-label={activeMenu ? "Cerrar menú" : "Abrir menú"}
+                            >
+                                {menuIcon}
                             </button>
                         </div>
                     </div>
                 </nav>
             </header>
 
-            <MenuHeader visible={activeMenu} setVisible={setActiveMenu} />
+            <MenuHeader {...menuHeaderProps} />
         </>
-    )
+    );
 }

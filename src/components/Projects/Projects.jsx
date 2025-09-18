@@ -1,142 +1,135 @@
-import "./Projects.scss"
-import Proyectos from "../../JSON/Projects.json"
-import { Link } from "react-router-dom"
-import { useState } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { useState, useMemo, useCallback } from "react";
+import { AnimatePresence } from "framer-motion";
+import ProjectCard from "./components/ProjectCard";
+import Proyectos from "../../JSON/Projects.json";
+import "./Projects.scss";
+
+const PROYECTOS_A_MOSTRAR = 8;
+const CANTIDAD_PROYECTOS = Proyectos.length;
+
+const filterStyles = {
+    margin: '20px 0',
+    display: 'flex',
+    justifyContent: 'flex-end'
+};
+
+const labelStyles = {
+    marginRight: '10px'
+};
+
+const selectStyles = {
+    padding: '5px',
+    borderRadius: '4px'
+};
+
+const ordenOptions = [
+    { value: 'reciente', label: 'Más recientes primero' },
+    { value: 'antiguo', label: 'Más antiguos primero' }
+];
 
 export default function Projects() {
-    const proyectosAMostrar = 8
-    const cantidadProyectos = Proyectos.length
-    const [inicioFin, setInicioFin] = useState({
-        inicio: 0,
-        fin: proyectosAMostrar
-    })
+    const [cantidadAMostrar, setCantidadAMostrar] = useState(PROYECTOS_A_MOSTRAR);
     const [orden, setOrden] = useState('reciente');
 
-    const verMas = () => {
-        setInicioFin(prev => ({
-            inicio: 0,
-            fin: prev.fin + proyectosAMostrar
-        }));
-    }
-
-    const verMenos = () => {
-        setInicioFin({
-            inicio: 0,
-            fin: proyectosAMostrar
+    const proyectosOrdenados = useMemo(() => {
+        return [...Proyectos].sort((a, b) => {
+            const fechaA = new Date(a.fechaFormateada);
+            const fechaB = new Date(b.fechaFormateada);
+            return orden === 'reciente' ? fechaB - fechaA : fechaA - fechaB;
         });
-    }
+    }, [orden]);
 
-    const proyectosOrdenados = [...Proyectos].sort((a, b) => {
-        const fechaA = new Date(a.fechaFormateada);
-        const fechaB = new Date(b.fechaFormateada);
-        return orden === 'reciente' ? fechaB - fechaA : fechaA - fechaB;
-    });
+    const proyectosAMostrar = useMemo(() => {
+        return proyectosOrdenados.slice(0, cantidadAMostrar);
+    }, [proyectosOrdenados, cantidadAMostrar]);
+
+    const verMas = useCallback(() => {
+        setCantidadAMostrar(prev => prev + PROYECTOS_A_MOSTRAR);
+    }, []);
+
+    const verMenos = useCallback(() => {
+        setCantidadAMostrar(PROYECTOS_A_MOSTRAR);
+    }, []);
+
+    const handleOrdenChange = useCallback((e) => {
+        setOrden(e.target.value);
+        setCantidadAMostrar(PROYECTOS_A_MOSTRAR);
+    }, []);
+
+    const buttonState = useMemo(() => {
+        const showVerMas = CANTIDAD_PROYECTOS > cantidadAMostrar;
+        const showVerMenos = cantidadAMostrar > PROYECTOS_A_MOSTRAR;
+
+        return {
+            show: showVerMas || showVerMenos,
+            text: showVerMas ? "Ver más" : "Ver menos",
+            action: showVerMas ? verMas : verMenos
+        };
+    }, [cantidadAMostrar, verMas, verMenos]);
+
+    const selectComponent = useMemo(() => (
+        <select
+            value={orden}
+            onChange={handleOrdenChange}
+            style={selectStyles}
+        >
+            {ordenOptions.map(option => (
+                <option key={option.value} value={option.value}>
+                    {option.label}
+                </option>
+            ))}
+        </select>
+    ), [orden, handleOrdenChange]);
 
     return (
         <section className="projects-section" id="projects">
             <div className="contenedor">
                 <div className="contenedor-numero contenedor-numero-violeta">
                     <div className="numero">
-                        <p> 3 </p>
+                        <p>3</p>
                     </div>
                 </div>
 
                 <div className="seccion-titulo-subtitulo seccion-titulo-subtitulo-violeta">
                     <div className="titulo">
-                        <h2> Proyectos </h2>
+                        <h2>Proyectos</h2>
                     </div>
                     <div className="subtitulo">
-                        <h3> Proyectos personales </h3>
+                        <h3>Proyectos personales</h3>
                     </div>
                     <div className="linea-delimitante"></div>
                     <div className="descripcion">
-                        <p> Proyectos personales que fusionan mis habilidades en desarrollo Frontend y Backend, demostrando mi dedicación a la calidad y la excelencia en el código. </p>
+                        <p>
+                            Proyectos personales que fusionan mis habilidades en desarrollo Frontend y Backend,
+                            demostrando mi dedicación a la calidad y la excelencia en el código.
+                        </p>
                     </div>
                 </div>
 
-                <div className="filtros" style={{ margin: '20px 0', display: 'flex', justifyContent: 'flex-end' }}>
-                    <label style={{ marginRight: '10px' }}>Ordenar por fecha: </label>
-                    <select
-                        value={orden}
-                        onChange={(e) => {
-                            setOrden(e.target.value);
-                            setInicioFin({ inicio: 0, fin: proyectosAMostrar });
-                        }}
-                        style={{ padding: '5px', borderRadius: '4px' }}
-                    >
-                        <option value="reciente">Más recientes primero</option>
-                        <option value="antiguo">Más antiguos primero</option>
-                    </select>
+                <div className="filtros" style={filterStyles}>
+                    <label style={labelStyles}>Ordenar por fecha:</label>
+                    {selectComponent}
                 </div>
 
-
                 <div className="contenedor-de-proyectos">
-                    <AnimatePresence>
-                        {proyectosOrdenados.slice(inicioFin.inicio, inicioFin.fin).map((projects, index) => (
-                            <motion.div
-                                key={index}
-                                className="card"
-                                initial={{ opacity: 0, y: 50, scale: 0.95 }}
-                                animate={{ opacity: 1, y: 0, scale: 1 }}
-                                exit={{ opacity: 0, y: -30, scale: 0.95 }}
-                                transition={{
-                                    duration: 0.5,
-                                    ease: [0.25, 0.1, 0.25, 1],
-                                }}
-                            >
-                                <Link to={`/proyecto/${projects.id}`} className="imagen-caracteristicas">
-                                    <div className="img">
-                                        <img src={projects.imagen} alt={projects.titulo} />
-                                    </div>
-                                    <div className="caracteristicas">
-                                        <div className="titulo">
-                                            <p> {projects.titulo} </p>
-                                        </div>
-                                        <div className="subtitulo">
-                                            <p> {projects.subtitulo} </p>
-                                        </div>
-                                        <div className="descripcion">
-                                            <p> {projects.descripcion} </p>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <div className="detalles">
-                                    <div className="tecnologias">
-                                        <div className="img">
-                                            {projects.tecnologias.map((tecnologia, index) => (
-                                                <img
-                                                    style={{
-                                                        backgroundColor: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "white" : null,
-                                                        borderRadius: tecnologia.nombre === "Next JS" || tecnologia.nombre === "Pusher" ? "50%" : null
-                                                    }}
-                                                    src={tecnologia.imagen}
-                                                    alt={tecnologia.nombre}
-                                                    key={index}
-                                                />
-                                            ))}
-                                        </div>
-                                        <div className="fecha">
-                                            <p> {projects.creacion} </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </motion.div>
+                    <AnimatePresence mode="wait">
+                        {proyectosAMostrar.map((project) => (
+                            <ProjectCard
+                                key={`${project.id}-${orden}`}
+                                project={project}
+                            />
                         ))}
                     </AnimatePresence>
                 </div>
 
-                {cantidadProyectos > inicioFin.fin ? (
+                {buttonState.show && (
                     <div className="boton-de-ver-mas">
-                        <button onClick={verMas}>Ver más</button>
-                    </div>
-                ) : inicioFin.fin > proyectosAMostrar && (
-                    <div className="boton-de-ver-mas">
-                        <button onClick={verMenos}>Ver menos</button>
+                        <button onClick={buttonState.action}>
+                            {buttonState.text}
+                        </button>
                     </div>
                 )}
-
             </div>
         </section>
-    )
-}                     
+    );
+}
