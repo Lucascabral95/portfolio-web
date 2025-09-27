@@ -1,5 +1,6 @@
-import { useParams } from "react-router-dom";
 import { useState, useMemo, useCallback } from "react";
+import { useParams } from "react-router-dom";
+
 import Proyectos from "../../JSON/Projects.json";
 import EstructuraDetalle from "../EstructuraDetalle/EstructuraDetalle.jsx";
 import StructuraBody from "../EstructuraBody/EstructuraBody.jsx";
@@ -9,6 +10,7 @@ import NotFound from "../NotFound/NotFound.jsx";
 const ProyectosId = () => {
     const { id } = useParams();
     const [isOpenImage, setIsOpenImage] = useState(false);
+    const [imagenSeleccionada, setImagenSeleccionada] = useState('');
 
     const baseUrl = useMemo(() => {
         return import.meta.env.VITE_BASE_URL;
@@ -29,16 +31,20 @@ const ProyectosId = () => {
         return project?.tecnologia || [];
     }, [project?.tecnologia]);
 
-    const imagenSeleccionada = useMemo(() => {
-        return project?.imagen || '';
-    }, [project?.imagen]);
+    const imagenPrincipal = useMemo(() => {
+        const imagenInicial = project?.imagen || '';
+        if (!imagenSeleccionada || imagenSeleccionada === '') {
+            setImagenSeleccionada(imagenInicial);
+        }
+        return imagenSeleccionada || imagenInicial;
+    }, [project?.imagen, imagenSeleccionada]);
 
     const handleCloseImage = useCallback(() => {
         setIsOpenImage(false);
     }, []);
 
     const handleSetImagenSeleccionada = useCallback((imagen) => {
-        console.log('Imagen seleccionada:', imagen);
+        setImagenSeleccionada(imagen);
     }, []);
 
     const seoProps = useMemo(() => {
@@ -72,11 +78,11 @@ const ProyectosId = () => {
         existeProyecto: true,
         imagenesExtras: project?.masImagenes || [],
         setImagenSeleccionada: handleSetImagenSeleccionada,
-        imagen: imagenSeleccionada,
+        imagen: imagenPrincipal,
         close: handleCloseImage,
         setIsOpenImage: setIsOpenImage,
         isOpenImage: isOpenImage
-    }), [project, detallesTecnologia, imagenSeleccionada, handleSetImagenSeleccionada, handleCloseImage, isOpenImage]);
+    }), [project, detallesTecnologia, imagenPrincipal, handleSetImagenSeleccionada, handleCloseImage, isOpenImage]);
 
     if (!project) {
         return (

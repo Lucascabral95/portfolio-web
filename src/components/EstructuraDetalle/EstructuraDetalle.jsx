@@ -53,7 +53,15 @@ const EstructuraDetalle = ({
                         }
                     </div>
 
-                    {isOpenImage && <ImageZoom image={imagen} setIsOpenImage={setIsOpenImage} isOpenImage={isOpenImage} />}
+                    {isOpenImage && (
+                        <ImageZoom
+                            images={[imagen, ...imagenesExtras.map(img => img.imagenExtra)]}
+                            currentIndex={[imagen, ...imagenesExtras.map(img => img.imagenExtra)].indexOf(imagen)}
+                            setCurrentImage={setImagenSeleccionada}
+                            setIsOpenImage={setIsOpenImage}
+                        />
+                    )}
+
 
                 </div>
                 <div className="linea-divisoria">
