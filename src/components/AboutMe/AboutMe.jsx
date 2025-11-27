@@ -19,6 +19,7 @@ const SKILLS = [
     "TypeScript",
     "React/Next.js",
     "NestJS",
+    "Go",
     "Angular",
     "PostgreSQL/Prisma",
     "Redis",

@@ -1,9 +1,22 @@
 import { useState, useMemo, useCallback } from "react";
-import { SiVercel, SiKubernetes, SiMysql, SiGnubash, SiPrisma, SiSequelize, SiSocketdotio, SiN8N } from "react-icons/si";
+import { 
+    SiVercel,
+     SiKubernetes, 
+     SiMysql, 
+     SiGnubash, 
+     SiPrisma, 
+     SiAmazonwebservices, 
+     SiSocketdotio, 
+     SiN8N,
+     SiJest,
+     SiCypress,
+     SiJasmine,
+    } from "react-icons/si";
 import { FaGithub, FaGitAlt, FaNpm, FaStripe, FaLinux } from "react-icons/fa";
 import { TbBrandDocker } from "react-icons/tb";
 import { RiSupabaseFill } from "react-icons/ri";
 import { DiVisualstudio } from "react-icons/di";
+import { BiTestTube } from "react-icons/bi";
 import Stacks from "../../JSON/Skills.json";
 import "./Skills.scss";
 
@@ -11,6 +24,7 @@ const developmentTools = [
     { icon: DiVisualstudio, name: "VSCode", className: "icon-vscode" },
     { icon: FaGitAlt, name: "Git", className: "icon-git" },
     { icon: FaGithub, name: "GitHub", className: "icon-github" },
+    { icon: SiAmazonwebservices, name: "AWS", className: "icon-aws" },
     { icon: FaNpm, name: "NPM", className: "icon-npm" },
     { icon: SiN8N, name: "n8n", className: "icon-n8n" },
     { icon: FaLinux, name: "Linux", className: "icon-linux" },
@@ -19,11 +33,14 @@ const developmentTools = [
     { icon: FaStripe, name: "Stripe", className: "icon-stripe" },
     { icon: TbBrandDocker, name: "Docker", className: "icon-docker" },
     { icon: SiKubernetes, name: "Kubernetes", className: "icon-kubernetes" },
+    { icon: SiJest, name: "Jest", className: "icon-jest" },
+    { icon: BiTestTube , name: "React Testing Library", className: "icon-times" },
+    { icon: SiCypress, name: "Cypress", className: "icon-cypress" },
+    { icon: SiJasmine, name: "Jasmine", className: "icon-jasmine" },
     { icon: SiSocketdotio, name: "Socket.IO", className: "icon-socket" },
-    { icon: SiSequelize, name: "Sequelize", className: "icon-sequelize" },
     { icon: SiPrisma, name: "Prisma", className: "icon-prisma" },
     { icon: RiSupabaseFill, name: "Supabase", className: "icon-supabase" },
-    { icon: SiVercel, name: "Vercel", className: "icon-vercel" }
+    { icon: SiVercel, name: "Vercel", className: "icon-vercel" },
 ];
 
 const DevelopmentTool = ({ icon: Icon, name, className }) => (

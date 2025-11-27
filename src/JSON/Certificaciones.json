@@ -379,5 +379,107 @@
         "descripcion": "Compilaciones de producción, firma de apps, gestión de certificados y despliegue en tiendas."
       }
     ]
+  },
+  {
+    "id": 10,
+    "nombre": "AWS Cloud Practitioner - Associate",
+    "nombreIngles": "AWS Cloud Practitioner - Associate",
+    "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-2d79d9c6-529c-42c4-881e-e520504a26c7.jpg",
+    "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-2d79d9c6-529c-42c4-881e-e520504a26c7.jpg",
+    "imagen": "/img/udemy-aws-cloud-practitioner.jpg",
+    "imagenIngles": "/img/udemy-aws-cloud-practitioner.jpg",
+    "institucion": "Udemy",
+    "creacion": "2025-10-25",
+    "fecha": "",
+    "fechaDeObtencion": "25 de octubre del 2025",
+    "picture": "/img/udemy-aws-cloud-practitioner.jpg",
+    "descripcion": "Formación intensiva para superar el AWS Certified Cloud Practitioner (CLF‑C02) y certificar dominio de los fundamentos de la nube de AWS: conceptos y propuesta de valor, infraestructura global, servicios esenciales (EC2, S3, RDS, DynamoDB, Lambda), seguridad y modelo de responsabilidad compartida, precios y optimización de costos, soporte y Well‑Architected; con enfoque práctico, ejemplos reales y estrategias de examen.",
+    "temas": [
+      {
+        "nombre": "Conceptos de la nube y propuesta de valor",
+        "descripcion": "Modelos de servicio IaaS, PaaS y SaaS, modelos de despliegue, beneficios de la nube y valor que aporta AWS para empresas y desarrolladores."
+      },
+      {
+        "nombre": "Infraestructura global de AWS",
+        "descripcion": "Manejo centralizado de permisos (Info.plist/AndroidManifest y runtime), reintentos, estados negado/permanente y derivación a ajustes del sistema."
+      },
+      {
+        "nombre": "Almacenamiento Seguro (Secure Storage)",
+        "descripcion": "Regiones, Zonas de disponibilidad, ubicaciones de borde y cómo se relacionan con la latencia, la resiliencia y el diseño de soluciones."
+      },
+      {
+        "nombre": "Servicios core de cómputo, almacenamiento y red",
+        "descripcion": "Introducción a EC2, Lambda, ECS, S3, EBS, RDS, DynamoDB, VPC, Route 53 y casos de uso típicos de cada servicio en arquitecturas básicas."
+      },
+      {
+        "nombre": "Seguridad y modelo de responsabilidad compartida",
+        "descripcion": "IAM (usuarios, roles, políticas), cifrado, buenas prácticas de seguridad en AWS y cómo se reparten las responsabilidades entre AWS y el cliente."
+      },
+      {
+        "nombre": "Precios, facturación y soporte en AWS",
+        "descripcion": "Modelo de pago por uso, niveles de precios, calculadora de costos, cuentas gratuitas, organizaciones y planes de soporte de AWS."
+      },
+      {
+        "nombre": "Marco Well-Architected y buenas prácticas",
+        "descripcion": "Pilares del AWS Well-Architected Framework y cómo aplicarlos al diseñar soluciones simples alineadas con el examen Cloud Practitioner."
+      },
+      {
+        "nombre": "Marco de adopción de la nube (CAF) y migración",
+        "descripcion": "Visión general del AWS Cloud Adoption Framework, fases de adopción y consideraciones al migrar cargas de trabajo a AWS."
+      },
+      {
+        "nombre": "Preparación para el examen CLF-C02",
+        "descripcion": "Tipos de preguntas, dominios del examen, estrategia de estudio y práctica con cuestionarios similares al examen real."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "AWS Developer - Associate",
+    "nombreIngles": "AWS Developer - Associate",
+    "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-4f46248b-87cd-42a5-896d-3ce00ca2f30e.jpg",
+    "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-4f46248b-87cd-42a5-896d-3ce00ca2f30e.jpg",
+    "imagen": "/img/udemy-aws-developer.jpg",
+    "imagenIngles": "/img/udemy-aws-developer.jpg",
+    "institucion": "Udemy",
+    "creacion": "2025-11-22",
+    "fecha": "",
+    "fechaDeObtencion": "22 de noviembre del 2025",
+    "picture": "/img/udemy-aws-developer.jpg",
+    "descripcion": "Formación intensiva orientada a aprobar el examen AWS Certified Developer – Associate (DVA‑C02) y a diseñar, desarrollar y desplegar aplicaciones cloud‑native en AWS: arquitecturas serverless con Lambda y API Gateway, almacenamiento y modelos de datos en S3 y DynamoDB, flujos event‑driven con SQS, SNS y Kinesis, seguridad de extremo a extremo con IAM, KMS y gestión de secretos, pipelines CI/CD con CodeCommit, CodeBuild, CodeDeploy y CodePipeline, y observabilidad avanzada con CloudWatch, X‑Ray y CloudTrail siguiendo las mejores prácticas recomendadas por AWS.",
+    "temas": [
+      {
+        "nombre": "Fundamentos e IAM + CLI/SDK",
+        "descripcion": "Dominio sólido de identidades y permisos en AWS (IAM), trabajando con usuarios, roles y políticas, y consumiendo servicios desde AWS CLI y SDKs para construir integraciones de nivel profesional."
+      },
+      {
+        "nombre": "Arquitecturas Serverless con Lambda y API Gateway",
+        "descripcion": "Diseño e implementación de APIs y backend completamente serverless usando Lambda y API Gateway, optimizando costes, escalabilidad y mantenimiento frente a arquitecturas tradicionales."
+      },
+      {
+        "nombre": "Almacenamiento y datos con S3 y DynamoDB",
+        "descripcion": "Modelado y acceso eficiente a datos con Amazon S3 y DynamoDB, aplicando buenas prácticas de diseño de claves, seguridad, rendimiento y alta disponibilidad en aplicaciones cloud‑native."
+      },
+      {
+        "nombre": "Aplicaciones basadas en eventos: SQS, SNS y Kinesis",
+        "descripcion": "Construcción de flujos event‑driven desacoplados con SQS, SNS y Kinesis, mejorando la resiliencia, escalabilidad y capacidad de procesamiento en tiempo real de las aplicaciones."
+      },
+      {
+        "nombre": "Seguridad y gestión de secretos en AWS",
+        "descripcion": "Aplicación de buenas prácticas de seguridad en aplicaciones, cifrado con KMS y gestión centralizada de secretos y configuración sensible con Secrets Manager y Systems Manager Parameter Store."
+      },
+      {
+        "nombre": "Pipelines CI/CD en AWS",
+        "descripcion": "Automatización del ciclo de vida del software con CodeCommit, CodeBuild, CodeDeploy y CodePipeline, entregando cambios frecuentes y confiables en entornos de AWS."
+      },
+      {
+        "nombre": "Observabilidad, logging y trazas",
+        "descripcion": "Implementación de monitoreo, alertas y trazabilidad end‑to‑end con CloudWatch, X‑Ray y CloudTrail para detectar, depurar y optimizar problemas en aplicaciones productivas."
+      },
+      {
+        "nombre": "Diseño y despliegue de aplicaciones en AWS",
+        "descripcion": "Diseño de aplicaciones cloud‑ready y despliegues controlados en AWS, combinando buenas prácticas de empaquetado, despliegue y troubleshooting alineadas con el examen AWS Developer Associate."
+      }
+    ]
   }
 ]

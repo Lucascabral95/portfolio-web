@@ -203,14 +203,24 @@
     "boxShadow": "0 0 10px 2px #853BCE, 0 0 10px 2px #853BCE"
   },
   {
-    "id": 21,
-    "skill": "Mongo DB",
+    "id": 24,
+    "skill": "Go",
     "progress": 80,
-    "imagen": "/img/logo-mongo-db.svg",
-    "imagenMonocolor": "/img/monocromatico-mongodb.svg",
+    "imagen": "/img/go-svg-logo.svg",
+    "imagenMonocolor": "/img/go-svg-logo.svg",
     "tipo": "Backend",
-    "bordeColor": "linear-gradient(to right, #13AA52, #ffffff) 1",
-    "boxShadow": "0 0 10px 2px #13AA52, 0 0 10px 2px #ffffff"
+    "bordeColor": "linear-gradient(to right, #6FD8E5, #08AFD8) 1",
+    "boxShadow": "0 0 10px 2px #6FD8E5, 0 0 10px 2px #08AFD8"
+  },
+   {
+    "id": 26,
+    "skill": "Gin",
+    "progress": 80,
+    "imagen": "/img/logo-gin.webp",
+    "imagenMonocolor": "/img/logo-gin.webp",
+    "tipo": "Backend",
+    "bordeColor": "linear-gradient(to right, #0892D1, #F3D822) 1",
+    "boxShadow": "0 0 10px 2px #0892D1, 0 0 10px 2px #F3D822"
   },
   {
     "id": 22,
@@ -223,24 +233,14 @@
     "boxShadow": "0 0 10px 2px #00BCF2, 0 0 10px 2px #ffffff"
   },
   {
-    "id": 23,
-    "skill": "Excel",
+    "id": 21,
+    "skill": "NoSQL Databases",
     "progress": 80,
-    "imagen": "/img/logo-excel.svg",
-    "imagenMonocolor": "/img/monocromatico-excel.svg",
+    "imagen": "/img/logo-non-relational-databases.svg",
+    "imagenMonocolor": "/img/logo-non-relational-databases.svg",
     "tipo": "Backend",
-    "bordeColor": "linear-gradient(to right, #117D42, #33C481, #21A366, #107C41) 1",
-    "boxShadow": "0 0 10px 2px #117D42, 0 0 10px 2px #33C481, 0 0 10px 2px #21A366, 0 0 10px 2px #107C41"
-  },
-  {
-    "id": 24,
-    "skill": "Power BI",
-    "progress": 80,
-    "imagen": "/img/logo-powerbi-dos.svg",
-    "imagenMonocolor": "/img/logo-power-bi.svg",
-    "tipo": "Backend",
-    "bordeColor": "linear-gradient(to right, #FAC708, #2B2728) 1",
-    "boxShadow": "0 0 10px 2px #FAC708, 0 0 10px 2px #2B2728"
+    "bordeColor": "linear-gradient(to right, #13AA52, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #13AA52, 0 0 10px 2px #ffffff"
   },
   {
     "id": 25,
@@ -253,14 +253,14 @@
     "boxShadow": "0 0 10px 2px #3671A1, 0 0 10px 2px #3671A1"
   },
   {
-    "id": 26,
-    "skill": "Postman",
+    "id": 23,
+    "skill": "Excel",
     "progress": 80,
-    "imagen": "/img/django.svg",
-    "imagenMonocolor": "/img/monocromatico-postman.svg",
+    "imagen": "/img/logo-excel.svg",
+    "imagenMonocolor": "/img/monocromatico-excel.svg",
     "tipo": "Backend",
-    "bordeColor": "linear-gradient(to right, #113228, #113228) 1",
-    "boxShadow": "0 0 10px 2px #113228, 0 0 10px 2px #113228"
+    "bordeColor": "linear-gradient(to right, #117D42, #33C481, #21A366, #107C41) 1",
+    "boxShadow": "0 0 10px 2px #117D42, 0 0 10px 2px #33C481, 0 0 10px 2px #21A366, 0 0 10px 2px #107C41"
   },
   {
     "id": 27,
