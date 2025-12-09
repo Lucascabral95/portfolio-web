@@ -1,17 +1,20 @@
 import { useCallback, useMemo } from "react";
-import { FaLaptopCode } from "react-icons/fa";
-import { SiCyberdefenders } from "react-icons/si";
-import { DiResponsive } from "react-icons/di";
-import { FaMicrochip } from "react-icons/fa6";
-import { GiDatabase, GiNetworkBars } from "react-icons/gi";
+import { 
+  FaCloudUploadAlt, 
+  FaServer, 
+  FaCreditCard, 
+  FaLaptopCode, 
+  FaCogs, 
+  FaDatabase 
+} from "react-icons/fa";
 
 const iconMap = {
+    FaCloudUploadAlt: FaCloudUploadAlt,
+    FaServer: FaServer,
+    FaCreditCard: FaCreditCard,
     FaLaptopCode: FaLaptopCode,
-    GiDatabase: GiDatabase,
-    FaMicrochip: FaMicrochip,
-    DiResponsive: DiResponsive,
-    GiNetworkBars: GiNetworkBars,
-    SiCyberdefenders: SiCyberdefenders
+    FaCogs: FaCogs,
+    FaDatabase: FaDatabase
 };
 
 const hoverTransition = "box-shadow 0.2s ease-in-out";

@@ -167,9 +167,11 @@ export default function AboutMe() {
                             </span>
                         </h2>
 
-                        <p className="aboutMe__description">
-                            Desarrollador Full Stack con +2 años creando productos escalables y de alto rendimiento con React/Next.js y NestJS, alcanzando hasta 30% menos tiempo de carga con SSR/ISR, optimización de consultas y caching con Redis sobre PostgreSQL/Prisma.
-                            Diseño APIs REST y WebSockets con seguridad (JWT/OAuth2/Passport), automatizo entrega con Docker y CI/CD y despliego en Vercel, Render y Linux, priorizando testing y arquitectura limpia.
+                        <p className="aboutMe__description" style={{ marginBottom: "0px" }}>
+                            Soy Desarrollador Full Stack con foco en Arquitectura Cloud y Sistemas Distribuidos. Me dedico a construir aplicaciones escalables uniendo la potencia de Node.js, Go y AWS en el backend, con interfaces modernas y ágiles en React y Next.js. 
+                        </p>
+                        <p className="aboutMe__description" style={{ marginTop: "-12px" }}>
+                            Más allá del código, aporto una visión integral: diseño infraestructura como código (Terraform), automatizo despliegues (CI/CD) e integro soluciones críticas como pagos y seguridad. Mi enfoque es simple: crear software robusto, escalable y de calidad que resuelva problemas reales.
                         </p>
 
                         <ul className="aboutMe__badges" aria-label="Tecnologías principales">
