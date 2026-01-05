@@ -32,13 +32,14 @@
   },
   {
     "id": 4,
-    "skill": "Expo",
+    "skill": "Next JS",
     "progress": 80,
-    "imagen": "/img/expo-logo-uno.svg",
-    "imagenMonocolor": "/img/expo-logo-uno.svg",
+    "imagen": "/img/logo-next.svg",
+    "imagenMonocolor": "/img/logo-next.svg",
     "tipo": "Frontend",
-    "bordeColor": "linear-gradient(to right, #3A1CFF, #B84DFF, #FF2D8E) 1",
-    "boxShadow": "0 0 10px 2px #3A1CFF, 0 0 10px 2px #B84DFF, 0 0 10px 2px #FF2D8E"
+    "bordeColor": "linear-gradient(to right, #ffffff, #ffffff) 1",
+    "boxShadow": "0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff",
+    "boxShadowInterno": "0 0 4px 1px #ffffff, 0 0 4px 1px #ffffff"
   },
   {
     "id": 5,
@@ -52,14 +53,13 @@
   },
   {
     "id": 6,
-    "skill": "Next JS",
+    "skill": "Expo",
     "progress": 80,
-    "imagen": "/img/logo-next.svg",
-    "imagenMonocolor": "/img/logo-next.svg",
+    "imagen": "/img/expo-logo-uno.svg",
+    "imagenMonocolor": "/img/expo-logo-uno.svg",
     "tipo": "Frontend",
-    "bordeColor": "linear-gradient(to right, #ffffff, #ffffff) 1",
-    "boxShadow": "0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff",
-    "boxShadowInterno": "0 0 4px 1px #ffffff, 0 0 4px 1px #ffffff"
+    "bordeColor": "linear-gradient(to right, #3A1CFF, #B84DFF, #FF2D8E) 1",
+    "boxShadow": "0 0 10px 2px #3A1CFF, 0 0 10px 2px #B84DFF, 0 0 10px 2px #FF2D8E"
   },
   {
     "id": 7,

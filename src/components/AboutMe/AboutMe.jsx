@@ -30,8 +30,8 @@ const SKILLS = [
 
 const STATS = [
     { value: "2+", label: "Años de experiencia" },
-    { value: "15+", label: "Proyectos creados" },
-    { value: "8", label: "Stacks dominados" },
+    { value: "18+", label: "Proyectos creados" },
+    { value: "10", label: "Stacks dominados" },
 ]
 
 const SPRING_CONFIG = {
@@ -168,7 +168,7 @@ export default function AboutMe() {
                         </h2>
 
                         <p className="aboutMe__description" style={{ marginBottom: "0px" }}>
-                            Soy Desarrollador Full Stack con foco en Arquitectura Cloud y Sistemas Distribuidos. Me dedico a construir aplicaciones escalables uniendo la potencia de Node.js, Go y AWS en el backend, con interfaces modernas y ágiles en React y Next.js. 
+                            Soy Desarrollador Full Stack con foco en Arquitectura Cloud y Sistemas Distribuidos. Me dedico a construir aplicaciones escalables uniendo la potencia de Node.js, Go y AWS en el backend, con interfaces modernas y ágiles en React, Angular y Next.js. 
                         </p>
                         <p className="aboutMe__description" style={{ marginTop: "-12px" }}>
                             Más allá del código, aporto una visión integral: diseño infraestructura como código (Terraform), automatizo despliegues (CI/CD) e integro soluciones críticas como pagos y seguridad. Mi enfoque es simple: crear software robusto, escalable y de calidad que resuelva problemas reales.

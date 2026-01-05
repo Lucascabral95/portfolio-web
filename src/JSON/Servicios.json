@@ -34,8 +34,8 @@
   },
   {
     "id": 4,
-    "titulo": "Desarrollo Web Moderno (React & Next.js)",
-    "descripcion": "Creación de experiencias de usuario fluidas y optimizadas para SEO utilizando React, Next.js y Angular, con enfoque en Core Web Vitals y Server-Side Rendering (SSR).",
+    "titulo": "Desarrollo Web Moderno (React & Angular)",
+    "descripcion": "Creación de experiencias de usuario fluidas y optimizadas para SEO utilizando React, Angular y Next.js, con enfoque en Core Web Vitals y Server-Side Rendering (SSR).",
     "icono": "FaLaptopCode",
     "libreria": "fa",
     "colorIcono": "#8A4FFF", 
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "titulo": "DevOps & CI/CD Automation",
+    "titulo": "DevOps & Automatización CI/CD",
     "descripcion": "Automatización de pipelines de despliegue con GitHub Actions y Docker. Configuración de entornos de Staging/Producción para releases continuos y sin errores.",
     "icono": "FaCogs",
     "libreria": "fa",

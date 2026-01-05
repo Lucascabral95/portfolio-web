@@ -1,5 +1,265 @@
 [
   {
+    "linkRepo": "https://github.com/Lucascabral95/seat-guard-reservation-frontend.git",
+    "repoBackend": true,
+    "repoBackendLink": "https://github.com/Lucascabral95/seat-guard-reservation-engine.git",
+    "nombre": "Seat Guard Reservation",
+    "claves": "Características Claves:",
+    "id": 34,
+    "titulo": "SeatGuard: Enterprise Reservation Engine",
+    "subtitulo": "Plataforma moderna de reserva de asientos y venta de entradas en tiempo real.",
+    "imagen": "/img/seat-guards-uno.png",
+    "urlOficial": "https://seat-guard-reservation-frontend.vercel.app/",
+    "url": "https://seat-guard-reservation-frontend.vercel.app/",
+    "descripcion": "Plataforma empresarial de microservicios con backend polyglot (Go + NestJS) desplegado en AWS ECS Fargate, frontend Angular 20 con SSR, procesamiento asíncrono de pagos mediante Lambda + SQS + Stripe, y base de datos serverless PostgreSQL (Neon). Implementa bloqueo de asientos en tiempo real con concurrencia optimista, infraestructura como código con Terraform, y arquitectura limpia siguiendo principios SOLID.",
+    "tecnologias": [
+      {
+        "imagen": "/img/logo-angular.svg",
+        "nombre": "Angular 20"
+      },
+      {
+        "imagen": "/img/go-svg-logo.svg",
+        "nombre": "GO"
+      },
+      {
+        "imagen": "/img/nestjs-svg.svg",
+        "nombre": "NestJS"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      },
+      {
+        "imagen": "/img/aws.svg",
+        "nombre": "AWS"
+      },
+      {
+        "imagen": "/img/tailwind.svg",
+        "nombre": "Tailwind"
+      }
+    ],
+    "creacion": "04/01/2026",
+    "fechaDeObtencion": "04 de enero de 2026",
+    "fechaFormateada": "2026-01-04",
+    "masImagenes": [
+      {
+        "nombreImagen": "Foto extra 1",
+        "imagenExtra": "/img/seat-guards-uno.png"
+      },
+      {
+        "nombreImagen": "Foto extra 2",
+        "imagenExtra": "/img/seat-guards-cuatro.png"
+      },
+      {
+        "nombreImagen": "Foto extra 3",
+        "imagenExtra": "/img/diagrama-arquitectura-de-microservicios-seat-guards-dark.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+      "colorLetra": "red",
+      "fondoColor": "black",
+      "tecnologia": "NPM"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#DD0031",
+      "tecnologia": "Angular 20"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#EB2F4B",
+      "tecnologia": "NestJS"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#00ADD8",
+      "tecnologia": "Go (Golang)"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#E44D26",
+      "tecnologia": "Gin Framework"
+    },
+    {
+      "colorLetra": "black",
+      "fondoColor": "white",
+      "tecnologia": "JWT"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#376695",
+      "tecnologia": "PostgreSQL"
+    },
+    {
+      "colorLetra": "black",
+      "fondoColor": "#63F655",
+      "tecnologia": "Neon Serverless"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#194156",
+      "tecnologia": "Prisma ORM"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#5B69A6",
+      "tecnologia": "GORM"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#347CBE",
+      "tecnologia": "TypeScript"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#FF9900",
+      "tecnologia": "AWS ECS Fargate"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#FF9900",
+      "tecnologia": "AWS Lambda"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#FF9900",
+      "tecnologia": "AWS SQS"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#FF9900",
+      "tecnologia": "AWS ALB"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#FF9900",
+      "tecnologia": "AWS ECR"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#844FBA",
+      "tecnologia": "Terraform"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#635BFF",
+      "tecnologia": "Stripe API"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#08609F",
+      "tecnologia": "HTTPS Cookies"
+    },
+    {
+      "colorLetra": "#F05145",
+      "fondoColor": "#181F2E",
+      "tecnologia": "Signals"
+    },
+    {
+      "colorLetra": "black",
+      "fondoColor": "#38BDF8",
+      "tecnologia": "TailwindCSS"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#2F74C0",
+      "tecnologia": "Docker"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "black",
+      "tecnologia": "Vercel"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#DD0031",
+      "tecnologia": "Angular SSR"
+    },
+    {
+      "colorLetra": "white",
+      "fondoColor": "#DD0031",
+      "tecnologia": "Zoneless Change Detection"
+    }
+    ],
+     "temas": [
+    {
+      "nombre": "Arquitectura de Microservicios Polyglot",
+      "descripcion": "Servicios desacoplados con Auth Service (NestJS + Prisma), Booking Service (Go + Gin + GORM) y Payment Lambda (Node.js). Comunicación REST con balanceo de carga mediante AWS ALB."
+    },
+    {
+      "nombre": "Infraestructura Serverless en AWS",
+      "descripcion": "Despliegue automatizado en ECS Fargate con Terraform. Incluye VPC, ALB, auto-scaling, CloudWatch Logs y ECR. Infraestructura como código completamente reproducible."
+    },
+    {
+      "nombre": "Bloqueo de Asientos en Tiempo Real",
+      "descripcion": "Concurrencia optimista implementada en Go que bloquea asientos por 15 minutos. Sistema de estados (AVAILABLE → BLOCKED → SOLD) con prevención de sobreventa."
+    },
+    {
+      "nombre": "Procesamiento Asíncrono de Pagos",
+      "descripcion": "Event-driven con Lambda + SQS procesando webhooks de Stripe. Flujo: webhook → SQS → Lambda procesa → actualiza asientos → crea orden. Sistema de reintentos automáticos."
+    },
+    {
+      "nombre": "Integración con Stripe",
+      "descripcion": "Creación de sesiones de checkout, validación de webhooks HMAC, manejo de eventos (payment_intent.succeeded/failed) y flujo completo de confirmación con redirección."
+    },
+    {
+      "nombre": "Autenticación Enterprise JWT",
+      "descripcion": "JWT con refresh tokens, HTTPS-only cookies, interceptores automáticos, guards de rutas y headers de seguridad (X-Internal-Secret) para comunicación inter-servicios."
+    },
+    {
+      "nombre": "Frontend Angular 20 Moderno",
+      "descripcion": "Signals para reactividad, Zoneless Change Detection, Standalone Components, httpResource y arquitectura modular por features (auth, events, checkout, seats)."
+    },
+    {
+      "nombre": "Server-Side Rendering Optimizado",
+      "descripcion": "Angular Universal con SSR para SEO y Core Web Vitals. Incluye incremental hydration, pre-rendering de rutas, manejo de localStorage en servidor y proxy HTTP."
+    },
+    {
+      "nombre": "Base de Datos Serverless PostgreSQL",
+      "descripcion": "Neon Tech con auto-scaling, branching, point-in-time recovery y escalado a cero. Esquemas con Prisma (Auth) y GORM (Booking) con migraciones versionadas."
+    },
+    {
+      "nombre": "CI/CD Automatizado",
+      "descripcion": "Scripts npm para seeding, build Docker, push a ECR, actualización de Task Definitions y deploy de Lambda. Flujo completo de IaC con Terraform."
+    },
+    {
+      "nombre": "Gestión de Eventos y Tickets",
+      "descripcion": "CRUD de eventos con información detallada, disponibilidad en tiempo real, área de usuario para tickets comprados, historial de órdenes y detalle de asientos."
+    },
+    {
+      "nombre": "Arquitectura Limpia",
+      "descripcion": "Principios SOLID, DRY, YAGNI y KISS. Clean Architecture en Booking (domains, services, repos), módulos NestJS y estructura feature-first en Angular."
+    },
+    {
+      "nombre": "Seguridad Multi-Capa",
+      "descripcion": "Validación con DTOs, sanitización de inputs, protección CSRF, CORS configurado, rate limiting, secrets via variables de entorno y comunicación TLS/SSL."
+    },
+    {
+      "nombre": "Observabilidad y Monitoreo",
+      "descripcion": "CloudWatch para logs centralizados, métricas de ECS, alarmas ALB, X-Ray para tracing, logs JSON estructurados y dashboard de disponibilidad/pagos."
+    },
+    {
+      "nombre": "UI/UX Responsive",
+      "descripcion": "TailwindCSS 4, diseño mobile-first, componentes standalone reutilizables, feedback visual, manejo global de errores y lazy loading de rutas."
+    },
+    {
+      "nombre": "Testing y Calidad",
+      "descripcion": "Karma/Jasmine para Angular, tests CI headless, Conventional Commits, ESLint, Prettier y documentación técnica con diagramas de arquitectura."
+    }
+  ]
+  },
+  {
     "linkRepo": "https://github.com/Lucascabral95/frontend-ecommerce-chroma.git",
     "repoBackend": true,
     "repoBackendLink": "https://github.com/Lucascabral95/ecommerce-chrome-backend.git",
