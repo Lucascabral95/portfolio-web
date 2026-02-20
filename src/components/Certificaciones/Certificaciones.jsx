@@ -68,7 +68,7 @@ const Certificaciones = () => {
     imagen: imagenSeleccionada,
     setIsOpenImage: setIsOpenImage,
     isOpenImage: isOpenImage,
-    close: handleCloseImage
+    close: handleCloseImage,
   }), [certificacionActual, tecnologiasFiltradas, imagenSeleccionada, isOpenImage, handleCloseImage]);
 
   if (!certificacionActual) {

@@ -3,9 +3,9 @@ import { useForm } from "react-hook-form";
 import toast, { Toaster } from 'react-hot-toast';
 import { db } from "../Firebase/Firebase.config.js";
 import { addDoc, collection } from "firebase/firestore";
-import "./ContactMe.scss";
 import InputField from "./components/InputField.jsx";
 import TextAreaField from "./components/TextAreaField.jsx";
+import "./ContactMe.scss";
 
 const VALIDATION_RULES = {
     name: {

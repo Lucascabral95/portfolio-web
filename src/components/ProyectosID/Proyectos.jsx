@@ -6,6 +6,7 @@ import EstructuraDetalle from "../EstructuraDetalle/EstructuraDetalle.jsx";
 import StructuraBody from "../EstructuraBody/EstructuraBody.jsx";
 import Seo from "../common/Seo/Seo.jsx";
 import NotFound from "../NotFound/NotFound.jsx";
+import toast from "react-hot-toast";
 
 const ProyectosId = () => {
     const { id } = useParams();
@@ -72,6 +73,22 @@ const ProyectosId = () => {
         };
     }, [project, id, canonical]);
 
+   const handleCopiarUrl = useCallback((string) => {
+    navigator.clipboard.writeText(string);
+    toast.success("URL copiada al portapapeles", {
+        position: "top-right",
+        style: {
+            background: "#13111C",
+            color: "white",
+            fontSize: "16px",
+            padding: "16px",
+            border: "1px solid #853BCE",
+            borderRadius: "8px"
+        },
+        duration: 3000
+    });
+}, []);
+
     const estructuraDetalleProps = useMemo(() => ({
         filtroCertificaciones: project,
         tecnologias: detallesTecnologia,
@@ -81,8 +98,9 @@ const ProyectosId = () => {
         imagen: imagenPrincipal,
         close: handleCloseImage,
         setIsOpenImage: setIsOpenImage,
-        isOpenImage: isOpenImage
-    }), [project, detallesTecnologia, imagenPrincipal, handleSetImagenSeleccionada, handleCloseImage, isOpenImage]);
+        isOpenImage: isOpenImage,
+        handleCopiarUrl,
+    }), [project, detallesTecnologia, imagenPrincipal, handleSetImagenSeleccionada, handleCloseImage, isOpenImage, handleCopiarUrl]);
 
     if (!project) {
         return (

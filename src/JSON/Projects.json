@@ -1,5 +1,353 @@
 [
   {
+    "linkRepo": "https://github.com/Lucascabral95/server-check-uptime-monitor",
+    "repoBackend": true,
+    "repoBackendLink": "https://github.com/Lucascabral95/server-check-uptime-monitor",
+    "nombre": "Server Check App",
+    "claves": "Características Claves:",
+    "id": 36,
+    "titulo": "Server Check App",
+    "subtitulo": "Plataforma de monitoreo de uptime con procesamiento asíncrono, circuit breaker y notificaciones en tiempo real.",
+    "imagen": "/img/server-check-6.png",
+    "urlOficial": "https://server-check-uptime-monitor-web.vercel.app/",
+    "url": "https://server-check-uptime-monitor-web.vercel.app/",
+    "descripcion": "Sistema de monitoreo de uptime de alto rendimiento construido con NestJS y Next.js en monorepo con Turbo. Procesa miles de checks por minuto con HTTP connection pooling (Undici), buffer de escritura batch, circuit breaker y Dead Letter Queue. Autenticación con AWS Cognito, notificaciones por AWS SES y dashboard en tiempo real con React 19.",
+    "tecnologias": [
+      {
+        "imagen": "/img/nestjs-svg.svg",
+        "nombre": "NestJS"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      },
+      {
+        "imagen": "/img/aws-cognito.svg",
+        "nombre": "Cognito"
+      },
+      {
+        "imagen": "/img/redis-logo.svg",
+        "nombre": "Redis"
+      },
+      {
+        "imagen": "/img/rabbitmq-icon.svg",
+        "nombre": "RabbitMQ"
+      },
+      {
+        "imagen": "/img/aws.svg",
+        "nombre": "AWS"
+      }
+    ],
+    "creacion": "28/01/2026",
+    "fechaDeObtencion": "28 de enero de 2026",
+    "fechaFormateada": "2026-01-28",
+    "masImagenes": [
+      {
+        "nombreImagen": "Imagen 1",
+        "imagenExtra": "/img/server-check-6.png"
+      },
+      {
+        "nombreImagen": "Imagen 2",
+        "imagenExtra": "/img/server-check-5.png"
+      },
+      {
+        "nombreImagen": "Imagen 3",
+        "imagenExtra": "/img/server-check-7.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#EB2F4B",
+        "tecnologia": "NestJS"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "white",
+        "tecnologia": "Next.js 16"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#347CBE",
+        "tecnologia": "TypeScript"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "white",
+        "tecnologia": "JWT"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#194156",
+        "tecnologia": "Prisma ORM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CC0000",
+        "tecnologia": "Redis 7"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CC0000",
+        "tecnologia": "BullMQ"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2F74C0",
+        "tecnologia": "Docker"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS Cognito"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS SES"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2088FF",
+        "tecnologia": "GitHub Actions"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "#38BDF8",
+        "tecnologia": "Tailwind CSS 4"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "#F7DF1E",
+        "tecnologia": "Turbo (Monorepo)"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "HTTP Connection Pooling",
+        "descripcion": "Pool de conexiones HTTP con Undici (100 conexiones, pipelining 10) para checks de alto throughput. Métricas en tiempo real: avg, p95, p99 response times."
+      },
+      {
+        "nombre": "Circuit Breaker",
+        "descripcion": "Protección contra fallos en cascada en endpoints monitoreados. Se abre tras 5 fallos consecutivos, evitando saturar servicios caídos."
+      },
+      {
+        "nombre": "Procesamiento Asíncrono con BullMQ",
+        "descripcion": "Colas BullMQ sobre Redis para checks no bloqueantes. Job individual por monitor con ID único y auto-escalado según monitores activos."
+      },
+      {
+        "nombre": "Buffer de Escritura Batch",
+        "descripcion": "Sistema de buffering que acumula hasta 500 ping logs y hace flush cada 5 segundos. Incluye backpressure, retry buffer y métricas de utilización."
+      },
+      {
+        "nombre": "Dead Letter Queue",
+        "descripcion": "Jobs fallidos enviados a DLQ con 5 reintentos y exponential backoff. Garantiza que ningún check se pierda sin procesar."
+      },
+      {
+        "nombre": "Autenticación AWS Cognito",
+        "descripcion": "Validación JWT con JWKS de AWS Cognito. Cache de claves públicas con TTL de 5 minutos. RBAC con roles ADMIN, USER y GUEST."
+      },
+      {
+        "nombre": "Notificaciones por AWS SES",
+        "descripcion": "Alertas por email cuando el estado de un monitor cambia (UP↔DOWN). Email HTML responsive enviado vía AWS SES."
+      },
+      {
+        "nombre": "Monorepo con Turbo",
+        "descripcion": "Arquitectura monorepo con Turbo orquestando builds de backend (NestJS :4000) y frontend (Next.js :3000) con paquetes compartidos."
+      },
+      {
+        "nombre": "Frontend Next.js 16 + React 19",
+        "descripcion": "Dashboard con App Router, Server Components, AWS Amplify para auth, hooks personalizados y Tailwind CSS 4. Diseño responsive con datos en tiempo real."
+      },
+      {
+        "nombre": "CI/CD con GitHub Actions",
+        "descripcion": "Pipeline en backend-ci.yml: Node 20 + PostgreSQL 16 + Redis 7 en contenedores → instalar deps → Prisma generate → migraciones → tests → build."
+      }
+    ]
+},
+  {
+    "linkRepo": "",
+    "repoBackend": true,
+    "repoBackendLink": "https://github.com/Lucascabral95/in-memory-database-engine",
+    "nombre": "In-Memory Database Engine",
+    "claves": "Características Claves:",
+    "id": 35,
+    "titulo": "In-Memory Database Engine",
+    "subtitulo": "API REST de e-commerce con carrito en memoria, control de stock transaccional y servidor Redis custom.",
+    "imagen": "/img/diagram-in-memory-db-engine-mode-black-4.png",
+    "urlOficial": "",
+    "url": "http://ec2-54-204-54-246.compute-1.amazonaws.com:8080/products",
+    "descripcion": "REST API de e-commerce en Go con arquitectura por capas, JWT, PostgreSQL y carrito en RAM con TTL de 24 horas. Checkout transaccional con FOR UPDATE lock y cancelación automática por stock insuficiente. Servidor TCP custom con protocolo RESP (Redis). Deploy en AWS EC2 con Docker, ECR, SSM y Terraform.",
+    "tecnologias": [
+      {
+        "imagen": "/img/go-svg-logo.svg",
+        "nombre": "Go"
+      },
+      {
+        "imagen": "/img/logo-gin.webp",
+        "nombre": "Gin"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      },
+      {
+        "imagen": "/img/redis-logo.svg",
+        "nombre": "Redis"
+      },
+      {
+        "imagen": "/img/aws.svg",
+        "nombre": "AWS"
+      },
+      {
+        "imagen": "/img/docker.svg",
+        "nombre": "Docker"
+      }
+    ],
+    "creacion": "17/02/2026",
+    "fechaDeObtencion": "17 de febrero de 2026",
+    "fechaFormateada": "2026-02-17",
+    "masImagenes": [
+      {
+        "nombreImagen": "Architecture Diagram",
+        "imagenExtra": "/img/diagram-in-memory-db-engine-mode-black-4.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Github"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#00ADD8",
+        "tecnologia": "Go (Golang)"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#E44D26",
+        "tecnologia": "Gin Framework"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "white",
+        "tecnologia": "JWT"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#5B69A6",
+        "tecnologia": "GORM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2F74C0",
+        "tecnologia": "Docker"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS EC2"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ECR"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS SSM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#844FBA",
+        "tecnologia": "Terraform"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2088FF",
+        "tecnologia": "GitHub Actions"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#CC0000",
+        "tecnologia": "Redis RESP (custom)"
+      }
+    ],
+    "temas": [
+        {
+    "nombre": "Arquitectura por Capas",
+    "descripcion": "Handler → Service → Repository → Database. Dependencias inyectadas desde main.go, sin acoplamiento entre capas."
+  },
+  {
+    "nombre": "Carrito en Memoria con TTL",
+    "descripcion": "Cart en RAM por usuario con clave cart:user:<id>, TTL 24h renovado en escrituras y cleanup automático. No persiste en DB."
+  },
+  {
+    "nombre": "Checkout Transaccional",
+    "descripcion": "Lee RAM → valida productos → orden PENDING → TX: FOR UPDATE → descuenta stock → StockMovement SALE → orden PAID. Rollback + 409 si no hay stock."
+  },
+  {
+    "nombre": "Servidor TCP RESP Custom",
+    "descripcion": "Protocolo Redis (RESP) implementado en Go. Soporta PING, SET/GET/DEL con EX. Comparte MemoryStore con el carrito."
+  },
+  {
+    "nombre": "JWT con Ownership",
+    "descripcion": "HS256 Bearer token. Cada usuario solo puede ver y operar sus propias órdenes."
+  },
+  {
+    "nombre": "StockMovements",
+    "descripcion": "Auditoría de stock con razones SALE, RESTOCK y ADJUSTMENT. Trazabilidad completa del inventario."
+  },
+  {
+    "nombre": "Infraestructura con Terraform",
+    "descripcion": "Provisiona ECR, EC2 t3.small, Security Group e IAM Role. Variables sensibles en SSM Parameter Store."
+  },
+  {
+    "nombre": "CI/CD con GitHub Actions",
+    "descripcion": "go vet → go test → docker build → push ECR → SSM trigger → EC2 restart. Branch protection con required checks."
+  },
+  {
+    "nombre": "Swagger y Postman",
+    "descripcion": "Documentación OpenAPI en /swagger/index.html y colección Postman incluida con todas las rutas preconfiguradas."
+  },
+  {
+    "nombre": "Arquitectura Limpia",
+    "descripcion": "SOLID en Go, inyección de dependencias explícita, Conventional Commits y go vet en CI."
+  }
+    ]
+  },
+  {
     "linkRepo": "https://github.com/Lucascabral95/seat-guard-reservation-frontend.git",
     "repoBackend": true,
     "repoBackendLink": "https://github.com/Lucascabral95/seat-guard-reservation-engine.git",

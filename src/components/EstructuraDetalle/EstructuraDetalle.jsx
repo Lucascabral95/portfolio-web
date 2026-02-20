@@ -1,5 +1,6 @@
 import ImageZoom from "../ImageZoom/ImageZoom.jsx";
 import LinkEstructuraDetalle from "./components/LinkEstructuraDetalle.jsx";
+import { Toaster } from 'react-hot-toast';
 
 const EstructuraDetalle = ({
     filtroCertificaciones,
@@ -9,7 +10,8 @@ const EstructuraDetalle = ({
     setImagenSeleccionada,
     imagen,
     setIsOpenImage,
-    isOpenImage
+    isOpenImage,
+    handleCopiarUrl
 }) => {
 
     return (
@@ -35,16 +37,30 @@ const EstructuraDetalle = ({
                         </div>
                     }
                     <div className="credencial">
-                        <a href={filtroCertificaciones.url} target="_blank" rel="noopener noreferrer" title="Ver credencial digital">
-                            <div className="caja-credencial">
-                                {existeProyecto
+                         {
+                            filtroCertificaciones.linkRepo === "" ? 
+                                  <div className="caja-credencial" 
+                                  onClick={() => handleCopiarUrl(filtroCertificaciones.url)}
+                                  > 
+                                  <p> Copiar URL del servidor </p>
+                                   </div>
+                             : 
+                          <a 
+                          href={filtroCertificaciones.url} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          title="Ver credencial digital">
+                            <div className="caja-credencial"
+                            >
+                                 {existeProyecto
                                     ?
                                     <p> Visitar sitio web </p>
                                     :
                                     <p> Ver credencial </p>
-                                }
+                                    } 
                             </div>
                         </a>
+                         }
                         {filtroCertificaciones.linkRepo &&
                             <LinkEstructuraDetalle isBackend={false} linkRepo={filtroCertificaciones.linkRepo} id={filtroCertificaciones.id} />
                         }
@@ -105,6 +121,7 @@ const EstructuraDetalle = ({
                 </div>
 
             </div>
+            <Toaster />
         </section>
     )
 }

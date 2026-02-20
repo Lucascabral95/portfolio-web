@@ -481,5 +481,54 @@
         "descripcion": "Diseño de aplicaciones cloud‑ready y despliegues controlados en AWS, combinando buenas prácticas de empaquetado, despliegue y troubleshooting alineadas con el examen AWS Developer Associate."
       }
     ]
-  }
+  },
+  {
+  "id": 12,
+  "nombre": "Go - The Complete Guide",
+  "nombreIngles": "Go - The Complete Guide",
+  "urlIngles": "https://udemy-certificate.s3.amazonaws.com/image/UC-76e23023-7957-4fb1-abeb-71c930b297ff.jpg",
+  "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-76e23023-7957-4fb1-abeb-71c930b297ff.jpg",
+  "imagen": "/img/the-complete-guide-go.jpg",
+  "imagenIngles": "/img/the-complete-guide-go.jpg",
+  "institucion": "Udemy",
+  "creacion": "2026-02-04",
+  "fecha": "",
+  "fechaDeObtencion": "4 de febrero del 2026",
+  "picture": "/img/the-complete-guide-go.jpg",
+  "descripcion": "Dominio completo de Go (Golang) desde sus fundamentos hasta concurrencia avanzada y construcción de APIs REST con Gin, SQL y JWT.",
+  "temas": [
+    {
+      "nombre": "Módulos y paquetes",
+      "descripcion": "Organización del código en módulos y paquetes, estructura del punto de entrada y flujo de compilación."
+    },
+    {
+      "nombre": "Fundamentos del lenguaje",
+      "descripcion": "Variables, tipos de datos, operadores, conversiones, formateo de strings y entrada/salida en consola."
+    },
+    {
+      "nombre": "Control de flujo y errores",
+      "descripcion": "Condicionales, bucles, lectura/escritura de archivos y manejo de errores al estilo idiomático de Go."
+    },
+    {
+      "nombre": "Punteros, Structs e Interfaces",
+      "descripcion": "Manejo de memoria con punteros, modelado de datos con structs y polimorfismo mediante interfaces."
+    },
+    {
+      "nombre": "Arrays, Slices y Maps",
+      "descripcion": "Estructuras de datos esenciales de Go: iteración, operaciones comunes y patrones de uso eficiente."
+    },
+    {
+      "nombre": "Funciones avanzadas",
+      "descripcion": "Closures, funciones anónimas, recursividad y funciones variádicas para código expresivo y reutilizable."
+    },
+    {
+      "nombre": "Concurrencia: Goroutines y Channels",
+      "descripcion": "Paralelismo real con goroutines y comunicación segura entre tareas mediante channels."
+    },
+    {
+      "nombre": "REST API con Gin, SQL y JWT",
+      "descripcion": "API REST completa con Gin, persistencia en SQL, autenticación con JWT y hashing seguro de contraseñas."
+    }
+  ]
+}
 ]
