@@ -193,7 +193,7 @@
     "id": 35,
     "titulo": "In-Memory Database Engine",
     "subtitulo": "API REST de e-commerce con carrito en memoria, control de stock transaccional y servidor Redis custom.",
-    "imagen": "/img/diagram-in-memory-db-engine-mode-black-4.png",
+    "imagen": "/img/i-m-d-e-b-2.svg",
     "urlOficial": "",
     "url": "http://ec2-54-204-54-246.compute-1.amazonaws.com:8080/products",
     "descripcion": "REST API de e-commerce en Go con arquitectura por capas, JWT, PostgreSQL y carrito en RAM con TTL de 24 horas. Checkout transaccional con FOR UPDATE lock y cancelación automática por stock insuficiente. Servidor TCP custom con protocolo RESP (Redis). Deploy en AWS EC2 con Docker, ECR, SSM y Terraform.",
@@ -219,8 +219,8 @@
         "nombre": "AWS"
       },
       {
-        "imagen": "/img/docker.svg",
-        "nombre": "Docker"
+        "imagen": "/img/terraform-svg.svg",
+        "nombre": "Terraform"
       }
     ],
     "creacion": "17/02/2026",
@@ -229,7 +229,15 @@
     "masImagenes": [
       {
         "nombreImagen": "Architecture Diagram",
-        "imagenExtra": "/img/diagram-in-memory-db-engine-mode-black-4.png"
+        "imagenExtra": "/img/i-m-d-e-b-2.svg"
+      },
+      {
+        "nombreImagen": "Graphics Grafana Image 1",
+        "imagenExtra": "/img/grafana_1.png"
+      },
+      {
+        "nombreImagen": "Graphics Grafana Image 1",
+        "imagenExtra": "/img/grafana_2.png"
       }
     ],
     "tecnologia": [
@@ -295,6 +303,11 @@
       },
       {
         "colorLetra": "white",
+        "fondoColor": "#F0602E",
+        "tecnologia": "Grafana"
+      },
+      {
+        "colorLetra": "white",
         "fondoColor": "#2088FF",
         "tecnologia": "GitHub Actions"
       },
@@ -344,7 +357,11 @@
   {
     "nombre": "Arquitectura Limpia",
     "descripcion": "SOLID en Go, inyección de dependencias explícita, Conventional Commits y go vet en CI."
-  }
+  },
+  {
+  "nombre": "Métricas con Prometheus y Grafana",
+  "descripcion": "Middleware Gin expone métricas en /metrics. Dashboard Grafana con RPS, latencia P95/P99 por endpoint, requests in-flight, status 2xx/4xx/5xx, CPU, memoria RSS, heap Go y goroutines. Infraestructura provisionada con Terraform en EC2."
+}
     ]
   },
   {

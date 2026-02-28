@@ -118,6 +118,16 @@ $margin-top-photo-mobile: 0 0 0 0;
           height: auto;
           margin: 12px 0;
           cursor: pointer;
+          border-radius: 4px;
+          opacity: 0.5;
+          transform: scale(0.95);
+          transition:
+            opacity 0.2s ease,
+            transform 0.2s ease;
+
+          &:hover {
+            opacity: 0.75;
+          }
 
           .img-mas-imagenes {
             width: 100%;
@@ -125,6 +135,12 @@ $margin-top-photo-mobile: 0 0 0 0;
             border: none;
             border-radius: 4px;
           }
+        }
+
+        .active {
+          opacity: 1;
+          transform: scale(1);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         }
       }
     }

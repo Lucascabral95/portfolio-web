@@ -10,9 +10,15 @@ import {
      SiN8N,
      SiJest,
      SiCypress,
-     SiJasmine,
+     SiTerraform,
+     SiGrafana,
     } from "react-icons/si";
-import { FaGithub, FaGitAlt, FaNpm, FaStripe, FaLinux } from "react-icons/fa";
+import { 
+    FaGithub,
+     FaGitAlt,
+      FaStripe,
+       FaLinux,
+     } from "react-icons/fa";
 import { TbBrandDocker } from "react-icons/tb";
 import { RiSupabaseFill } from "react-icons/ri";
 import { DiVisualstudio } from "react-icons/di";
@@ -24,22 +30,26 @@ const developmentTools = [
     { icon: DiVisualstudio, name: "VSCode", className: "icon-vscode" },
     { icon: FaGitAlt, name: "Git", className: "icon-git" },
     { icon: FaGithub, name: "GitHub", className: "icon-github" },
-    { icon: SiAmazonwebservices, name: "AWS", className: "icon-aws" },
-    { icon: FaNpm, name: "NPM", className: "icon-npm" },
-    { icon: SiN8N, name: "n8n", className: "icon-n8n" },
     { icon: FaLinux, name: "Linux", className: "icon-linux" },
-    { icon: SiGnubash, name: "Bash Scripting", className: "icon-bash" },
-    { icon: SiMysql, name: "Workbench", className: "icon-mysql" },
-    { icon: FaStripe, name: "Stripe", className: "icon-stripe" },
+
+    { icon: SiAmazonwebservices, name: "AWS", className: "icon-aws" },
     { icon: TbBrandDocker, name: "Docker", className: "icon-docker" },
     { icon: SiKubernetes, name: "Kubernetes", className: "icon-kubernetes" },
+    { icon: SiTerraform , name: "Terraform", className: "icon-terraform" },
+
+    { icon: SiMysql, name: "Workbench", className: "icon-mysql" },
+    { icon: SiPrisma, name: "Prisma", className: "icon-prisma" },
+    { icon: RiSupabaseFill, name: "Supabase", className: "icon-supabase" },
+    { icon: SiSocketdotio, name: "Socket.IO", className: "icon-socket" },
+   
     { icon: SiJest, name: "Jest", className: "icon-jest" },
     { icon: BiTestTube , name: "React Testing Library", className: "icon-times" },
     { icon: SiCypress, name: "Cypress", className: "icon-cypress" },
-    { icon: SiJasmine, name: "Jasmine", className: "icon-jasmine" },
-    { icon: SiSocketdotio, name: "Socket.IO", className: "icon-socket" },
-    { icon: SiPrisma, name: "Prisma", className: "icon-prisma" },
-    { icon: RiSupabaseFill, name: "Supabase", className: "icon-supabase" },
+    { icon: SiGrafana , name: "Grafana", className: "icon-grafana" },
+   
+    { icon: SiGnubash, name: "Bash Scripting", className: "icon-bash" },
+    { icon: SiN8N, name: "n8n", className: "icon-n8n" },
+    { icon: FaStripe, name: "Stripe", className: "icon-stripe" },
     { icon: SiVercel, name: "Vercel", className: "icon-vercel" },
 ];
 
