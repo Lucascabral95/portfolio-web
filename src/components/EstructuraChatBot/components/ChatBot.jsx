@@ -23,7 +23,7 @@ const ChatBot = () => {
           <div className="chatbot__avatar-ring" />
         </div>
         <div className="chatbot__header-info">
-          <p className="chatbot__header-name">Lucas IA</p>
+          <p className="chatbot__header-name">Lucas IA </p>
           <p className="chatbot__header-status">
             <span className="chatbot__dot" />
             Online ahora

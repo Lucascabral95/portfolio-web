@@ -5,6 +5,9 @@ import {
   MAX_TOKENS_OUTPUT,
 } from "../Constants/index";
 
+const FOCUS_INPUT = 768;
+const GREETING_MESSAGE = `Hola 👋 Soy el asistente IA de Lucas. ¿En qué puedo ayudarte?`;
+
 const useChatBot = () => {
   const [messages, setMessages] = useState(() => {
     const saved = sessionStorage.getItem("chatbot_messages");
@@ -14,7 +17,7 @@ const useChatBot = () => {
           {
             id: 1,
             role: "assistant",
-            text: "Hola 👋 Soy la IA de Lucas. Preguntame lo que quieras saber sobre él.",
+            text: GREETING_MESSAGE,
           },
         ];
   });
@@ -22,6 +25,7 @@ const useChatBot = () => {
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
+  const isMobile = () => window.innerWidth < FOCUS_INPUT;
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -32,7 +36,7 @@ const useChatBot = () => {
   }, [messages]);
 
   useEffect(() => {
-    if (!isLoading) {
+    if (!isLoading && !isMobile()) {
       inputRef.current?.focus();
     }
   }, [isLoading]);
@@ -103,7 +107,7 @@ const useChatBot = () => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       sendMessage();
-      inputRef.current?.focus();
+      if (!isMobile()) inputRef.current?.focus();
     }
   };
 

@@ -2,6 +2,9 @@ import { useState } from "react";
 import ChatBot from "./components/ChatBot";
 import "./EstructuraChatBot.scss";
 
+// const TEXT_BUTTON_IA = "¿Quién es LUCAS?";
+const TEXT_BUTTON_IA = "Hablá con mi IA";
+
 const EstructuraChatBot = () => {
   const [isOpenChat, setIsOpenChat] = useState(false);
 
@@ -60,7 +63,7 @@ const EstructuraChatBot = () => {
         </span>
 
         {!isOpenChat && (
-          <span className="chat-trigger__label">¿Quién es Lucas?</span>
+          <span className="chat-trigger__label">{TEXT_BUTTON_IA}</span>
         )}
       </button>
     </div>
