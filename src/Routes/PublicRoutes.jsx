@@ -1,31 +1,30 @@
-import { Routes, Route, useLocation } from "react-router-dom"
-import { useEffect } from "react"
-import ProgressBar from "../components/Animacion/ProgressBar.jsx"
-import Certificaciones from "../components/Certificaciones/Certificaciones.jsx"
-import Main from "../components/Main.jsx"
-import ProyectosId from "../components/ProyectosID/Proyectos.jsx"
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import ProgressBar from "../components/Animacion/ProgressBar.jsx";
+import Certificaciones from "../components/Certificaciones/Certificaciones.jsx";
+import Main from "../components/Main.jsx";
+import ProyectosId from "../components/ProyectosID/Proyectos.jsx";
+import EstructuraChatBot from "../components/EstructuraChatBot/EstructuraChatBot.jsx";
 
 export default function PublicRoutes() {
-    const location = useLocation()
+  const location = useLocation();
 
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [location])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
-    return (
-        <>
+  return (
+    <>
+      <ProgressBar />
 
-            <ProgressBar />
+      <EstructuraChatBot />
 
-            <Routes>
-
-                <Route path="/" element={<Main />} />
-                <Route path="/*" element={<Main />} />
-                <Route path="/certificacion/:id" element={<Certificaciones />} />
-                <Route path="/proyecto/:id" element={<ProyectosId />} />
-
-            </Routes>
-
-        </>
-    )
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/*" element={<Main />} />
+        <Route path="/certificacion/:id" element={<Certificaciones />} />
+        <Route path="/proyecto/:id" element={<ProyectosId />} />
+      </Routes>
+    </>
+  );
 }
