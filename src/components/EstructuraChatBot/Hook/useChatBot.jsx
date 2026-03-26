@@ -1,26 +1,91 @@
 import { useEffect, useRef, useState } from "react";
 import {
-  API_URL,
+  GEMINI_API_URL,
+  GPT_API_URL,
+  GPT_API_KEY,
   SYSTEM_INSTRUCTION,
   MAX_TOKENS_OUTPUT,
 } from "../Constants/index";
 
+const AI_SELECTED = "gpt"; // "gemini" | "gpt"
+const MODEL_GPT_SELECTED = "gpt-4.1-mini";
 const FOCUS_INPUT = 768;
 const GREETING_MESSAGE = `Hola 👋 Soy el asistente IA de Lucas. ¿En qué puedo ayudarte?`;
+const SESSION_MESSAGES_KEY = "chatbot_messages";
+const SESSION_GPT_RESPONSE_ID_KEY = "chatbot_gpt_response_id";
+
+const buildGeminiRequest = (messages, userText) => ({
+  url: GEMINI_API_URL,
+  options: {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      system_instruction: { parts: [{ text: SYSTEM_INSTRUCTION }] },
+      contents: [
+        ...messages.map((msg) => ({
+          role: msg.role === "assistant" ? "model" : "user",
+          parts: [{ text: msg.text }],
+        })),
+        { role: "user", parts: [{ text: userText }] },
+      ],
+      generationConfig: {
+        temperature: 0.3,
+        maxOutputTokens: MAX_TOKENS_OUTPUT,
+        topP: 0.8,
+        topK: 20,
+      },
+    }),
+  },
+  parseResponse: (data) => ({
+    text: data?.candidates?.[0]?.content?.parts?.[0]?.text ?? null,
+    responseId: null,
+  }),
+});
+
+const buildGPTRequest = (userText, previousResponseId) => ({
+  url: GPT_API_URL,
+  options: {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${GPT_API_KEY}`,
+    },
+    body: JSON.stringify({
+      model: MODEL_GPT_SELECTED,
+      ...(previousResponseId
+        ? { previous_response_id: previousResponseId }
+        : {}),
+      input: [
+        ...(!previousResponseId
+          ? [{ role: "system", content: SYSTEM_INSTRUCTION }]
+          : []),
+        { role: "user", content: userText },
+      ],
+    }),
+  },
+  parseResponse: (data) => ({
+    text: data?.output?.[0]?.content?.[0]?.text ?? null,
+    responseId: data?.id ?? null,
+  }),
+});
+
+const getProviderRequest = (messages, userText, gptResponseId) =>
+  AI_SELECTED === "gpt"
+    ? buildGPTRequest(userText, gptResponseId)
+    : buildGeminiRequest(messages, userText);
 
 const useChatBot = () => {
   const [messages, setMessages] = useState(() => {
-    const saved = sessionStorage.getItem("chatbot_messages");
+    const saved = sessionStorage.getItem(SESSION_MESSAGES_KEY);
     return saved
       ? JSON.parse(saved)
-      : [
-          {
-            id: 1,
-            role: "assistant",
-            text: GREETING_MESSAGE,
-          },
-        ];
+      : [{ id: 1, role: "assistant", text: GREETING_MESSAGE }];
   });
+
+  const [gptResponseId, setGptResponseId] = useState(
+    () => sessionStorage.getItem(SESSION_GPT_RESPONSE_ID_KEY) ?? null,
+  );
+
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
@@ -32,20 +97,12 @@ const useChatBot = () => {
   }, [messages, isLoading]);
 
   useEffect(() => {
-    sessionStorage.setItem("chatbot_messages", JSON.stringify(messages));
+    sessionStorage.setItem(SESSION_MESSAGES_KEY, JSON.stringify(messages));
   }, [messages]);
 
   useEffect(() => {
-    if (!isLoading && !isMobile()) {
-      inputRef.current?.focus();
-    }
+    if (!isLoading && !isMobile()) inputRef.current?.focus();
   }, [isLoading]);
-
-  const buildHistory = () =>
-    messages.map((msg) => ({
-      role: msg.role === "assistant" ? "model" : "user",
-      parts: [{ text: msg.text }],
-    }));
 
   const sendMessage = async () => {
     const userText = input.trim();
@@ -53,43 +110,36 @@ const useChatBot = () => {
 
     setInput("");
     setIsLoading(true);
-
-    const userMsg = { id: Date.now(), role: "user", text: userText };
-    setMessages((prev) => [...prev, userMsg]);
+    setMessages((prev) => [
+      ...prev,
+      { id: Date.now(), role: "user", text: userText },
+    ]);
 
     try {
-      const res = await fetch(API_URL, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          system_instruction: {
-            parts: [{ text: SYSTEM_INSTRUCTION }],
-          },
-          contents: [
-            ...buildHistory(),
-            { role: "user", parts: [{ text: userText }] },
-          ],
-          generationConfig: {
-            temperature: 0.3,
-            maxOutputTokens: MAX_TOKENS_OUTPUT,
-            topP: 0.8,
-            topK: 20,
-          },
-        }),
-      });
+      const { url, options, parseResponse } = getProviderRequest(
+        messages,
+        userText,
+        gptResponseId,
+      );
 
+      const res = await fetch(url, options);
       const data = await res.json();
-      const reply =
-        data?.candidates?.[0]?.content?.parts?.[0]?.text ||
-        "No pude obtener una respuesta.";
+      const { text, responseId } = parseResponse(data);
+
+      if (responseId) {
+        setGptResponseId(responseId);
+        sessionStorage.setItem(SESSION_GPT_RESPONSE_ID_KEY, responseId);
+      }
 
       setMessages((prev) => [
         ...prev,
-        { id: Date.now() + 1, role: "assistant", text: reply },
+        {
+          id: Date.now() + 1,
+          role: "assistant",
+          text: text ?? "No pude obtener una respuesta.",
+        },
       ]);
-    } catch (err) {
+    } catch {
       setMessages((prev) => [
         ...prev,
         {
@@ -112,13 +162,11 @@ const useChatBot = () => {
   };
 
   const clearHistory = () => {
-    sessionStorage.removeItem("chatbot_messages");
+    sessionStorage.removeItem(SESSION_MESSAGES_KEY);
+    sessionStorage.removeItem(SESSION_GPT_RESPONSE_ID_KEY);
+    setGptResponseId(null);
     setMessages([
-      {
-        id: Date.now(),
-        role: "assistant",
-        text: "Hola 👋 Soy la IA de Lucas. Preguntame lo que quieras saber sobre él.",
-      },
+      { id: Date.now(), role: "assistant", text: GREETING_MESSAGE },
     ]);
   };
 

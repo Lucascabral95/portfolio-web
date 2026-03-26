@@ -2,7 +2,6 @@ import { useState } from "react";
 import ChatBot from "./components/ChatBot";
 import "./EstructuraChatBot.scss";
 
-// const TEXT_BUTTON_IA = "¿Quién es LUCAS?";
 const TEXT_BUTTON_IA = "Hablá con mi IA";
 
 const EstructuraChatBot = () => {

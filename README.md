@@ -17,20 +17,21 @@
   </a>
 </p>
 
-## Desarrollador Full Stack
+## Full Stack Developer — Lucas Cabral
 
-**Portafolio web profesional** que presenta mi experiencia como desarrollador Full Stack, destacando proyectos reales, habilidades técnicas y servicios especializados en desarrollo web moderno. Una plataforma diseñada para mostrar mi capacidad de crear soluciones completas desde el frontend hasta el backend.
+Portafolio completo con experiencia, proyectos reales en producción, habilidades técnicas, certificaciones y asistente IA integrado para consultas sobre mi perfil.
 
 ---
 
 ## ✨ Características del Portafolio
 
-- **🙋‍♂️ Presentación Profesional** - Historia, experiencia y filosofía de desarrollo
-- **⚡ Habilidades Técnicas** - Tecnologías, frameworks y herramientas especializadas
-- **💼 Servicios Profesionales** - Desarrollo web, APIs, microservicios y consultoría
-- **🚀 Proyectos Destacados** - Showcase de aplicaciones reales con código
-- **🎓 Formación Continua** - Certificaciones y cursos especializados en tecnologías modernas
-- **📞 Contacto Directo** - Formulario funcional para oportunidades laborales y colaboraciones
+- **🙋‍♂️ Presentación Profesional** - Trayectoria, stack y enfoque de desarrollo respaldado por proyectos reales
+- **⚡ Habilidades Técnicas** - De TypeScript y Go hasta AWS, Terraform y Prometheus + Grafana
+- **💼 Servicios Profesionales** - Full Stack, microservicios, infraestructura cloud e integración de pagos
+- **🚀 Proyectos Destacados** - Tres proyectos de producción con código público y documentación técnica
+- **🤖 Asistente IA** - Chat con LLM que responde consultas sobre experiencia y stack en tiempo real
+- **🎓 Formación Continua** - Certificaciones en AWS, Go, NestJS, Angular y Ciberseguridad (Cisco)
+- **📞 Contacto Directo** - Formulario con validación y envío de emails para oportunidades y colaboraciones
 
 ---
 
@@ -103,6 +104,32 @@
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
+**Cloud & DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Bash Scripting](https://img.shields.io/badge/Bash_Scripting-121011?style=flat-square&logo=gnubash&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+**Testing & Herramientas**
+
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![React Testing Library](https://img.shields.io/badge/React_Testing_Library-E33332?style=flat-square&logo=testinglibrary&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white)
+![Jasmine](https://img.shields.io/badge/Jasmine-8A4182?style=flat-square&logo=jasmine&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=000000)
+![n8n](https://img.shields.io/badge/n8n-000000?style=flat-square&logo=n8n&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
 ---
 
 ## 📂 Secciones del Portafolio
@@ -117,28 +144,23 @@ Showcase completo de mi stack tecnológico, desde lenguajes de programación has
 
 ### **Servicios Profesionales**
 
-- Desarrollo de aplicaciones web completas (Frontend + Backend)
-- Creación de APIs RESTful y microservicios
-- Optimización SEO y rendimiento web
-- Consultoría técnica y arquitectura de software
-- Integración de bases de datos y sistemas de autenticación
+- Desarrollo Full Stack (Frontend + Backend)
+- APIs RESTful y arquitectura de microservicios
+- Infraestructura cloud e IaC (AWS, Terraform, Docker)
+- Integración de pagos (Stripe, Mercado Pago) y autenticación
+- Consultoría técnica y optimización de rendimiento
 
 ### **Proyectos Destacados**
 
-Portfolio interactivo con mis proyectos más relevantes, incluyendo:
-
-- Enlaces a repositorios (GitHub) y a despliegues en producción.
-- Descripción técnica de tecnologías utilizadas
-- Challenges resueltos y funcionalidades implementadas
-- Imágenes de los proyectos
+Tres proyectos de producción con código público en GitHub, stack detallado, decisiones de arquitectura e imágenes del producto final.
 
 ### **Formación & Certificaciones**
 
-Cursos especializados, certificaciones profesionales y formación continua en tecnologías de desarrollo web moderno.
+Certificaciones en AWS (Cloud Practitioner, Developer Associate), Go, NestJS, Angular y Ciberseguridad (Cisco).
 
 ### **Contacto Profesional**
 
-Sistema de contacto integrado para oportunidades laborales, colaboraciones y consultoría técnica.
+Formulario funcional con validación y envío de emails para oportunidades laborales, colaboraciones y consultoría.
 
 ---
 
@@ -150,19 +172,67 @@ Sistema de contacto integrado para oportunidades laborales, colaboraciones y con
 - **Formulario Funcional:** Sistema de contacto con validación y envío de emails
 - **Navegación Intuitiva:** UX/UI diseñada para facilitar la exploración del contenido
 - **Animaciones CSS y Framer Motion:** Transiciones suaves y efectos visuales profesionales
+- **Asistente IA:** Chat integrado con LLM vía API y prompt engineering orientado a mi perfil;responde consultas técnicas sobre experiencia, proyectos y stack sin necesidad de leer el CV completo
+
+---
+
+## 🤖 Asistente IA Integrado
+
+El portafolio incorpora un **chat con inteligencia artificial** entrenado con información
+completa sobre mi perfil profesional. Permite a recruiters y equipos técnicos obtener
+respuestas precisas sin necesidad de leer el CV completo.
+
+**Casos de uso:**
+
+- Consultas sobre stack tecnológico y nivel de experiencia
+- Información sobre proyectos específicos y decisiones de arquitectura
+- Disponibilidad y modalidad de trabajo
+- Cualquier pregunta técnica relacionada con mi trayectoria
+
+**Implementación:** Integración con LLM vía API, con prompt engineering orientado
+a representar con precisión mi experiencia y perfil profesional.
 
 ---
 
 ## 📈 Proyectos Destacados
 
-Este portafolio incluye una sección dedicada a mis proyectos más importantes como desarrollador Full Stack, donde podrás encontrar:
+### 🎟️ SeatGuard — Reservation Engine
 
-- **Aplicaciones Web Completas** - Frontend y Backend integrados
-- **APIs y Microservicios** - Arquitecturas escalables y robustas
-- **E-commerce y Sistemas de Gestión** - Soluciones empresariales funcionales
-- **Integraciones de Terceros** - Pagos, autenticación y servicios cloud
+Plataforma de microservicios para venta de entradas con **bloqueo optimista de asientos en tiempo real**.
 
-Cada proyecto incluye enlaces al código fuente y descripción técnica detallada.
+- **Backend**: Go (Gin) + NestJS con goroutines soportando **+5.000 requests concurrentes** y tiempos de respuesta por debajo de **200ms**
+- **Pagos asíncronos**: Stripe Webhooks → SQS → Lambda con generación automática de ticket PDF y email de confirmación
+- **Infraestructura**: AWS (ECS Fargate, Lambda, SQS, ALB) orquestada con Terraform
+- **Frontend**: Angular 20 con SSR deployado en Vercel
+- 🔗 [Backend](https://github.com/Lucascabral95/seat-guard-reservation-engine) · [Frontend](https://github.com/Lucascabral95/seat-guard-reservation-frontend)
+
+---
+
+### 🛒 In-Memory Database Engine — E-Commerce API
+
+API REST de e-commerce en **Go puro** con arquitectura por capas y un motor de caché propio.
+
+- **Carrito en RAM** con TTL de 24h, cleanup automático y checkout transaccional con bloqueo `FOR UPDATE` en PostgreSQL
+- **Servidor TCP custom** compatible con protocolo Redis RESP (PING, SET/GET/DEL), compartiendo el mismo MemoryStore del carrito
+- **Observabilidad completa**: Prometheus + Grafana con métricas de latencia P95/P99, goroutines y heap de Go
+- **CI/CD**: GitHub Actions con `go vet`, cobertura de tests y build Docker automático
+- 🔗 [Repositorio](https://github.com/Lucascabral95/in-memory-database-engine)
+
+---
+
+### 📡 Server Check App — Uptime Monitor
+
+Plataforma de monitoreo de uptime de alto rendimiento con arquitectura de monorepo (Turbo).
+
+- **Backend NestJS**: HTTP Connection Pooling con Undici (100 conexiones, pipelining 10), Circuit Breaker tras 5 fallos y buffer batch de **500 logs con flush cada 5s**
+- **Procesamiento asíncrono**: BullMQ con job individual por monitor, Dead Letter Queue y retry con exponential backoff
+- **Frontend Next.js 16**: React 19, App Router, SSR y autenticación con AWS Cognito vía Amplify
+- **Alertas automáticas** por email (AWS SES) ante cambios de estado UP ↔ DOWN
+- 🔗 [Repositorio](https://github.com/Lucascabral95/server-check-app)
+
+---
+
+> Cada proyecto incluye documentación técnica completa, guía de instalación, variables de entorno y configuración de CI/CD lista para producción.
 
 ---
 
@@ -179,12 +249,12 @@ Cada proyecto incluye enlaces al código fuente y descripción técnica detallad
 
 ## 💡 ¿Por qué elegir mi trabajo?
 
-- ✅ **Experiencia Full Stack** completa en tecnologías modernas
-- ✅ **Proyectos reales** con código documentado y funcional
-- ✅ **Formación continua** en las últimas tendencias del desarrollo web
-- ✅ **Enfoque en calidad** y mejores prácticas de desarrollo
-- ✅ **Capacidad de adaptación** a diferentes stacks tecnológicos
-- ✅ **Comunicación efectiva** para colaboración en equipo
+- ✅ **Arquitectura que escala** — Microservicios event-driven con +5.000 requests concurrentes y respuestas por debajo de 200ms
+- ✅ **Impacto medible** — 30% de reducción en latencia mediante caching multinivel y query tuning en PostgreSQL
+- ✅ **Calidad sin negociar** — Testing (Unit, Integration, E2E) con +80% de cobertura en todos los proyectos
+- ✅ **Stack end-to-end** — Frontend (React, Next.js, Angular) + Cloud (AWS, Terraform, CI/CD) sin depender de terceros
+- ✅ **Infraestructura como código** — Deploy reproducible con Terraform, Docker y GitHub Actions
+- ✅ **Contexto de negocio** — Experiencia en gestión de procesos, ERP/CRM y facturación. Entiendo el problema antes de codear
 
 ---
 
