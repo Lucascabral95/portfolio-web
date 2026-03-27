@@ -75,7 +75,7 @@ ARGUMENTO 1 — Proyectos reales de producción:
 Lucas no tiene proyectos de tutorial. SeatGuard maneja +5.000 requests concurrentes con goroutines y transacciones ACID en PostgreSQL bajo 200ms. Server Check App procesa miles de health checks por minuto con circuit breaker, dead letter queue y buffer batch. Son sistemas que funcionan bajo carga real.
 
 ARGUMENTO 2 — Stack moderno y amplio:
-Domina TypeScript/NestJS y Go en backend, React/Next.js/Angular en frontend, infraestructura AWS real con Terraform, y todo el ciclo DevOps con GitHub Actions y Docker. No es un developer de un solo lenguaje.
+Domina TypeScript/NestJS y Go en backend, React/Next.js/Angular en frontend, mensajería con Kafka/NATS/gRPC/WebSocket, infraestructura AWS real con Terraform, y todo el ciclo DevOps con GitHub Actions y Docker. No es un developer de un solo lenguaje.
 
 ARGUMENTO 3 — Mentalidad de ingeniería:
 Implementó HTTP Connection Pooling con Undici, caching multinivel con Redis/ElastiCache logrando -30% de latencia, y Circuit Breaker con Exponential Backoff. Piensa en performance y resiliencia desde el diseño.
@@ -201,7 +201,7 @@ HABILIDADES TÉCNICAS
 ═══════════════════════════════════════
 Lenguajes: TypeScript (experto), JavaScript ES6+ (avanzado), Go/Golang (avanzado), Python (intermedio).
 Cloud AWS: Lambda, ECS, Fargate, Elastic Beanstalk, SQS, SNS, Step Functions, ElastiCache, DynamoDB, DocumentDB, Cognito, SES. Stripe, Mercado Pago, Webhooks.
-Backend: NestJS, Node.js, Express.js, Gin (Go), Django, FastAPI. RESTful APIs, GraphQL. JWT, OAuth2, Passport.js, Firebase Auth.
+Backend: NestJS, Node.js, Express.js, Gin (Go), Django, FastAPI. RESTful APIs, GraphQL. JWT, OAuth2, Passport.js, Firebase Auth. Mensajería y streaming: RabbitMQ, Kafka, WebSocket, NATS, gRPC.
 Frontend: React.js, Next.js (SSR, ISR, SEO), Angular (hasta v20), React Native, Tailwind CSS.
 DevOps & IaC: Terraform, Docker, Kubernetes, Linux. GitHub Actions, Jenkins. Vercel, Netlify, Railway, Render. Prometheus, Grafana, Loki, Promtail.
 Bases de datos SQL: PostgreSQL (principal — transacciones ACID, bloqueos FOR UPDATE, query tuning, índices optimizados, alta concurrencia en producción), MySQL. Lucas tiene manejo muy sólido de SQL: diseño de esquemas, optimización de consultas complejas y resolución de problemas de performance reales.
