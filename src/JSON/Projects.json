@@ -1,5 +1,235 @@
 [
   {
+    "linkRepo": "https://github.com/Lucascabral95/peer-ledger-microservices-grpc-frontend",
+    "repoBackend": true,
+    "repoBackendLink": "https://github.com/Lucascabral95/peer-ledger-microservices-grpc",
+    "nombre": "Peer Ledger P2P",
+    "claves": "Características Claves:",
+    "id": 37,
+    "titulo": "Peer Ledger P2P",
+    "subtitulo": "Sistema de pagos P2P con microservicios Go, gRPC, idempotencia, antifraude e infraestructura AWS.",
+    "imagen": "/img/peer-ledger-1.png",
+    "urlOficial": "https://peer-ledger-microservices-grpc-fron-six.vercel.app/",
+    "url": "https://peer-ledger-microservices-grpc-fron-six.vercel.app/",
+    "descripcion": "Plataforma de transferencias P2P construida en Go con API Gateway REST y microservicios internos comunicados por gRPC. Implementa wallets, topups, transferencias idempotentes, historial financiero, antifraude, JWT con refresh tokens y dashboard-ready APIs. Desplegada en AWS con ECS Fargate, RDS, ECR, ALB, Terraform, GitHub Actions y observabilidad con Prometheus, Grafana y Loki.",
+    "tecnologias": [
+      {
+        "imagen": "/img/go-svg-logo.svg",
+        "nombre": "Go"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      },
+      {
+        "imagen": "/img/aws.svg",
+        "nombre": "AWS"
+      },
+      {
+        "imagen": "/img/logo-docker.svg",
+        "nombre": "Docker"
+      },
+      {
+        "imagen": "/img/terraform-svg.svg",
+        "nombre": "Terraform"
+      }
+    ],
+    "creacion": "21/04/2026",
+    "fechaDeObtencion": "21 de abril de 2026",
+    "fechaFormateada": "2026-04-21",
+    "masImagenes": [
+      {
+        "nombreImagen": "Imagen 1",
+        "imagenExtra": "/img/peer-ledger-1.png"
+      },
+      {
+        "nombreImagen": "Imagen 2",
+        "imagenExtra": "/img/peer-ledger-2.png"
+      },
+      {
+        "nombreImagen": "Imagen 3",
+        "imagenExtra": "/img/peer-ledger-3.png"
+      }
+    ],
+    "tecnologia": [
+      {
+        "colorLetra": "white",
+        "fondoColor": "#00ADD8",
+        "tecnologia": "Go"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#244C5A",
+        "tecnologia": "gRPC"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#6A4C93",
+        "tecnologia": "Protocol Buffers"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#0F172A",
+        "tecnologia": "REST API"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#111827",
+        "tecnologia": "JWT"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2563EB",
+        "tecnologia": "Refresh Tokens"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2F74C0",
+        "tecnologia": "Docker"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ECS Fargate"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS RDS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ECR"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ALB"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#7B42BC",
+        "tecnologia": "Terraform"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2088FF",
+        "tecnologia": "GitHub Actions"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#E6522C",
+        "tecnologia": "Prometheus"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F46800",
+        "tecnologia": "Grafana"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#0E7490",
+        "tecnologia": "Swagger"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F05539",
+        "tecnologia": "Git"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#181717",
+        "tecnologia": "GitHub"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#000000",
+        "tecnologia": "Next.js"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FE7107",
+        "tecnologia": "TanStack Query"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Arquitectura de Microservicios",
+        "descripcion": "Sistema P2P dividido en gateway, user-service, wallet-service, transaction-service y fraud-service, con responsabilidades separadas."
+      },
+      {
+        "nombre": "API Gateway",
+        "descripcion": "Entrada HTTP pública con REST, validación JWT, rate limiting, Swagger, métricas y orquestación de llamadas internas gRPC."
+      },
+      {
+        "nombre": "Comunicación Interna gRPC",
+        "descripcion": "Servicios internos comunicados con gRPC y contratos definidos con Protocol Buffers para reducir ambigüedad entre módulos."
+      },
+      {
+        "nombre": "Idempotencia en Transferencias",
+        "descripcion": "Uso de idempotency_key en wallet-service para evitar dobles débitos ante retries, timeouts o respuestas perdidas."
+      },
+      {
+        "nombre": "Consistencia Monetaria",
+        "descripcion": "Transferencias ejecutadas en transacciones SQL atómicas, moviendo saldo entre sender y receiver sin estados parciales."
+      },
+      {
+        "nombre": "Historial Financiero",
+        "descripcion": "Registro de transferencias y topups con balance_after calculado desde la perspectiva del usuario autenticado."
+      },
+      {
+        "nombre": "Antifraude",
+        "descripcion": "Fraud-service evalúa límites por transferencia, límites diarios, velocidad de operaciones, cooldown entre pares e idempotencia."
+      },
+      {
+        "nombre": "Token Bucket Rate Limiting",
+        "descripcion": "Rate limiting por IP en el gateway usando token bucket para proteger endpoints públicos y operaciones sensibles."
+      },
+      {
+        "nombre": "Autenticación JWT + Refresh Token",
+        "descripcion": "Access tokens de corta duración y refresh tokens rotativos para renovar sesión sin reloguear al usuario constantemente."
+      },
+      {
+        "nombre": "Dashboard Backend-Ready",
+        "descripcion": "Endpoints /me/dashboard, /me/wallet, /me/activity y /me/topups preparados para frontend con métricas agregadas."
+      },
+      {
+        "nombre": "PostgreSQL por Dominio",
+        "descripcion": "Persistencia separada para usuarios, wallets, topups y transacciones, con migraciones gestionadas por db-migrator."
+      },
+      {
+        "nombre": "Infraestructura AWS",
+        "descripcion": "Deploy en ECS Fargate con ALB, RDS, ECR, Secrets Manager, CloudWatch y networking privado."
+      },
+      {
+        "nombre": "Terraform Modular",
+        "descripcion": "Infraestructura separada por stacks foundation, platform y services para construir o destruir recursos de forma controlada."
+      },
+      {
+        "nombre": "CI/CD con GitHub Actions",
+        "descripcion": "Pipeline para build, test, push de imágenes Docker a ECR y despliegue automatizado en AWS."
+      },
+      {
+        "nombre": "Observabilidad",
+        "descripcion": "Prometheus, Grafana, Loki y Promtail para métricas, logs y monitoreo local del sistema."
+      },
+      {
+        "nombre": "Swagger / OpenAPI",
+        "descripcion": "Documentación pública del gateway HTTP con modelos claros, auth bearer y rutas protegidas documentadas."
+      }
+    ]
+  },
+  {
     "linkRepo": "https://github.com/Lucascabral95/server-check-uptime-monitor",
     "repoBackend": true,
     "repoBackendLink": "https://github.com/Lucascabral95/server-check-uptime-monitor",
@@ -183,7 +413,7 @@
         "descripcion": "Pipeline en backend-ci.yml: Node 20 + PostgreSQL 16 + Redis 7 en contenedores → instalar deps → Prisma generate → migraciones → tests → build."
       }
     ]
-},
+  },
   {
     "linkRepo": "",
     "repoBackend": true,
@@ -318,50 +548,50 @@
       }
     ],
     "temas": [
-        {
-    "nombre": "Arquitectura por Capas",
-    "descripcion": "Handler → Service → Repository → Database. Dependencias inyectadas desde main.go, sin acoplamiento entre capas."
-  },
-  {
-    "nombre": "Carrito en Memoria con TTL",
-    "descripcion": "Cart en RAM por usuario con clave cart:user:<id>, TTL 24h renovado en escrituras y cleanup automático. No persiste en DB."
-  },
-  {
-    "nombre": "Checkout Transaccional",
-    "descripcion": "Lee RAM → valida productos → orden PENDING → TX: FOR UPDATE → descuenta stock → StockMovement SALE → orden PAID. Rollback + 409 si no hay stock."
-  },
-  {
-    "nombre": "Servidor TCP RESP Custom",
-    "descripcion": "Protocolo Redis (RESP) implementado en Go. Soporta PING, SET/GET/DEL con EX. Comparte MemoryStore con el carrito."
-  },
-  {
-    "nombre": "JWT con Ownership",
-    "descripcion": "HS256 Bearer token. Cada usuario solo puede ver y operar sus propias órdenes."
-  },
-  {
-    "nombre": "StockMovements",
-    "descripcion": "Auditoría de stock con razones SALE, RESTOCK y ADJUSTMENT. Trazabilidad completa del inventario."
-  },
-  {
-    "nombre": "Infraestructura con Terraform",
-    "descripcion": "Provisiona ECR, EC2 t3.small, Security Group e IAM Role. Variables sensibles en SSM Parameter Store."
-  },
-  {
-    "nombre": "CI/CD con GitHub Actions",
-    "descripcion": "go vet → go test → docker build → push ECR → SSM trigger → EC2 restart. Branch protection con required checks."
-  },
-  {
-    "nombre": "Swagger y Postman",
-    "descripcion": "Documentación OpenAPI en /swagger/index.html y colección Postman incluida con todas las rutas preconfiguradas."
-  },
-  {
-    "nombre": "Arquitectura Limpia",
-    "descripcion": "SOLID en Go, inyección de dependencias explícita, Conventional Commits y go vet en CI."
-  },
-  {
-  "nombre": "Métricas con Prometheus y Grafana",
-  "descripcion": "Middleware Gin expone métricas en /metrics. Dashboard Grafana con RPS, latencia P95/P99 por endpoint, requests in-flight, status 2xx/4xx/5xx, CPU, memoria RSS, heap Go y goroutines. Infraestructura provisionada con Terraform en EC2."
-}
+      {
+        "nombre": "Arquitectura por Capas",
+        "descripcion": "Handler → Service → Repository → Database. Dependencias inyectadas desde main.go, sin acoplamiento entre capas."
+      },
+      {
+        "nombre": "Carrito en Memoria con TTL",
+        "descripcion": "Cart en RAM por usuario con clave cart:user:<id>, TTL 24h renovado en escrituras y cleanup automático. No persiste en DB."
+      },
+      {
+        "nombre": "Checkout Transaccional",
+        "descripcion": "Lee RAM → valida productos → orden PENDING → TX: FOR UPDATE → descuenta stock → StockMovement SALE → orden PAID. Rollback + 409 si no hay stock."
+      },
+      {
+        "nombre": "Servidor TCP RESP Custom",
+        "descripcion": "Protocolo Redis (RESP) implementado en Go. Soporta PING, SET/GET/DEL con EX. Comparte MemoryStore con el carrito."
+      },
+      {
+        "nombre": "JWT con Ownership",
+        "descripcion": "HS256 Bearer token. Cada usuario solo puede ver y operar sus propias órdenes."
+      },
+      {
+        "nombre": "StockMovements",
+        "descripcion": "Auditoría de stock con razones SALE, RESTOCK y ADJUSTMENT. Trazabilidad completa del inventario."
+      },
+      {
+        "nombre": "Infraestructura con Terraform",
+        "descripcion": "Provisiona ECR, EC2 t3.small, Security Group e IAM Role. Variables sensibles en SSM Parameter Store."
+      },
+      {
+        "nombre": "CI/CD con GitHub Actions",
+        "descripcion": "go vet → go test → docker build → push ECR → SSM trigger → EC2 restart. Branch protection con required checks."
+      },
+      {
+        "nombre": "Swagger y Postman",
+        "descripcion": "Documentación OpenAPI en /swagger/index.html y colección Postman incluida con todas las rutas preconfiguradas."
+      },
+      {
+        "nombre": "Arquitectura Limpia",
+        "descripcion": "SOLID en Go, inyección de dependencias explícita, Conventional Commits y go vet en CI."
+      },
+      {
+        "nombre": "Métricas con Prometheus y Grafana",
+        "descripcion": "Middleware Gin expone métricas en /metrics. Dashboard Grafana con RPS, latencia P95/P99 por endpoint, requests in-flight, status 2xx/4xx/5xx, CPU, memoria RSS, heap Go y goroutines. Infraestructura provisionada con Terraform en EC2."
+      }
     ]
   },
   {
@@ -432,197 +662,197 @@
         "tecnologia": "Github"
       },
       {
-      "colorLetra": "red",
-      "fondoColor": "black",
-      "tecnologia": "NPM"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#DD0031",
-      "tecnologia": "Angular 20"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#EB2F4B",
-      "tecnologia": "NestJS"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#00ADD8",
-      "tecnologia": "Go (Golang)"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#E44D26",
-      "tecnologia": "Gin Framework"
-    },
-    {
-      "colorLetra": "black",
-      "fondoColor": "white",
-      "tecnologia": "JWT"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#376695",
-      "tecnologia": "PostgreSQL"
-    },
-    {
-      "colorLetra": "black",
-      "fondoColor": "#63F655",
-      "tecnologia": "Neon Serverless"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#194156",
-      "tecnologia": "Prisma ORM"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#5B69A6",
-      "tecnologia": "GORM"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#347CBE",
-      "tecnologia": "TypeScript"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#FF9900",
-      "tecnologia": "AWS ECS Fargate"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#FF9900",
-      "tecnologia": "AWS Lambda"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#FF9900",
-      "tecnologia": "AWS SQS"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#FF9900",
-      "tecnologia": "AWS ALB"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#FF9900",
-      "tecnologia": "AWS ECR"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#844FBA",
-      "tecnologia": "Terraform"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#635BFF",
-      "tecnologia": "Stripe API"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#08609F",
-      "tecnologia": "HTTPS Cookies"
-    },
-    {
-      "colorLetra": "#F05145",
-      "fondoColor": "#181F2E",
-      "tecnologia": "Signals"
-    },
-    {
-      "colorLetra": "black",
-      "fondoColor": "#38BDF8",
-      "tecnologia": "TailwindCSS"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#2F74C0",
-      "tecnologia": "Docker"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "black",
-      "tecnologia": "Vercel"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#DD0031",
-      "tecnologia": "Angular SSR"
-    },
-    {
-      "colorLetra": "white",
-      "fondoColor": "#DD0031",
-      "tecnologia": "Zoneless Change Detection"
-    }
+        "colorLetra": "red",
+        "fondoColor": "black",
+        "tecnologia": "NPM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#DD0031",
+        "tecnologia": "Angular 20"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#EB2F4B",
+        "tecnologia": "NestJS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#00ADD8",
+        "tecnologia": "Go (Golang)"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#E44D26",
+        "tecnologia": "Gin Framework"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "white",
+        "tecnologia": "JWT"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "#63F655",
+        "tecnologia": "Neon Serverless"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#194156",
+        "tecnologia": "Prisma ORM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#5B69A6",
+        "tecnologia": "GORM"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#347CBE",
+        "tecnologia": "TypeScript"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ECS Fargate"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS Lambda"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS SQS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ALB"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ECR"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#844FBA",
+        "tecnologia": "Terraform"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#635BFF",
+        "tecnologia": "Stripe API"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#08609F",
+        "tecnologia": "HTTPS Cookies"
+      },
+      {
+        "colorLetra": "#F05145",
+        "fondoColor": "#181F2E",
+        "tecnologia": "Signals"
+      },
+      {
+        "colorLetra": "black",
+        "fondoColor": "#38BDF8",
+        "tecnologia": "TailwindCSS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2F74C0",
+        "tecnologia": "Docker"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "black",
+        "tecnologia": "Vercel"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#DD0031",
+        "tecnologia": "Angular SSR"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#DD0031",
+        "tecnologia": "Zoneless Change Detection"
+      }
     ],
-     "temas": [
-    {
-      "nombre": "Arquitectura de Microservicios Polyglot",
-      "descripcion": "Servicios desacoplados con Auth Service (NestJS + Prisma), Booking Service (Go + Gin + GORM) y Payment Lambda (Node.js). Comunicación REST con balanceo de carga mediante AWS ALB."
-    },
-    {
-      "nombre": "Infraestructura Serverless en AWS",
-      "descripcion": "Despliegue automatizado en ECS Fargate con Terraform. Incluye VPC, ALB, auto-scaling, CloudWatch Logs y ECR. Infraestructura como código completamente reproducible."
-    },
-    {
-      "nombre": "Bloqueo de Asientos en Tiempo Real",
-      "descripcion": "Concurrencia optimista implementada en Go que bloquea asientos por 15 minutos. Sistema de estados (AVAILABLE → BLOCKED → SOLD) con prevención de sobreventa."
-    },
-    {
-      "nombre": "Procesamiento Asíncrono de Pagos",
-      "descripcion": "Event-driven con Lambda + SQS procesando webhooks de Stripe. Flujo: webhook → SQS → Lambda procesa → actualiza asientos → crea orden. Sistema de reintentos automáticos."
-    },
-    {
-      "nombre": "Integración con Stripe",
-      "descripcion": "Creación de sesiones de checkout, validación de webhooks HMAC, manejo de eventos (payment_intent.succeeded/failed) y flujo completo de confirmación con redirección."
-    },
-    {
-      "nombre": "Autenticación Enterprise JWT",
-      "descripcion": "JWT con refresh tokens, HTTPS-only cookies, interceptores automáticos, guards de rutas y headers de seguridad (X-Internal-Secret) para comunicación inter-servicios."
-    },
-    {
-      "nombre": "Frontend Angular 20 Moderno",
-      "descripcion": "Signals para reactividad, Zoneless Change Detection, Standalone Components, httpResource y arquitectura modular por features (auth, events, checkout, seats)."
-    },
-    {
-      "nombre": "Server-Side Rendering Optimizado",
-      "descripcion": "Angular Universal con SSR para SEO y Core Web Vitals. Incluye incremental hydration, pre-rendering de rutas, manejo de localStorage en servidor y proxy HTTP."
-    },
-    {
-      "nombre": "Base de Datos Serverless PostgreSQL",
-      "descripcion": "Neon Tech con auto-scaling, branching, point-in-time recovery y escalado a cero. Esquemas con Prisma (Auth) y GORM (Booking) con migraciones versionadas."
-    },
-    {
-      "nombre": "CI/CD Automatizado",
-      "descripcion": "Scripts npm para seeding, build Docker, push a ECR, actualización de Task Definitions y deploy de Lambda. Flujo completo de IaC con Terraform."
-    },
-    {
-      "nombre": "Gestión de Eventos y Tickets",
-      "descripcion": "CRUD de eventos con información detallada, disponibilidad en tiempo real, área de usuario para tickets comprados, historial de órdenes y detalle de asientos."
-    },
-    {
-      "nombre": "Arquitectura Limpia",
-      "descripcion": "Principios SOLID, DRY, YAGNI y KISS. Clean Architecture en Booking (domains, services, repos), módulos NestJS y estructura feature-first en Angular."
-    },
-    {
-      "nombre": "Seguridad Multi-Capa",
-      "descripcion": "Validación con DTOs, sanitización de inputs, protección CSRF, CORS configurado, rate limiting, secrets via variables de entorno y comunicación TLS/SSL."
-    },
-    {
-      "nombre": "Observabilidad y Monitoreo",
-      "descripcion": "CloudWatch para logs centralizados, métricas de ECS, alarmas ALB, X-Ray para tracing, logs JSON estructurados y dashboard de disponibilidad/pagos."
-    },
-    {
-      "nombre": "UI/UX Responsive",
-      "descripcion": "TailwindCSS 4, diseño mobile-first, componentes standalone reutilizables, feedback visual, manejo global de errores y lazy loading de rutas."
-    },
-    {
-      "nombre": "Testing y Calidad",
-      "descripcion": "Karma/Jasmine para Angular, tests CI headless, Conventional Commits, ESLint, Prettier y documentación técnica con diagramas de arquitectura."
-    }
-  ]
+    "temas": [
+      {
+        "nombre": "Arquitectura de Microservicios Polyglot",
+        "descripcion": "Servicios desacoplados con Auth Service (NestJS + Prisma), Booking Service (Go + Gin + GORM) y Payment Lambda (Node.js). Comunicación REST con balanceo de carga mediante AWS ALB."
+      },
+      {
+        "nombre": "Infraestructura Serverless en AWS",
+        "descripcion": "Despliegue automatizado en ECS Fargate con Terraform. Incluye VPC, ALB, auto-scaling, CloudWatch Logs y ECR. Infraestructura como código completamente reproducible."
+      },
+      {
+        "nombre": "Bloqueo de Asientos en Tiempo Real",
+        "descripcion": "Concurrencia optimista implementada en Go que bloquea asientos por 15 minutos. Sistema de estados (AVAILABLE → BLOCKED → SOLD) con prevención de sobreventa."
+      },
+      {
+        "nombre": "Procesamiento Asíncrono de Pagos",
+        "descripcion": "Event-driven con Lambda + SQS procesando webhooks de Stripe. Flujo: webhook → SQS → Lambda procesa → actualiza asientos → crea orden. Sistema de reintentos automáticos."
+      },
+      {
+        "nombre": "Integración con Stripe",
+        "descripcion": "Creación de sesiones de checkout, validación de webhooks HMAC, manejo de eventos (payment_intent.succeeded/failed) y flujo completo de confirmación con redirección."
+      },
+      {
+        "nombre": "Autenticación Enterprise JWT",
+        "descripcion": "JWT con refresh tokens, HTTPS-only cookies, interceptores automáticos, guards de rutas y headers de seguridad (X-Internal-Secret) para comunicación inter-servicios."
+      },
+      {
+        "nombre": "Frontend Angular 20 Moderno",
+        "descripcion": "Signals para reactividad, Zoneless Change Detection, Standalone Components, httpResource y arquitectura modular por features (auth, events, checkout, seats)."
+      },
+      {
+        "nombre": "Server-Side Rendering Optimizado",
+        "descripcion": "Angular Universal con SSR para SEO y Core Web Vitals. Incluye incremental hydration, pre-rendering de rutas, manejo de localStorage en servidor y proxy HTTP."
+      },
+      {
+        "nombre": "Base de Datos Serverless PostgreSQL",
+        "descripcion": "Neon Tech con auto-scaling, branching, point-in-time recovery y escalado a cero. Esquemas con Prisma (Auth) y GORM (Booking) con migraciones versionadas."
+      },
+      {
+        "nombre": "CI/CD Automatizado",
+        "descripcion": "Scripts npm para seeding, build Docker, push a ECR, actualización de Task Definitions y deploy de Lambda. Flujo completo de IaC con Terraform."
+      },
+      {
+        "nombre": "Gestión de Eventos y Tickets",
+        "descripcion": "CRUD de eventos con información detallada, disponibilidad en tiempo real, área de usuario para tickets comprados, historial de órdenes y detalle de asientos."
+      },
+      {
+        "nombre": "Arquitectura Limpia",
+        "descripcion": "Principios SOLID, DRY, YAGNI y KISS. Clean Architecture en Booking (domains, services, repos), módulos NestJS y estructura feature-first en Angular."
+      },
+      {
+        "nombre": "Seguridad Multi-Capa",
+        "descripcion": "Validación con DTOs, sanitización de inputs, protección CSRF, CORS configurado, rate limiting, secrets via variables de entorno y comunicación TLS/SSL."
+      },
+      {
+        "nombre": "Observabilidad y Monitoreo",
+        "descripcion": "CloudWatch para logs centralizados, métricas de ECS, alarmas ALB, X-Ray para tracing, logs JSON estructurados y dashboard de disponibilidad/pagos."
+      },
+      {
+        "nombre": "UI/UX Responsive",
+        "descripcion": "TailwindCSS 4, diseño mobile-first, componentes standalone reutilizables, feedback visual, manejo global de errores y lazy loading de rutas."
+      },
+      {
+        "nombre": "Testing y Calidad",
+        "descripcion": "Karma/Jasmine para Angular, tests CI headless, Conventional Commits, ESLint, Prettier y documentación técnica con diagramas de arquitectura."
+      }
+    ]
   },
   {
     "linkRepo": "https://github.com/Lucascabral95/frontend-ecommerce-chroma.git",

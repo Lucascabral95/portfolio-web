@@ -8,14 +8,6 @@ const EMAIL = "Lucassimple@hotmail.com";
 const LINKEDIN_URL = "https://www.linkedin.com/in/lucas-gaston-cabral/";
 const GITHUB_URL = "https://github.com/Lucascabral95";
 const MIN_HEIGHT = "2.4em";
-// const MIN_HEIGHT = "0em";
-// const TYPEWRITER_WORDS = [
-//   "Microservicios",
-//   "Event-Driven",
-//   "Go & NestJS",
-//   "AWS · Terraform",
-//   "React · Angular",
-// ];
 
 const TYPEWRITER_WORDS = [
   "Arquitecturas Event-Driven",
