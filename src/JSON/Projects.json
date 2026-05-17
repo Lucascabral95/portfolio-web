@@ -1,5 +1,237 @@
 [
   {
+    "linkRepo": "https://github.com/Lucascabral95/cloud-tenants",
+    "repoBackend": true,
+    "repoBackendLink": "https://github.com/Lucascabral95/cloud-tenants",
+    "nombre": "Cloud Tenants",
+    "claves": "Características Claves:",
+    "id": 38,
+    "titulo": "Cloud Tenants",
+    "subtitulo": "Plataforma multi-tenant con microservicios Go y NestJS, gRPC, Stripe Billing e infra AWS segura.",
+    "imagen": "/img/cloud-tenants-1.png",
+    "urlOficial": "https://github.com/Lucascabral95/cloud-tenants",
+    "url": "https://github.com/Lucascabral95/cloud-tenants",
+    "descripcion": "Plataforma multi-tenant construida en Go y NestJS con API Gateway REST y microservicios por gRPC. Implementa onboarding de tenants, proyectos, límites de uso, billing con Stripe Checkout y Portal, auditoría, JWT con refresh tokens y APIs para dashboard v1. Desplegada en AWS con ECS Fargate, RDS, ECR, ALB, Terraform, GitHub Actions y observabilidad con Prometheus, Grafana y Loki",
+    "tecnologias": [
+      {
+        "imagen": "/img/go-svg-logo.svg",
+        "nombre": "Go"
+      },
+      {
+        "imagen": "/img/logo-next.svg",
+        "nombre": "Next JS"
+      },
+      {
+        "imagen": "/img/logo-postgresql.svg",
+        "nombre": "PostgreSQL"
+      },
+      {
+        "imagen": "/img/aws.svg",
+        "nombre": "AWS"
+      },
+      {
+        "imagen": "/img/logo-docker.svg",
+        "nombre": "Docker"
+      },
+      {
+        "imagen": "/img/terraform-svg.svg",
+        "nombre": "Terraform"
+      }
+    ],
+    "creacion": "15/05/2026",
+    "fechaDeObtencion": "15 de mayo de 2026",
+    "fechaFormateada": "2026-05-15",
+    "masImagenes": [
+      {
+        "nombreImagen": "Imagen 1",
+        "imagenExtra": "/img/cloud-tenants-1.png"
+      },
+      {
+        "nombreImagen": "Imagen 2",
+        "imagenExtra": "/img/cloud-tenants-2.png"
+      },
+      {
+        "nombreImagen": "Imagen 3",
+        "imagenExtra": "/img/cloud-tenants-3.png"
+      }
+    ],
+    "tecnologia": [
+      { "colorLetra": "white", "fondoColor": "#00ADD8", "tecnologia": "Go" },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#E0234E",
+        "tecnologia": "NestJS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#3178C6",
+        "tecnologia": "TypeScript"
+      },
+      { "colorLetra": "white", "fondoColor": "#244C5A", "tecnologia": "gRPC" },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#6A4C93",
+        "tecnologia": "Protocol Buffers"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#0F172A",
+        "tecnologia": "REST API"
+      },
+      { "colorLetra": "white", "fondoColor": "#111827", "tecnologia": "JWT" },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2563EB",
+        "tecnologia": "Refresh Tokens"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#376695",
+        "tecnologia": "PostgreSQL"
+      },
+      { "colorLetra": "white", "fondoColor": "#DC382D", "tecnologia": "Redis" },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF6600",
+        "tecnologia": "RabbitMQ"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2F74C0",
+        "tecnologia": "Docker"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ECS Fargate"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS RDS"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ECR"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS ALB"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FF9900",
+        "tecnologia": "AWS Secrets Manager"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#7B42BC",
+        "tecnologia": "Terraform"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#2088FF",
+        "tecnologia": "GitHub Actions"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#E6522C",
+        "tecnologia": "Prometheus"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#F46800",
+        "tecnologia": "Grafana"
+      },
+      { "colorLetra": "white", "fondoColor": "#2F3134", "tecnologia": "Loki" },
+      { "colorLetra": "white", "fondoColor": "#7A3DF0", "tecnologia": "Tempo" },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#0E7490",
+        "tecnologia": "Swagger"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#000000",
+        "tecnologia": "Next.js"
+      },
+      {
+        "colorLetra": "white",
+        "fondoColor": "#FE7107",
+        "tecnologia": "TanStack Query"
+      },
+      { "colorLetra": "white", "fondoColor": "#635BFF", "tecnologia": "Stripe" }
+    ],
+    "temas": [
+      {
+        "nombre": "Arquitectura de Microservicios Multi-Tenant",
+        "descripcion": "Plataforma SaaS separada en gateway, auth-service, tenant-service, billing-service, usage-service, project-service, audit-service y saga-orchestrator, con ownership claro por dominio."
+      },
+      {
+        "nombre": "API Gateway Público",
+        "descripcion": "Entrada REST para frontend Next.js con autenticación, propagación de correlation ID, validaciones, métricas y orquestación de llamadas internas."
+      },
+      {
+        "nombre": "Comunicación Interna con gRPC",
+        "descripcion": "Servicios internos coordinados por contratos Protocol Buffers para mantener interfaces fuertes y evolución controlada entre módulos."
+      },
+      {
+        "nombre": "Onboarding Orquestado con Sagas",
+        "descripcion": "Registro de tenants y creación de recursos iniciales mediante orquestación distribuida con trazabilidad y manejo de estados de workflow."
+      },
+      {
+        "nombre": "Billing con Stripe Checkout y Portal",
+        "descripcion": "Upgrade de planes pagos vía Stripe Checkout y autogestión de suscripción vía Customer Portal, manteniendo FREE como plan base."
+      },
+      {
+        "nombre": "Webhooks y Sincronización de Plan",
+        "descripcion": "Procesamiento de eventos de Stripe en billing-service para actualizar suscripciones internas y sincronizar límites efectivos con usage-service."
+      },
+      {
+        "nombre": "Límites de Uso por Plan",
+        "descripcion": "Control de cuotas (monthly_requests, projects, users) según plan FREE/PRO/ENTERPRISE con enforcement en runtime y actualización por eventos."
+      },
+      {
+        "nombre": "Auditoría de Negocio",
+        "descripcion": "Registro de eventos de dominio y acciones operativas en audit-service para trazabilidad, cumplimiento y análisis posterior."
+      },
+      {
+        "nombre": "Autenticación JWT + Refresh Token",
+        "descripcion": "Sesiones con access tokens de corta vida y refresh tokens para continuidad segura entre frontend y backend."
+      },
+      {
+        "nombre": "Persistencia por Servicio",
+        "descripcion": "Modelo database-per-service sobre PostgreSQL, con migraciones versionadas por servicio y validación de checksum."
+      },
+      {
+        "nombre": "Mensajería y Eventos",
+        "descripcion": "Uso de RabbitMQ para eventos de dominio (por ejemplo, PlanChanged) y desacoplamiento entre billing, usage, auditoría y orquestación."
+      },
+      {
+        "nombre": "Infraestructura AWS",
+        "descripcion": "Despliegue en ECS Fargate con ALB, RDS, ECR, Secrets Manager, Amazon MQ, ElastiCache y redes privadas administradas por Terraform."
+      },
+      {
+        "nombre": "Terraform Modular",
+        "descripcion": "Infra as code por módulos y entornos para bootstrap, estado remoto, redes, seguridad, servicios, secretos y despliegue reproducible."
+      },
+      {
+        "nombre": "CI/CD y Validaciones",
+        "descripcion": "Pipeline con chequeos de contratos, build/test de Go y TypeScript, validación Terraform y chequeo de sincronización Swagger generado."
+      },
+      {
+        "nombre": "Observabilidad",
+        "descripcion": "Métricas, logs y trazas con Prometheus, Grafana, Loki y Tempo, además de health endpoints y correlación extremo a extremo."
+      },
+      {
+        "nombre": "Swagger / OpenAPI del Gateway",
+        "descripcion": "Documentación del API Gateway disponible en UI y generada automáticamente desde anotaciones para mantener consistencia con el runtime."
+      }
+    ]
+  },
+  {
     "linkRepo": "https://github.com/Lucascabral95/peer-ledger-microservices-grpc-frontend",
     "repoBackend": true,
     "repoBackendLink": "https://github.com/Lucascabral95/peer-ledger-microservices-grpc",
